@@ -67,10 +67,13 @@ class AEstrella:
         aux = nodo_m
         while (aux != nodo_s):
             vecinos = grafoG.neighbors(aux)
-            padres = []
-            for vecino in vecinos:
-                if not vecino == None:
-                    padres.append((aux,vecino))
+            #padres = []
+            
+            #TODO: optimizar
+            vecinos = filter(lambda e: e!=None , vecinos)
+            padres = map(lambda e: (aux, e), vecinos)
+            
+            #TODO: filtrar con una funcion lambda el aux dentro de padres[n][0] y realizar el remove
             for a in padres:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
@@ -92,10 +95,13 @@ class AEstrella:
         nivel = 0 #esta variable se utilizara para conocer el nivel de profundidad (0 es (1,'ciudad1')) en el que se encuentra el nodo_m dentro del grafo
         while (aux != nodo_s):
             vecinos = grafoG.neighbors(aux)
-            padres = []
-            for vecino in vecinos:
-                if not vecino == None:
-                    padres.append((aux,vecino))
+            #padres = []
+
+            #TODO: optimizar
+            vecinos = filter(lambda e: e!=None , vecinos)
+            padres = map(lambda e: (aux, e), vecinos)
+
+            #TODO: filtrar con una funcion lambda el aux dentro de padres[n][0] y realizar el remove
             for a in padres:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
@@ -178,7 +184,7 @@ class AEstrella:
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         hdlr.setFormatter(formatter)
         logger.addHandler(hdlr) 
-        logger.setLevel(logging.DEBUG)
+        logger.setLevel(logging.INFO)
         
         logger.info("Inicio del proceso")
 
@@ -309,10 +315,10 @@ class AEstrella:
                 self.nivel = 1 #esta variable se utilizara para conocer el nivel de profundidad (0 es (1,'ciudad1')) en el que se encuentra el nodo_m dentro del grafo
                 while (self.nodo_evaluacion != self.nodo_s):
                     vecinos = self.grafoG.neighbors(self.nodo_evaluacion)
-                    padres = []
-                    for vecino in vecinos:
-                        if not vecino == None:
-                            padres.append((self.nodo_evaluacion,vecino))
+                    vecinos = filter(lambda e: e!=None , vecinos)
+                    padres = map(lambda e: (self.nodo_evaluacion, e), vecinos)
+                    
+                    #TODO: optimizar
                     for a in padres:
                         if a[0] == self.nodo_evaluacion:
                             # el nodo_m(aux) tiene padre
@@ -323,7 +329,7 @@ class AEstrella:
                             # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                             self.nodo_evaluacion = a[1]
                             break
-
+                    logger.debug("Padres: {}".format(padres))
                 #print("fin: nivel: {}".format(ciudades_distintas))
                 #print("fin: aux: {}".format(aux))
                 #print("fin: nodos_a_evaluar: {}".format(nodos_a_evaluar))
@@ -358,10 +364,8 @@ class AEstrella:
                 aux = self.nodo_n
                 while (aux != self.nodo_s):
                     vecinos = self.grafoG.neighbors(aux)
-                    padres = []
-                    for vecino in vecinos:
-                        if not vecino == None:
-                            padres.append((aux,vecino))
+                    vecinos = filter(lambda e: e!=None , vecinos)
+                    padres = map(lambda e: (aux, e), vecinos)
                     for a in padres:
                         if a[0] == aux:
                             # el nodo_m(aux) tiene padre

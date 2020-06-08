@@ -2,5 +2,5 @@ La cantidad de nodos abiertos fue de: 12
 El óptimo recorrido es: [(1, 'ciudad1'), (3, 'ciudad3'), (8, 'ciudad2'), (18, 'ciudad4'), (26, 'ciudad5'), (32, 'ciudad6'), (36, 'ciudad7')]
 O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad3', 'ciudad2', 'ciudad4', 'ciudad5', 'ciudad6', 'ciudad7']
 El costo total del óptimo recorrido es de: 35
-El tiempo de procesamiento total fue de: 0.068955 segundos
+El tiempo de procesamiento total fue de: 0.106933 segundos
 Los nodos abiertos fueron: [(1, 'ciudad1'), (3, 'ciudad3'), (7, 'ciudad7'), (8, 'ciudad2'), (17, 'ciudad6'), (18, 'ciudad4'), (25, 'ciudad5'), (26, 'ciudad5'), (31, 'ciudad4'), (32, 'ciudad6'), (34, 'ciudad2'), (36, 'ciudad7')]
