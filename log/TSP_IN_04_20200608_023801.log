@@ -1,0 +1,1639 @@
+2020-06-08 02:38:01,731 INFO Inicio del proceso
+2020-06-08 02:38:01,770 INFO Se abrio el nodo: (3, 'ciudad3')
+2020-06-08 02:38:01,771 INFO El proximo nodo a abrir será: (4, 'ciudad4')
+2020-06-08 02:38:01,772 INFO La cantidad de nodos abiertos es de: 3
+
+2020-06-08 02:38:01,773 INFO El óptimo recorrido es: [(3, 'ciudad3')]
+
+2020-06-08 02:38:01,774 INFO El ultmo costo óptimo calculado es: 5
+
+2020-06-08 02:38:01,804 INFO Se abrio el nodo: (4, 'ciudad4')
+2020-06-08 02:38:01,805 INFO El proximo nodo a abrir será: (5, 'ciudad5')
+2020-06-08 02:38:01,806 INFO La cantidad de nodos abiertos es de: 4
+
+2020-06-08 02:38:01,806 INFO El óptimo recorrido es: [(4, 'ciudad4')]
+
+2020-06-08 02:38:01,807 INFO El ultmo costo óptimo calculado es: 5
+
+2020-06-08 02:38:01,827 INFO Se abrio el nodo: (5, 'ciudad5')
+2020-06-08 02:38:01,828 INFO El proximo nodo a abrir será: (6, 'ciudad6')
+2020-06-08 02:38:01,829 INFO La cantidad de nodos abiertos es de: 5
+
+2020-06-08 02:38:01,829 INFO El óptimo recorrido es: [(5, 'ciudad5')]
+
+2020-06-08 02:38:01,830 INFO El ultmo costo óptimo calculado es: 5
+
+2020-06-08 02:38:01,853 INFO Se abrio el nodo: (6, 'ciudad6')
+2020-06-08 02:38:01,854 INFO El proximo nodo a abrir será: (7, 'ciudad3')
+2020-06-08 02:38:01,855 INFO La cantidad de nodos abiertos es de: 6
+
+2020-06-08 02:38:01,856 INFO El óptimo recorrido es: [(6, 'ciudad6')]
+
+2020-06-08 02:38:01,857 INFO El ultmo costo óptimo calculado es: 5
+
+2020-06-08 02:38:01,883 INFO Se abrio el nodo: (7, 'ciudad3')
+2020-06-08 02:38:01,884 INFO El proximo nodo a abrir será: (8, 'ciudad4')
+2020-06-08 02:38:01,885 INFO La cantidad de nodos abiertos es de: 7
+
+2020-06-08 02:38:01,885 INFO El óptimo recorrido es: [(7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:01,886 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:01,910 INFO Se abrio el nodo: (8, 'ciudad4')
+2020-06-08 02:38:01,911 INFO El proximo nodo a abrir será: (9, 'ciudad5')
+2020-06-08 02:38:01,912 INFO La cantidad de nodos abiertos es de: 8
+
+2020-06-08 02:38:01,912 INFO El óptimo recorrido es: [(8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:01,913 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:01,940 INFO Se abrio el nodo: (9, 'ciudad5')
+2020-06-08 02:38:01,942 INFO El proximo nodo a abrir será: (10, 'ciudad6')
+2020-06-08 02:38:01,943 INFO La cantidad de nodos abiertos es de: 9
+
+2020-06-08 02:38:01,944 INFO El óptimo recorrido es: [(9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:01,945 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:01,988 INFO Se abrio el nodo: (10, 'ciudad6')
+2020-06-08 02:38:01,989 INFO El proximo nodo a abrir será: (11, 'ciudad2')
+2020-06-08 02:38:01,990 INFO La cantidad de nodos abiertos es de: 10
+
+2020-06-08 02:38:01,991 INFO El óptimo recorrido es: [(10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:01,991 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,049 INFO Se abrio el nodo: (11, 'ciudad2')
+2020-06-08 02:38:02,049 INFO El proximo nodo a abrir será: (12, 'ciudad4')
+2020-06-08 02:38:02,050 INFO La cantidad de nodos abiertos es de: 11
+
+2020-06-08 02:38:02,050 INFO El óptimo recorrido es: [(11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:02,050 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,108 INFO Se abrio el nodo: (12, 'ciudad4')
+2020-06-08 02:38:02,108 INFO El proximo nodo a abrir será: (13, 'ciudad5')
+2020-06-08 02:38:02,109 INFO La cantidad de nodos abiertos es de: 12
+
+2020-06-08 02:38:02,109 INFO El óptimo recorrido es: [(12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:02,110 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,135 INFO Se abrio el nodo: (13, 'ciudad5')
+2020-06-08 02:38:02,136 INFO El proximo nodo a abrir será: (14, 'ciudad6')
+2020-06-08 02:38:02,136 INFO La cantidad de nodos abiertos es de: 13
+
+2020-06-08 02:38:02,137 INFO El óptimo recorrido es: [(13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:02,137 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,166 INFO Se abrio el nodo: (14, 'ciudad6')
+2020-06-08 02:38:02,167 INFO El proximo nodo a abrir será: (15, 'ciudad2')
+2020-06-08 02:38:02,168 INFO La cantidad de nodos abiertos es de: 14
+
+2020-06-08 02:38:02,169 INFO El óptimo recorrido es: [(14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:02,170 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,203 INFO Se abrio el nodo: (15, 'ciudad2')
+2020-06-08 02:38:02,204 INFO El proximo nodo a abrir será: (16, 'ciudad3')
+2020-06-08 02:38:02,204 INFO La cantidad de nodos abiertos es de: 15
+
+2020-06-08 02:38:02,205 INFO El óptimo recorrido es: [(15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:02,205 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,233 INFO Se abrio el nodo: (16, 'ciudad3')
+2020-06-08 02:38:02,233 INFO El proximo nodo a abrir será: (17, 'ciudad5')
+2020-06-08 02:38:02,234 INFO La cantidad de nodos abiertos es de: 16
+
+2020-06-08 02:38:02,234 INFO El óptimo recorrido es: [(16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:02,235 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,267 INFO Se abrio el nodo: (17, 'ciudad5')
+2020-06-08 02:38:02,268 INFO El proximo nodo a abrir será: (18, 'ciudad6')
+2020-06-08 02:38:02,268 INFO La cantidad de nodos abiertos es de: 17
+
+2020-06-08 02:38:02,269 INFO El óptimo recorrido es: [(17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:02,269 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,297 INFO Se abrio el nodo: (18, 'ciudad6')
+2020-06-08 02:38:02,298 INFO El proximo nodo a abrir será: (19, 'ciudad2')
+2020-06-08 02:38:02,299 INFO La cantidad de nodos abiertos es de: 18
+
+2020-06-08 02:38:02,299 INFO El óptimo recorrido es: [(18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:02,300 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,330 INFO Se abrio el nodo: (19, 'ciudad2')
+2020-06-08 02:38:02,330 INFO El proximo nodo a abrir será: (20, 'ciudad3')
+2020-06-08 02:38:02,331 INFO La cantidad de nodos abiertos es de: 19
+
+2020-06-08 02:38:02,332 INFO El óptimo recorrido es: [(19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:02,332 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,370 INFO Se abrio el nodo: (20, 'ciudad3')
+2020-06-08 02:38:02,370 INFO El proximo nodo a abrir será: (21, 'ciudad4')
+2020-06-08 02:38:02,371 INFO La cantidad de nodos abiertos es de: 20
+
+2020-06-08 02:38:02,371 INFO El óptimo recorrido es: [(20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:02,371 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,399 INFO Se abrio el nodo: (21, 'ciudad4')
+2020-06-08 02:38:02,400 INFO El proximo nodo a abrir será: (22, 'ciudad6')
+2020-06-08 02:38:02,400 INFO La cantidad de nodos abiertos es de: 21
+
+2020-06-08 02:38:02,401 INFO El óptimo recorrido es: [(21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:02,401 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,427 INFO Se abrio el nodo: (22, 'ciudad6')
+2020-06-08 02:38:02,427 INFO El proximo nodo a abrir será: (23, 'ciudad2')
+2020-06-08 02:38:02,429 INFO La cantidad de nodos abiertos es de: 22
+
+2020-06-08 02:38:02,429 INFO El óptimo recorrido es: [(22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:02,430 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,455 INFO Se abrio el nodo: (23, 'ciudad2')
+2020-06-08 02:38:02,456 INFO El proximo nodo a abrir será: (24, 'ciudad3')
+2020-06-08 02:38:02,457 INFO La cantidad de nodos abiertos es de: 23
+
+2020-06-08 02:38:02,457 INFO El óptimo recorrido es: [(23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:02,458 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,487 INFO Se abrio el nodo: (24, 'ciudad3')
+2020-06-08 02:38:02,488 INFO El proximo nodo a abrir será: (25, 'ciudad4')
+2020-06-08 02:38:02,488 INFO La cantidad de nodos abiertos es de: 24
+
+2020-06-08 02:38:02,489 INFO El óptimo recorrido es: [(24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:02,489 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,511 INFO Se abrio el nodo: (25, 'ciudad4')
+2020-06-08 02:38:02,512 INFO El proximo nodo a abrir será: (26, 'ciudad5')
+2020-06-08 02:38:02,512 INFO La cantidad de nodos abiertos es de: 25
+
+2020-06-08 02:38:02,512 INFO El óptimo recorrido es: [(25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:02,513 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,537 INFO Se abrio el nodo: (26, 'ciudad5')
+2020-06-08 02:38:02,538 INFO El proximo nodo a abrir será: (27, 'ciudad4')
+2020-06-08 02:38:02,538 INFO La cantidad de nodos abiertos es de: 26
+
+2020-06-08 02:38:02,539 INFO El óptimo recorrido es: [(26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:02,539 INFO El ultmo costo óptimo calculado es: 10
+
+2020-06-08 02:38:02,564 INFO Se abrio el nodo: (27, 'ciudad4')
+2020-06-08 02:38:02,565 INFO El proximo nodo a abrir será: (28, 'ciudad5')
+2020-06-08 02:38:02,565 INFO La cantidad de nodos abiertos es de: 27
+
+2020-06-08 02:38:02,567 INFO El óptimo recorrido es: [(27, 'ciudad4'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,567 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,590 INFO Se abrio el nodo: (28, 'ciudad5')
+2020-06-08 02:38:02,591 INFO El proximo nodo a abrir será: (29, 'ciudad6')
+2020-06-08 02:38:02,592 INFO La cantidad de nodos abiertos es de: 28
+
+2020-06-08 02:38:02,592 INFO El óptimo recorrido es: [(28, 'ciudad5'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,593 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,621 INFO Se abrio el nodo: (29, 'ciudad6')
+2020-06-08 02:38:02,622 INFO El proximo nodo a abrir será: (30, 'ciudad3')
+2020-06-08 02:38:02,622 INFO La cantidad de nodos abiertos es de: 29
+
+2020-06-08 02:38:02,623 INFO El óptimo recorrido es: [(29, 'ciudad6'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,623 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,652 INFO Se abrio el nodo: (30, 'ciudad3')
+2020-06-08 02:38:02,652 INFO El proximo nodo a abrir será: (31, 'ciudad5')
+2020-06-08 02:38:02,652 INFO La cantidad de nodos abiertos es de: 30
+
+2020-06-08 02:38:02,653 INFO El óptimo recorrido es: [(30, 'ciudad3'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,653 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,678 INFO Se abrio el nodo: (31, 'ciudad5')
+2020-06-08 02:38:02,679 INFO El proximo nodo a abrir será: (32, 'ciudad6')
+2020-06-08 02:38:02,679 INFO La cantidad de nodos abiertos es de: 31
+
+2020-06-08 02:38:02,679 INFO El óptimo recorrido es: [(31, 'ciudad5'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,680 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,709 INFO Se abrio el nodo: (32, 'ciudad6')
+2020-06-08 02:38:02,710 INFO El proximo nodo a abrir será: (33, 'ciudad3')
+2020-06-08 02:38:02,710 INFO La cantidad de nodos abiertos es de: 32
+
+2020-06-08 02:38:02,711 INFO El óptimo recorrido es: [(32, 'ciudad6'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,711 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,743 INFO Se abrio el nodo: (33, 'ciudad3')
+2020-06-08 02:38:02,744 INFO El proximo nodo a abrir será: (34, 'ciudad4')
+2020-06-08 02:38:02,745 INFO La cantidad de nodos abiertos es de: 33
+
+2020-06-08 02:38:02,745 INFO El óptimo recorrido es: [(33, 'ciudad3'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,746 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,797 INFO Se abrio el nodo: (34, 'ciudad4')
+2020-06-08 02:38:02,799 INFO El proximo nodo a abrir será: (35, 'ciudad6')
+2020-06-08 02:38:02,801 INFO La cantidad de nodos abiertos es de: 34
+
+2020-06-08 02:38:02,809 INFO El óptimo recorrido es: [(34, 'ciudad4'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,810 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,864 INFO Se abrio el nodo: (35, 'ciudad6')
+2020-06-08 02:38:02,864 INFO El proximo nodo a abrir será: (36, 'ciudad3')
+2020-06-08 02:38:02,865 INFO La cantidad de nodos abiertos es de: 35
+
+2020-06-08 02:38:02,865 INFO El óptimo recorrido es: [(35, 'ciudad6'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,865 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,894 INFO Se abrio el nodo: (36, 'ciudad3')
+2020-06-08 02:38:02,895 INFO El proximo nodo a abrir será: (37, 'ciudad4')
+2020-06-08 02:38:02,895 INFO La cantidad de nodos abiertos es de: 36
+
+2020-06-08 02:38:02,895 INFO El óptimo recorrido es: [(36, 'ciudad3'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,896 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,925 INFO Se abrio el nodo: (37, 'ciudad4')
+2020-06-08 02:38:02,926 INFO El proximo nodo a abrir será: (38, 'ciudad5')
+2020-06-08 02:38:02,941 INFO La cantidad de nodos abiertos es de: 37
+
+2020-06-08 02:38:02,943 INFO El óptimo recorrido es: [(37, 'ciudad4'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,944 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:02,994 INFO Se abrio el nodo: (38, 'ciudad5')
+2020-06-08 02:38:02,995 INFO El proximo nodo a abrir será: (39, 'ciudad4')
+2020-06-08 02:38:02,995 INFO La cantidad de nodos abiertos es de: 38
+
+2020-06-08 02:38:02,996 INFO El óptimo recorrido es: [(38, 'ciudad5'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:02,996 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,043 INFO Se abrio el nodo: (39, 'ciudad4')
+2020-06-08 02:38:03,044 INFO El proximo nodo a abrir será: (40, 'ciudad5')
+2020-06-08 02:38:03,045 INFO La cantidad de nodos abiertos es de: 39
+
+2020-06-08 02:38:03,045 INFO El óptimo recorrido es: [(39, 'ciudad4'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,046 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,119 INFO Se abrio el nodo: (40, 'ciudad5')
+2020-06-08 02:38:03,120 INFO El proximo nodo a abrir será: (41, 'ciudad6')
+2020-06-08 02:38:03,121 INFO La cantidad de nodos abiertos es de: 40
+
+2020-06-08 02:38:03,121 INFO El óptimo recorrido es: [(40, 'ciudad5'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,122 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,165 INFO Se abrio el nodo: (41, 'ciudad6')
+2020-06-08 02:38:03,165 INFO El proximo nodo a abrir será: (42, 'ciudad2')
+2020-06-08 02:38:03,166 INFO La cantidad de nodos abiertos es de: 41
+
+2020-06-08 02:38:03,166 INFO El óptimo recorrido es: [(41, 'ciudad6'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,167 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,198 INFO Se abrio el nodo: (42, 'ciudad2')
+2020-06-08 02:38:03,198 INFO El proximo nodo a abrir será: (43, 'ciudad5')
+2020-06-08 02:38:03,198 INFO La cantidad de nodos abiertos es de: 42
+
+2020-06-08 02:38:03,199 INFO El óptimo recorrido es: [(42, 'ciudad2'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,199 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,228 INFO Se abrio el nodo: (43, 'ciudad5')
+2020-06-08 02:38:03,229 INFO El proximo nodo a abrir será: (44, 'ciudad6')
+2020-06-08 02:38:03,230 INFO La cantidad de nodos abiertos es de: 43
+
+2020-06-08 02:38:03,230 INFO El óptimo recorrido es: [(43, 'ciudad5'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,231 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,255 INFO Se abrio el nodo: (44, 'ciudad6')
+2020-06-08 02:38:03,256 INFO El proximo nodo a abrir será: (45, 'ciudad2')
+2020-06-08 02:38:03,256 INFO La cantidad de nodos abiertos es de: 44
+
+2020-06-08 02:38:03,256 INFO El óptimo recorrido es: [(44, 'ciudad6'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,257 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,284 INFO Se abrio el nodo: (45, 'ciudad2')
+2020-06-08 02:38:03,285 INFO El proximo nodo a abrir será: (46, 'ciudad4')
+2020-06-08 02:38:03,285 INFO La cantidad de nodos abiertos es de: 45
+
+2020-06-08 02:38:03,285 INFO El óptimo recorrido es: [(45, 'ciudad2'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,286 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,328 INFO Se abrio el nodo: (46, 'ciudad4')
+2020-06-08 02:38:03,331 INFO El proximo nodo a abrir será: (47, 'ciudad6')
+2020-06-08 02:38:03,332 INFO La cantidad de nodos abiertos es de: 46
+
+2020-06-08 02:38:03,332 INFO El óptimo recorrido es: [(46, 'ciudad4'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,333 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,422 INFO Se abrio el nodo: (47, 'ciudad6')
+2020-06-08 02:38:03,424 INFO El proximo nodo a abrir será: (48, 'ciudad2')
+2020-06-08 02:38:03,425 INFO La cantidad de nodos abiertos es de: 47
+
+2020-06-08 02:38:03,425 INFO El óptimo recorrido es: [(47, 'ciudad6'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,426 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,472 INFO Se abrio el nodo: (48, 'ciudad2')
+2020-06-08 02:38:03,472 INFO El proximo nodo a abrir será: (49, 'ciudad4')
+2020-06-08 02:38:03,473 INFO La cantidad de nodos abiertos es de: 48
+
+2020-06-08 02:38:03,473 INFO El óptimo recorrido es: [(48, 'ciudad2'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,474 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,527 INFO Se abrio el nodo: (49, 'ciudad4')
+2020-06-08 02:38:03,527 INFO El proximo nodo a abrir será: (50, 'ciudad5')
+2020-06-08 02:38:03,528 INFO La cantidad de nodos abiertos es de: 49
+
+2020-06-08 02:38:03,528 INFO El óptimo recorrido es: [(49, 'ciudad4'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,528 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,595 INFO Se abrio el nodo: (50, 'ciudad5')
+2020-06-08 02:38:03,596 INFO El proximo nodo a abrir será: (51, 'ciudad3')
+2020-06-08 02:38:03,596 INFO La cantidad de nodos abiertos es de: 50
+
+2020-06-08 02:38:03,597 INFO El óptimo recorrido es: [(50, 'ciudad5'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:03,597 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,680 INFO Se abrio el nodo: (51, 'ciudad3')
+2020-06-08 02:38:03,681 INFO El proximo nodo a abrir será: (52, 'ciudad5')
+2020-06-08 02:38:03,681 INFO La cantidad de nodos abiertos es de: 51
+
+2020-06-08 02:38:03,682 INFO El óptimo recorrido es: [(51, 'ciudad3'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,682 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,740 INFO Se abrio el nodo: (52, 'ciudad5')
+2020-06-08 02:38:03,741 INFO El proximo nodo a abrir será: (53, 'ciudad6')
+2020-06-08 02:38:03,741 INFO La cantidad de nodos abiertos es de: 52
+
+2020-06-08 02:38:03,742 INFO El óptimo recorrido es: [(52, 'ciudad5'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,742 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,768 INFO Se abrio el nodo: (53, 'ciudad6')
+2020-06-08 02:38:03,769 INFO El proximo nodo a abrir será: (54, 'ciudad2')
+2020-06-08 02:38:03,769 INFO La cantidad de nodos abiertos es de: 53
+
+2020-06-08 02:38:03,769 INFO El óptimo recorrido es: [(53, 'ciudad6'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,770 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,799 INFO Se abrio el nodo: (54, 'ciudad2')
+2020-06-08 02:38:03,800 INFO El proximo nodo a abrir será: (55, 'ciudad5')
+2020-06-08 02:38:03,800 INFO La cantidad de nodos abiertos es de: 54
+
+2020-06-08 02:38:03,800 INFO El óptimo recorrido es: [(54, 'ciudad2'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,801 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,830 INFO Se abrio el nodo: (55, 'ciudad5')
+2020-06-08 02:38:03,831 INFO El proximo nodo a abrir será: (56, 'ciudad6')
+2020-06-08 02:38:03,831 INFO La cantidad de nodos abiertos es de: 55
+
+2020-06-08 02:38:03,832 INFO El óptimo recorrido es: [(55, 'ciudad5'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,832 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,863 INFO Se abrio el nodo: (56, 'ciudad6')
+2020-06-08 02:38:03,863 INFO El proximo nodo a abrir será: (57, 'ciudad2')
+2020-06-08 02:38:03,864 INFO La cantidad de nodos abiertos es de: 56
+
+2020-06-08 02:38:03,864 INFO El óptimo recorrido es: [(56, 'ciudad6'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,865 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,894 INFO Se abrio el nodo: (57, 'ciudad2')
+2020-06-08 02:38:03,895 INFO El proximo nodo a abrir será: (58, 'ciudad3')
+2020-06-08 02:38:03,895 INFO La cantidad de nodos abiertos es de: 57
+
+2020-06-08 02:38:03,896 INFO El óptimo recorrido es: [(57, 'ciudad2'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,896 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,925 INFO Se abrio el nodo: (58, 'ciudad3')
+2020-06-08 02:38:03,925 INFO El proximo nodo a abrir será: (59, 'ciudad6')
+2020-06-08 02:38:03,926 INFO La cantidad de nodos abiertos es de: 58
+
+2020-06-08 02:38:03,926 INFO El óptimo recorrido es: [(58, 'ciudad3'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,927 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:03,958 INFO Se abrio el nodo: (59, 'ciudad6')
+2020-06-08 02:38:03,958 INFO El proximo nodo a abrir será: (60, 'ciudad2')
+2020-06-08 02:38:03,959 INFO La cantidad de nodos abiertos es de: 59
+
+2020-06-08 02:38:03,959 INFO El óptimo recorrido es: [(59, 'ciudad6'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:03,960 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,006 INFO Se abrio el nodo: (60, 'ciudad2')
+2020-06-08 02:38:04,006 INFO El proximo nodo a abrir será: (61, 'ciudad3')
+2020-06-08 02:38:04,006 INFO La cantidad de nodos abiertos es de: 60
+
+2020-06-08 02:38:04,007 INFO El óptimo recorrido es: [(60, 'ciudad2'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:04,007 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,058 INFO Se abrio el nodo: (61, 'ciudad3')
+2020-06-08 02:38:04,059 INFO El proximo nodo a abrir será: (62, 'ciudad5')
+2020-06-08 02:38:04,060 INFO La cantidad de nodos abiertos es de: 61
+
+2020-06-08 02:38:04,060 INFO El óptimo recorrido es: [(61, 'ciudad3'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:04,061 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,106 INFO Se abrio el nodo: (62, 'ciudad5')
+2020-06-08 02:38:04,106 INFO El proximo nodo a abrir será: (63, 'ciudad3')
+2020-06-08 02:38:04,107 INFO La cantidad de nodos abiertos es de: 62
+
+2020-06-08 02:38:04,107 INFO El óptimo recorrido es: [(62, 'ciudad5'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:04,107 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,132 INFO Se abrio el nodo: (63, 'ciudad3')
+2020-06-08 02:38:04,132 INFO El proximo nodo a abrir será: (64, 'ciudad4')
+2020-06-08 02:38:04,133 INFO La cantidad de nodos abiertos es de: 63
+
+2020-06-08 02:38:04,133 INFO El óptimo recorrido es: [(63, 'ciudad3'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,134 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,174 INFO Se abrio el nodo: (64, 'ciudad4')
+2020-06-08 02:38:04,175 INFO El proximo nodo a abrir será: (65, 'ciudad6')
+2020-06-08 02:38:04,175 INFO La cantidad de nodos abiertos es de: 64
+
+2020-06-08 02:38:04,176 INFO El óptimo recorrido es: [(64, 'ciudad4'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,176 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,202 INFO Se abrio el nodo: (65, 'ciudad6')
+2020-06-08 02:38:04,203 INFO El proximo nodo a abrir será: (66, 'ciudad2')
+2020-06-08 02:38:04,203 INFO La cantidad de nodos abiertos es de: 65
+
+2020-06-08 02:38:04,204 INFO El óptimo recorrido es: [(65, 'ciudad6'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,204 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,227 INFO Se abrio el nodo: (66, 'ciudad2')
+2020-06-08 02:38:04,228 INFO El proximo nodo a abrir será: (67, 'ciudad4')
+2020-06-08 02:38:04,228 INFO La cantidad de nodos abiertos es de: 66
+
+2020-06-08 02:38:04,228 INFO El óptimo recorrido es: [(66, 'ciudad2'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,229 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,257 INFO Se abrio el nodo: (67, 'ciudad4')
+2020-06-08 02:38:04,257 INFO El proximo nodo a abrir será: (68, 'ciudad6')
+2020-06-08 02:38:04,258 INFO La cantidad de nodos abiertos es de: 67
+
+2020-06-08 02:38:04,258 INFO El óptimo recorrido es: [(67, 'ciudad4'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,258 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,322 INFO Se abrio el nodo: (68, 'ciudad6')
+2020-06-08 02:38:04,322 INFO El proximo nodo a abrir será: (69, 'ciudad2')
+2020-06-08 02:38:04,323 INFO La cantidad de nodos abiertos es de: 68
+
+2020-06-08 02:38:04,323 INFO El óptimo recorrido es: [(68, 'ciudad6'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,339 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,403 INFO Se abrio el nodo: (69, 'ciudad2')
+2020-06-08 02:38:04,404 INFO El proximo nodo a abrir será: (70, 'ciudad3')
+2020-06-08 02:38:04,404 INFO La cantidad de nodos abiertos es de: 69
+
+2020-06-08 02:38:04,405 INFO El óptimo recorrido es: [(69, 'ciudad2'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,405 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,442 INFO Se abrio el nodo: (70, 'ciudad3')
+2020-06-08 02:38:04,442 INFO El proximo nodo a abrir será: (71, 'ciudad6')
+2020-06-08 02:38:04,442 INFO La cantidad de nodos abiertos es de: 70
+
+2020-06-08 02:38:04,443 INFO El óptimo recorrido es: [(70, 'ciudad3'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,443 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,473 INFO Se abrio el nodo: (71, 'ciudad6')
+2020-06-08 02:38:04,474 INFO El proximo nodo a abrir será: (72, 'ciudad2')
+2020-06-08 02:38:04,476 INFO La cantidad de nodos abiertos es de: 71
+
+2020-06-08 02:38:04,476 INFO El óptimo recorrido es: [(71, 'ciudad6'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,477 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,506 INFO Se abrio el nodo: (72, 'ciudad2')
+2020-06-08 02:38:04,506 INFO El proximo nodo a abrir será: (73, 'ciudad3')
+2020-06-08 02:38:04,506 INFO La cantidad de nodos abiertos es de: 72
+
+2020-06-08 02:38:04,507 INFO El óptimo recorrido es: [(72, 'ciudad2'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,507 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,533 INFO Se abrio el nodo: (73, 'ciudad3')
+2020-06-08 02:38:04,534 INFO El proximo nodo a abrir será: (74, 'ciudad4')
+2020-06-08 02:38:04,534 INFO La cantidad de nodos abiertos es de: 73
+
+2020-06-08 02:38:04,534 INFO El óptimo recorrido es: [(73, 'ciudad3'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,535 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,567 INFO Se abrio el nodo: (74, 'ciudad4')
+2020-06-08 02:38:04,567 INFO El proximo nodo a abrir será: (75, 'ciudad3')
+2020-06-08 02:38:04,567 INFO La cantidad de nodos abiertos es de: 74
+
+2020-06-08 02:38:04,568 INFO El óptimo recorrido es: [(74, 'ciudad4'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:04,568 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,600 INFO Se abrio el nodo: (75, 'ciudad3')
+2020-06-08 02:38:04,601 INFO El proximo nodo a abrir será: (76, 'ciudad4')
+2020-06-08 02:38:04,602 INFO La cantidad de nodos abiertos es de: 75
+
+2020-06-08 02:38:04,602 INFO El óptimo recorrido es: [(75, 'ciudad3'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,603 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,642 INFO Se abrio el nodo: (76, 'ciudad4')
+2020-06-08 02:38:04,643 INFO El proximo nodo a abrir será: (77, 'ciudad5')
+2020-06-08 02:38:04,644 INFO La cantidad de nodos abiertos es de: 76
+
+2020-06-08 02:38:04,645 INFO El óptimo recorrido es: [(76, 'ciudad4'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,646 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,681 INFO Se abrio el nodo: (77, 'ciudad5')
+2020-06-08 02:38:04,682 INFO El proximo nodo a abrir será: (78, 'ciudad2')
+2020-06-08 02:38:04,682 INFO La cantidad de nodos abiertos es de: 77
+
+2020-06-08 02:38:04,684 INFO El óptimo recorrido es: [(77, 'ciudad5'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,684 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,715 INFO Se abrio el nodo: (78, 'ciudad2')
+2020-06-08 02:38:04,715 INFO El proximo nodo a abrir será: (79, 'ciudad4')
+2020-06-08 02:38:04,716 INFO La cantidad de nodos abiertos es de: 78
+
+2020-06-08 02:38:04,716 INFO El óptimo recorrido es: [(78, 'ciudad2'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,717 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,746 INFO Se abrio el nodo: (79, 'ciudad4')
+2020-06-08 02:38:04,747 INFO El proximo nodo a abrir será: (80, 'ciudad5')
+2020-06-08 02:38:04,747 INFO La cantidad de nodos abiertos es de: 79
+
+2020-06-08 02:38:04,747 INFO El óptimo recorrido es: [(79, 'ciudad4'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,748 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,774 INFO Se abrio el nodo: (80, 'ciudad5')
+2020-06-08 02:38:04,775 INFO El proximo nodo a abrir será: (81, 'ciudad2')
+2020-06-08 02:38:04,775 INFO La cantidad de nodos abiertos es de: 80
+
+2020-06-08 02:38:04,776 INFO El óptimo recorrido es: [(80, 'ciudad5'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,777 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,808 INFO Se abrio el nodo: (81, 'ciudad2')
+2020-06-08 02:38:04,809 INFO El proximo nodo a abrir será: (82, 'ciudad3')
+2020-06-08 02:38:04,809 INFO La cantidad de nodos abiertos es de: 81
+
+2020-06-08 02:38:04,810 INFO El óptimo recorrido es: [(81, 'ciudad2'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,810 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,841 INFO Se abrio el nodo: (82, 'ciudad3')
+2020-06-08 02:38:04,842 INFO El proximo nodo a abrir será: (83, 'ciudad5')
+2020-06-08 02:38:04,842 INFO La cantidad de nodos abiertos es de: 82
+
+2020-06-08 02:38:04,843 INFO El óptimo recorrido es: [(82, 'ciudad3'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,843 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,869 INFO Se abrio el nodo: (83, 'ciudad5')
+2020-06-08 02:38:04,869 INFO El proximo nodo a abrir será: (84, 'ciudad2')
+2020-06-08 02:38:04,870 INFO La cantidad de nodos abiertos es de: 83
+
+2020-06-08 02:38:04,870 INFO El óptimo recorrido es: [(83, 'ciudad5'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,870 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,899 INFO Se abrio el nodo: (84, 'ciudad2')
+2020-06-08 02:38:04,900 INFO El proximo nodo a abrir será: (85, 'ciudad3')
+2020-06-08 02:38:04,900 INFO La cantidad de nodos abiertos es de: 84
+
+2020-06-08 02:38:04,901 INFO El óptimo recorrido es: [(84, 'ciudad2'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,901 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,927 INFO Se abrio el nodo: (85, 'ciudad3')
+2020-06-08 02:38:04,928 INFO El proximo nodo a abrir será: (86, 'ciudad4')
+2020-06-08 02:38:04,929 INFO La cantidad de nodos abiertos es de: 85
+
+2020-06-08 02:38:04,929 INFO El óptimo recorrido es: [(85, 'ciudad3'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,930 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,956 INFO Se abrio el nodo: (86, 'ciudad4')
+2020-06-08 02:38:04,956 INFO El proximo nodo a abrir será: (87, 'ciudad5')
+2020-06-08 02:38:04,956 INFO La cantidad de nodos abiertos es de: 86
+
+2020-06-08 02:38:04,957 INFO El óptimo recorrido es: [(86, 'ciudad4'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:04,957 INFO El ultmo costo óptimo calculado es: 15
+
+2020-06-08 02:38:04,985 INFO Se abrio el nodo: (87, 'ciudad5')
+2020-06-08 02:38:04,985 INFO El proximo nodo a abrir será: (88, 'ciudad6')
+2020-06-08 02:38:04,985 INFO La cantidad de nodos abiertos es de: 87
+
+2020-06-08 02:38:04,986 INFO El óptimo recorrido es: [(87, 'ciudad5'), (27, 'ciudad4'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:04,986 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,012 INFO Se abrio el nodo: (88, 'ciudad6')
+2020-06-08 02:38:05,013 INFO El proximo nodo a abrir será: (89, 'ciudad4')
+2020-06-08 02:38:05,013 INFO La cantidad de nodos abiertos es de: 88
+
+2020-06-08 02:38:05,014 INFO El óptimo recorrido es: [(88, 'ciudad6'), (27, 'ciudad4'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,014 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,047 INFO Se abrio el nodo: (89, 'ciudad4')
+2020-06-08 02:38:05,047 INFO El proximo nodo a abrir será: (90, 'ciudad6')
+2020-06-08 02:38:05,048 INFO La cantidad de nodos abiertos es de: 89
+
+2020-06-08 02:38:05,048 INFO El óptimo recorrido es: [(89, 'ciudad4'), (28, 'ciudad5'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,048 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,075 INFO Se abrio el nodo: (90, 'ciudad6')
+2020-06-08 02:38:05,076 INFO El proximo nodo a abrir será: (91, 'ciudad4')
+2020-06-08 02:38:05,076 INFO La cantidad de nodos abiertos es de: 90
+
+2020-06-08 02:38:05,076 INFO El óptimo recorrido es: [(90, 'ciudad6'), (28, 'ciudad5'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,077 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,110 INFO Se abrio el nodo: (91, 'ciudad4')
+2020-06-08 02:38:05,111 INFO El proximo nodo a abrir será: (92, 'ciudad5')
+2020-06-08 02:38:05,111 INFO La cantidad de nodos abiertos es de: 91
+
+2020-06-08 02:38:05,111 INFO El óptimo recorrido es: [(91, 'ciudad4'), (29, 'ciudad6'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,112 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,155 INFO Se abrio el nodo: (92, 'ciudad5')
+2020-06-08 02:38:05,155 INFO El proximo nodo a abrir será: (93, 'ciudad5')
+2020-06-08 02:38:05,156 INFO La cantidad de nodos abiertos es de: 92
+
+2020-06-08 02:38:05,156 INFO El óptimo recorrido es: [(92, 'ciudad5'), (29, 'ciudad6'), (7, 'ciudad3'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,156 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,195 INFO Se abrio el nodo: (93, 'ciudad5')
+2020-06-08 02:38:05,195 INFO El proximo nodo a abrir será: (94, 'ciudad6')
+2020-06-08 02:38:05,196 INFO La cantidad de nodos abiertos es de: 93
+
+2020-06-08 02:38:05,196 INFO El óptimo recorrido es: [(93, 'ciudad5'), (30, 'ciudad3'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,198 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,237 INFO Se abrio el nodo: (94, 'ciudad6')
+2020-06-08 02:38:05,238 INFO El proximo nodo a abrir será: (95, 'ciudad3')
+2020-06-08 02:38:05,239 INFO La cantidad de nodos abiertos es de: 94
+
+2020-06-08 02:38:05,240 INFO El óptimo recorrido es: [(94, 'ciudad6'), (30, 'ciudad3'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,240 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,291 INFO Se abrio el nodo: (95, 'ciudad3')
+2020-06-08 02:38:05,291 INFO El proximo nodo a abrir será: (96, 'ciudad6')
+2020-06-08 02:38:05,292 INFO La cantidad de nodos abiertos es de: 95
+
+2020-06-08 02:38:05,292 INFO El óptimo recorrido es: [(95, 'ciudad3'), (31, 'ciudad5'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,293 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,337 INFO Se abrio el nodo: (96, 'ciudad6')
+2020-06-08 02:38:05,338 INFO El proximo nodo a abrir será: (97, 'ciudad3')
+2020-06-08 02:38:05,338 INFO La cantidad de nodos abiertos es de: 96
+
+2020-06-08 02:38:05,339 INFO El óptimo recorrido es: [(96, 'ciudad6'), (31, 'ciudad5'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,339 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,396 INFO Se abrio el nodo: (97, 'ciudad3')
+2020-06-08 02:38:05,397 INFO El proximo nodo a abrir será: (98, 'ciudad5')
+2020-06-08 02:38:05,397 INFO La cantidad de nodos abiertos es de: 97
+
+2020-06-08 02:38:05,398 INFO El óptimo recorrido es: [(97, 'ciudad3'), (32, 'ciudad6'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,398 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,435 INFO Se abrio el nodo: (98, 'ciudad5')
+2020-06-08 02:38:05,436 INFO El proximo nodo a abrir será: (99, 'ciudad4')
+2020-06-08 02:38:05,436 INFO La cantidad de nodos abiertos es de: 98
+
+2020-06-08 02:38:05,436 INFO El óptimo recorrido es: [(98, 'ciudad5'), (32, 'ciudad6'), (8, 'ciudad4'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,437 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,472 INFO Se abrio el nodo: (99, 'ciudad4')
+2020-06-08 02:38:05,473 INFO El proximo nodo a abrir será: (100, 'ciudad6')
+2020-06-08 02:38:05,473 INFO La cantidad de nodos abiertos es de: 99
+
+2020-06-08 02:38:05,473 INFO El óptimo recorrido es: [(99, 'ciudad4'), (33, 'ciudad3'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,474 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,510 INFO Se abrio el nodo: (100, 'ciudad6')
+2020-06-08 02:38:05,510 INFO El proximo nodo a abrir será: (101, 'ciudad3')
+2020-06-08 02:38:05,511 INFO La cantidad de nodos abiertos es de: 100
+
+2020-06-08 02:38:05,511 INFO El óptimo recorrido es: [(100, 'ciudad6'), (33, 'ciudad3'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,512 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,549 INFO Se abrio el nodo: (101, 'ciudad3')
+2020-06-08 02:38:05,550 INFO El proximo nodo a abrir será: (102, 'ciudad6')
+2020-06-08 02:38:05,550 INFO La cantidad de nodos abiertos es de: 101
+
+2020-06-08 02:38:05,551 INFO El óptimo recorrido es: [(101, 'ciudad3'), (34, 'ciudad4'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,551 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,585 INFO Se abrio el nodo: (102, 'ciudad6')
+2020-06-08 02:38:05,586 INFO El proximo nodo a abrir será: (103, 'ciudad3')
+2020-06-08 02:38:05,586 INFO La cantidad de nodos abiertos es de: 102
+
+2020-06-08 02:38:05,587 INFO El óptimo recorrido es: [(102, 'ciudad6'), (34, 'ciudad4'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,587 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,623 INFO Se abrio el nodo: (103, 'ciudad3')
+2020-06-08 02:38:05,624 INFO El proximo nodo a abrir será: (104, 'ciudad4')
+2020-06-08 02:38:05,624 INFO La cantidad de nodos abiertos es de: 103
+
+2020-06-08 02:38:05,625 INFO El óptimo recorrido es: [(103, 'ciudad3'), (35, 'ciudad6'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,625 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,655 INFO Se abrio el nodo: (104, 'ciudad4')
+2020-06-08 02:38:05,655 INFO El proximo nodo a abrir será: (105, 'ciudad4')
+2020-06-08 02:38:05,656 INFO La cantidad de nodos abiertos es de: 104
+
+2020-06-08 02:38:05,656 INFO El óptimo recorrido es: [(104, 'ciudad4'), (35, 'ciudad6'), (9, 'ciudad5'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,656 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,689 INFO Se abrio el nodo: (105, 'ciudad4')
+2020-06-08 02:38:05,689 INFO El proximo nodo a abrir será: (106, 'ciudad5')
+2020-06-08 02:38:05,690 INFO La cantidad de nodos abiertos es de: 105
+
+2020-06-08 02:38:05,690 INFO El óptimo recorrido es: [(105, 'ciudad4'), (36, 'ciudad3'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,690 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,738 INFO Se abrio el nodo: (106, 'ciudad5')
+2020-06-08 02:38:05,738 INFO El proximo nodo a abrir será: (107, 'ciudad3')
+2020-06-08 02:38:05,739 INFO La cantidad de nodos abiertos es de: 106
+
+2020-06-08 02:38:05,739 INFO El óptimo recorrido es: [(106, 'ciudad5'), (36, 'ciudad3'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,739 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,789 INFO Se abrio el nodo: (107, 'ciudad3')
+2020-06-08 02:38:05,790 INFO El proximo nodo a abrir será: (108, 'ciudad5')
+2020-06-08 02:38:05,791 INFO La cantidad de nodos abiertos es de: 107
+
+2020-06-08 02:38:05,791 INFO El óptimo recorrido es: [(107, 'ciudad3'), (37, 'ciudad4'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,793 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,841 INFO Se abrio el nodo: (108, 'ciudad5')
+2020-06-08 02:38:05,842 INFO El proximo nodo a abrir será: (109, 'ciudad3')
+2020-06-08 02:38:05,844 INFO La cantidad de nodos abiertos es de: 108
+
+2020-06-08 02:38:05,845 INFO El óptimo recorrido es: [(108, 'ciudad5'), (37, 'ciudad4'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,845 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,877 INFO Se abrio el nodo: (109, 'ciudad3')
+2020-06-08 02:38:05,878 INFO El proximo nodo a abrir será: (110, 'ciudad4')
+2020-06-08 02:38:05,878 INFO La cantidad de nodos abiertos es de: 109
+
+2020-06-08 02:38:05,878 INFO El óptimo recorrido es: [(109, 'ciudad3'), (38, 'ciudad5'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,879 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,908 INFO Se abrio el nodo: (110, 'ciudad4')
+2020-06-08 02:38:05,909 INFO El proximo nodo a abrir será: (111, 'ciudad5')
+2020-06-08 02:38:05,909 INFO La cantidad de nodos abiertos es de: 110
+
+2020-06-08 02:38:05,909 INFO El óptimo recorrido es: [(110, 'ciudad4'), (38, 'ciudad5'), (10, 'ciudad6'), (2, 'ciudad2')]
+
+2020-06-08 02:38:05,910 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,939 INFO Se abrio el nodo: (111, 'ciudad5')
+2020-06-08 02:38:05,939 INFO El proximo nodo a abrir será: (112, 'ciudad6')
+2020-06-08 02:38:05,939 INFO La cantidad de nodos abiertos es de: 111
+
+2020-06-08 02:38:05,940 INFO El óptimo recorrido es: [(111, 'ciudad5'), (39, 'ciudad4'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:05,940 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,968 INFO Se abrio el nodo: (112, 'ciudad6')
+2020-06-08 02:38:05,968 INFO El proximo nodo a abrir será: (113, 'ciudad4')
+2020-06-08 02:38:05,969 INFO La cantidad de nodos abiertos es de: 112
+
+2020-06-08 02:38:05,969 INFO El óptimo recorrido es: [(112, 'ciudad6'), (39, 'ciudad4'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:05,969 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:05,998 INFO Se abrio el nodo: (113, 'ciudad4')
+2020-06-08 02:38:05,999 INFO El proximo nodo a abrir será: (114, 'ciudad6')
+2020-06-08 02:38:05,999 INFO La cantidad de nodos abiertos es de: 113
+
+2020-06-08 02:38:05,999 INFO El óptimo recorrido es: [(113, 'ciudad4'), (40, 'ciudad5'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,000 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,030 INFO Se abrio el nodo: (114, 'ciudad6')
+2020-06-08 02:38:06,031 INFO El proximo nodo a abrir será: (115, 'ciudad4')
+2020-06-08 02:38:06,031 INFO La cantidad de nodos abiertos es de: 114
+
+2020-06-08 02:38:06,032 INFO El óptimo recorrido es: [(114, 'ciudad6'), (40, 'ciudad5'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,032 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,061 INFO Se abrio el nodo: (115, 'ciudad4')
+2020-06-08 02:38:06,061 INFO El proximo nodo a abrir será: (116, 'ciudad5')
+2020-06-08 02:38:06,062 INFO La cantidad de nodos abiertos es de: 115
+
+2020-06-08 02:38:06,062 INFO El óptimo recorrido es: [(115, 'ciudad4'), (41, 'ciudad6'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,062 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,089 INFO Se abrio el nodo: (116, 'ciudad5')
+2020-06-08 02:38:06,089 INFO El proximo nodo a abrir será: (117, 'ciudad5')
+2020-06-08 02:38:06,089 INFO La cantidad de nodos abiertos es de: 116
+
+2020-06-08 02:38:06,090 INFO El óptimo recorrido es: [(116, 'ciudad5'), (41, 'ciudad6'), (11, 'ciudad2'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,090 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,116 INFO Se abrio el nodo: (117, 'ciudad5')
+2020-06-08 02:38:06,116 INFO El proximo nodo a abrir será: (118, 'ciudad6')
+2020-06-08 02:38:06,116 INFO La cantidad de nodos abiertos es de: 117
+
+2020-06-08 02:38:06,117 INFO El óptimo recorrido es: [(117, 'ciudad5'), (42, 'ciudad2'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,117 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,150 INFO Se abrio el nodo: (118, 'ciudad6')
+2020-06-08 02:38:06,150 INFO El proximo nodo a abrir será: (119, 'ciudad2')
+2020-06-08 02:38:06,150 INFO La cantidad de nodos abiertos es de: 118
+
+2020-06-08 02:38:06,151 INFO El óptimo recorrido es: [(118, 'ciudad6'), (42, 'ciudad2'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,151 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,181 INFO Se abrio el nodo: (119, 'ciudad2')
+2020-06-08 02:38:06,182 INFO El proximo nodo a abrir será: (120, 'ciudad6')
+2020-06-08 02:38:06,182 INFO La cantidad de nodos abiertos es de: 119
+
+2020-06-08 02:38:06,183 INFO El óptimo recorrido es: [(119, 'ciudad2'), (43, 'ciudad5'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,183 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,213 INFO Se abrio el nodo: (120, 'ciudad6')
+2020-06-08 02:38:06,213 INFO El proximo nodo a abrir será: (121, 'ciudad2')
+2020-06-08 02:38:06,214 INFO La cantidad de nodos abiertos es de: 120
+
+2020-06-08 02:38:06,214 INFO El óptimo recorrido es: [(120, 'ciudad6'), (43, 'ciudad5'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,214 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,241 INFO Se abrio el nodo: (121, 'ciudad2')
+2020-06-08 02:38:06,242 INFO El proximo nodo a abrir será: (122, 'ciudad5')
+2020-06-08 02:38:06,245 INFO La cantidad de nodos abiertos es de: 121
+
+2020-06-08 02:38:06,246 INFO El óptimo recorrido es: [(121, 'ciudad2'), (44, 'ciudad6'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,247 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,288 INFO Se abrio el nodo: (122, 'ciudad5')
+2020-06-08 02:38:06,288 INFO El proximo nodo a abrir será: (123, 'ciudad4')
+2020-06-08 02:38:06,289 INFO La cantidad de nodos abiertos es de: 122
+
+2020-06-08 02:38:06,289 INFO El óptimo recorrido es: [(122, 'ciudad5'), (44, 'ciudad6'), (12, 'ciudad4'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,290 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,318 INFO Se abrio el nodo: (123, 'ciudad4')
+2020-06-08 02:38:06,318 INFO El proximo nodo a abrir será: (124, 'ciudad6')
+2020-06-08 02:38:06,318 INFO La cantidad de nodos abiertos es de: 123
+
+2020-06-08 02:38:06,319 INFO El óptimo recorrido es: [(123, 'ciudad4'), (45, 'ciudad2'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,319 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,349 INFO Se abrio el nodo: (124, 'ciudad6')
+2020-06-08 02:38:06,349 INFO El proximo nodo a abrir será: (125, 'ciudad2')
+2020-06-08 02:38:06,350 INFO La cantidad de nodos abiertos es de: 124
+
+2020-06-08 02:38:06,350 INFO El óptimo recorrido es: [(124, 'ciudad6'), (45, 'ciudad2'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,350 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,382 INFO Se abrio el nodo: (125, 'ciudad2')
+2020-06-08 02:38:06,385 INFO El proximo nodo a abrir será: (126, 'ciudad6')
+2020-06-08 02:38:06,385 INFO La cantidad de nodos abiertos es de: 125
+
+2020-06-08 02:38:06,386 INFO El óptimo recorrido es: [(125, 'ciudad2'), (46, 'ciudad4'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,386 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,421 INFO Se abrio el nodo: (126, 'ciudad6')
+2020-06-08 02:38:06,421 INFO El proximo nodo a abrir será: (127, 'ciudad2')
+2020-06-08 02:38:06,421 INFO La cantidad de nodos abiertos es de: 126
+
+2020-06-08 02:38:06,422 INFO El óptimo recorrido es: [(126, 'ciudad6'), (46, 'ciudad4'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,422 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,453 INFO Se abrio el nodo: (127, 'ciudad2')
+2020-06-08 02:38:06,454 INFO El proximo nodo a abrir será: (128, 'ciudad4')
+2020-06-08 02:38:06,454 INFO La cantidad de nodos abiertos es de: 127
+
+2020-06-08 02:38:06,454 INFO El óptimo recorrido es: [(127, 'ciudad2'), (47, 'ciudad6'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,454 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,487 INFO Se abrio el nodo: (128, 'ciudad4')
+2020-06-08 02:38:06,487 INFO El proximo nodo a abrir será: (129, 'ciudad4')
+2020-06-08 02:38:06,488 INFO La cantidad de nodos abiertos es de: 128
+
+2020-06-08 02:38:06,488 INFO El óptimo recorrido es: [(128, 'ciudad4'), (47, 'ciudad6'), (13, 'ciudad5'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,488 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,520 INFO Se abrio el nodo: (129, 'ciudad4')
+2020-06-08 02:38:06,521 INFO El proximo nodo a abrir será: (130, 'ciudad5')
+2020-06-08 02:38:06,522 INFO La cantidad de nodos abiertos es de: 129
+
+2020-06-08 02:38:06,522 INFO El óptimo recorrido es: [(129, 'ciudad4'), (48, 'ciudad2'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,523 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,559 INFO Se abrio el nodo: (130, 'ciudad5')
+2020-06-08 02:38:06,559 INFO El proximo nodo a abrir será: (131, 'ciudad2')
+2020-06-08 02:38:06,560 INFO La cantidad de nodos abiertos es de: 130
+
+2020-06-08 02:38:06,560 INFO El óptimo recorrido es: [(130, 'ciudad5'), (48, 'ciudad2'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,560 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,603 INFO Se abrio el nodo: (131, 'ciudad2')
+2020-06-08 02:38:06,603 INFO El proximo nodo a abrir será: (132, 'ciudad5')
+2020-06-08 02:38:06,604 INFO La cantidad de nodos abiertos es de: 131
+
+2020-06-08 02:38:06,604 INFO El óptimo recorrido es: [(131, 'ciudad2'), (49, 'ciudad4'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,604 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,635 INFO Se abrio el nodo: (132, 'ciudad5')
+2020-06-08 02:38:06,636 INFO El proximo nodo a abrir será: (133, 'ciudad2')
+2020-06-08 02:38:06,636 INFO La cantidad de nodos abiertos es de: 132
+
+2020-06-08 02:38:06,637 INFO El óptimo recorrido es: [(132, 'ciudad5'), (49, 'ciudad4'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,637 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,664 INFO Se abrio el nodo: (133, 'ciudad2')
+2020-06-08 02:38:06,665 INFO El proximo nodo a abrir será: (134, 'ciudad4')
+2020-06-08 02:38:06,665 INFO La cantidad de nodos abiertos es de: 133
+
+2020-06-08 02:38:06,665 INFO El óptimo recorrido es: [(133, 'ciudad2'), (50, 'ciudad5'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,666 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,695 INFO Se abrio el nodo: (134, 'ciudad4')
+2020-06-08 02:38:06,695 INFO El proximo nodo a abrir será: (135, 'ciudad5')
+2020-06-08 02:38:06,696 INFO La cantidad de nodos abiertos es de: 134
+
+2020-06-08 02:38:06,696 INFO El óptimo recorrido es: [(134, 'ciudad4'), (50, 'ciudad5'), (14, 'ciudad6'), (3, 'ciudad3')]
+
+2020-06-08 02:38:06,696 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,724 INFO Se abrio el nodo: (135, 'ciudad5')
+2020-06-08 02:38:06,725 INFO El proximo nodo a abrir será: (136, 'ciudad6')
+2020-06-08 02:38:06,725 INFO La cantidad de nodos abiertos es de: 135
+
+2020-06-08 02:38:06,725 INFO El óptimo recorrido es: [(135, 'ciudad5'), (51, 'ciudad3'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,726 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,754 INFO Se abrio el nodo: (136, 'ciudad6')
+2020-06-08 02:38:06,755 INFO El proximo nodo a abrir será: (137, 'ciudad3')
+2020-06-08 02:38:06,755 INFO La cantidad de nodos abiertos es de: 136
+
+2020-06-08 02:38:06,755 INFO El óptimo recorrido es: [(136, 'ciudad6'), (51, 'ciudad3'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,756 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,789 INFO Se abrio el nodo: (137, 'ciudad3')
+2020-06-08 02:38:06,790 INFO El proximo nodo a abrir será: (138, 'ciudad6')
+2020-06-08 02:38:06,790 INFO La cantidad de nodos abiertos es de: 137
+
+2020-06-08 02:38:06,791 INFO El óptimo recorrido es: [(137, 'ciudad3'), (52, 'ciudad5'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,791 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,830 INFO Se abrio el nodo: (138, 'ciudad6')
+2020-06-08 02:38:06,830 INFO El proximo nodo a abrir será: (139, 'ciudad3')
+2020-06-08 02:38:06,831 INFO La cantidad de nodos abiertos es de: 138
+
+2020-06-08 02:38:06,831 INFO El óptimo recorrido es: [(138, 'ciudad6'), (52, 'ciudad5'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,831 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,861 INFO Se abrio el nodo: (139, 'ciudad3')
+2020-06-08 02:38:06,862 INFO El proximo nodo a abrir será: (140, 'ciudad5')
+2020-06-08 02:38:06,863 INFO La cantidad de nodos abiertos es de: 139
+
+2020-06-08 02:38:06,863 INFO El óptimo recorrido es: [(139, 'ciudad3'), (53, 'ciudad6'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,864 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,920 INFO Se abrio el nodo: (140, 'ciudad5')
+2020-06-08 02:38:06,921 INFO El proximo nodo a abrir será: (141, 'ciudad5')
+2020-06-08 02:38:06,922 INFO La cantidad de nodos abiertos es de: 140
+
+2020-06-08 02:38:06,923 INFO El óptimo recorrido es: [(140, 'ciudad5'), (53, 'ciudad6'), (15, 'ciudad2'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,924 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:06,972 INFO Se abrio el nodo: (141, 'ciudad5')
+2020-06-08 02:38:06,973 INFO El proximo nodo a abrir será: (142, 'ciudad6')
+2020-06-08 02:38:06,973 INFO La cantidad de nodos abiertos es de: 141
+
+2020-06-08 02:38:06,974 INFO El óptimo recorrido es: [(141, 'ciudad5'), (54, 'ciudad2'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:06,974 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,005 INFO Se abrio el nodo: (142, 'ciudad6')
+2020-06-08 02:38:07,006 INFO El proximo nodo a abrir será: (143, 'ciudad2')
+2020-06-08 02:38:07,006 INFO La cantidad de nodos abiertos es de: 142
+
+2020-06-08 02:38:07,007 INFO El óptimo recorrido es: [(142, 'ciudad6'), (54, 'ciudad2'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,007 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,043 INFO Se abrio el nodo: (143, 'ciudad2')
+2020-06-08 02:38:07,044 INFO El proximo nodo a abrir será: (144, 'ciudad6')
+2020-06-08 02:38:07,044 INFO La cantidad de nodos abiertos es de: 143
+
+2020-06-08 02:38:07,045 INFO El óptimo recorrido es: [(143, 'ciudad2'), (55, 'ciudad5'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,045 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,077 INFO Se abrio el nodo: (144, 'ciudad6')
+2020-06-08 02:38:07,078 INFO El proximo nodo a abrir será: (145, 'ciudad2')
+2020-06-08 02:38:07,078 INFO La cantidad de nodos abiertos es de: 144
+
+2020-06-08 02:38:07,079 INFO El óptimo recorrido es: [(144, 'ciudad6'), (55, 'ciudad5'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,079 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,118 INFO Se abrio el nodo: (145, 'ciudad2')
+2020-06-08 02:38:07,119 INFO El proximo nodo a abrir será: (146, 'ciudad5')
+2020-06-08 02:38:07,119 INFO La cantidad de nodos abiertos es de: 145
+
+2020-06-08 02:38:07,120 INFO El óptimo recorrido es: [(145, 'ciudad2'), (56, 'ciudad6'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,120 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,162 INFO Se abrio el nodo: (146, 'ciudad5')
+2020-06-08 02:38:07,162 INFO El proximo nodo a abrir será: (147, 'ciudad3')
+2020-06-08 02:38:07,163 INFO La cantidad de nodos abiertos es de: 146
+
+2020-06-08 02:38:07,163 INFO El óptimo recorrido es: [(146, 'ciudad5'), (56, 'ciudad6'), (16, 'ciudad3'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,164 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,195 INFO Se abrio el nodo: (147, 'ciudad3')
+2020-06-08 02:38:07,196 INFO El proximo nodo a abrir será: (148, 'ciudad6')
+2020-06-08 02:38:07,196 INFO La cantidad de nodos abiertos es de: 147
+
+2020-06-08 02:38:07,197 INFO El óptimo recorrido es: [(147, 'ciudad3'), (57, 'ciudad2'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,197 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,224 INFO Se abrio el nodo: (148, 'ciudad6')
+2020-06-08 02:38:07,225 INFO El proximo nodo a abrir será: (149, 'ciudad2')
+2020-06-08 02:38:07,225 INFO La cantidad de nodos abiertos es de: 148
+
+2020-06-08 02:38:07,226 INFO El óptimo recorrido es: [(148, 'ciudad6'), (57, 'ciudad2'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,226 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,261 INFO Se abrio el nodo: (149, 'ciudad2')
+2020-06-08 02:38:07,261 INFO El proximo nodo a abrir será: (150, 'ciudad6')
+2020-06-08 02:38:07,262 INFO La cantidad de nodos abiertos es de: 149
+
+2020-06-08 02:38:07,262 INFO El óptimo recorrido es: [(149, 'ciudad2'), (58, 'ciudad3'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,262 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,294 INFO Se abrio el nodo: (150, 'ciudad6')
+2020-06-08 02:38:07,295 INFO El proximo nodo a abrir será: (151, 'ciudad2')
+2020-06-08 02:38:07,295 INFO La cantidad de nodos abiertos es de: 150
+
+2020-06-08 02:38:07,295 INFO El óptimo recorrido es: [(150, 'ciudad6'), (58, 'ciudad3'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,296 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,325 INFO Se abrio el nodo: (151, 'ciudad2')
+2020-06-08 02:38:07,326 INFO El proximo nodo a abrir será: (152, 'ciudad3')
+2020-06-08 02:38:07,326 INFO La cantidad de nodos abiertos es de: 151
+
+2020-06-08 02:38:07,327 INFO El óptimo recorrido es: [(151, 'ciudad2'), (59, 'ciudad6'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,327 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,367 INFO Se abrio el nodo: (152, 'ciudad3')
+2020-06-08 02:38:07,368 INFO El proximo nodo a abrir será: (153, 'ciudad3')
+2020-06-08 02:38:07,368 INFO La cantidad de nodos abiertos es de: 152
+
+2020-06-08 02:38:07,369 INFO El óptimo recorrido es: [(152, 'ciudad3'), (59, 'ciudad6'), (17, 'ciudad5'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,370 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,407 INFO Se abrio el nodo: (153, 'ciudad3')
+2020-06-08 02:38:07,407 INFO El proximo nodo a abrir será: (154, 'ciudad5')
+2020-06-08 02:38:07,410 INFO La cantidad de nodos abiertos es de: 153
+
+2020-06-08 02:38:07,412 INFO El óptimo recorrido es: [(153, 'ciudad3'), (60, 'ciudad2'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,413 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,465 INFO Se abrio el nodo: (154, 'ciudad5')
+2020-06-08 02:38:07,465 INFO El proximo nodo a abrir será: (155, 'ciudad2')
+2020-06-08 02:38:07,466 INFO La cantidad de nodos abiertos es de: 154
+
+2020-06-08 02:38:07,466 INFO El óptimo recorrido es: [(154, 'ciudad5'), (60, 'ciudad2'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,467 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,501 INFO Se abrio el nodo: (155, 'ciudad2')
+2020-06-08 02:38:07,502 INFO El proximo nodo a abrir será: (156, 'ciudad5')
+2020-06-08 02:38:07,502 INFO La cantidad de nodos abiertos es de: 155
+
+2020-06-08 02:38:07,502 INFO El óptimo recorrido es: [(155, 'ciudad2'), (61, 'ciudad3'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,503 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,536 INFO Se abrio el nodo: (156, 'ciudad5')
+2020-06-08 02:38:07,537 INFO El proximo nodo a abrir será: (157, 'ciudad2')
+2020-06-08 02:38:07,538 INFO La cantidad de nodos abiertos es de: 156
+
+2020-06-08 02:38:07,539 INFO El óptimo recorrido es: [(156, 'ciudad5'), (61, 'ciudad3'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,539 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,577 INFO Se abrio el nodo: (157, 'ciudad2')
+2020-06-08 02:38:07,578 INFO El proximo nodo a abrir será: (158, 'ciudad3')
+2020-06-08 02:38:07,578 INFO La cantidad de nodos abiertos es de: 157
+
+2020-06-08 02:38:07,579 INFO El óptimo recorrido es: [(157, 'ciudad2'), (62, 'ciudad5'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,579 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,616 INFO Se abrio el nodo: (158, 'ciudad3')
+2020-06-08 02:38:07,617 INFO El proximo nodo a abrir será: (159, 'ciudad4')
+2020-06-08 02:38:07,617 INFO La cantidad de nodos abiertos es de: 158
+
+2020-06-08 02:38:07,617 INFO El óptimo recorrido es: [(158, 'ciudad3'), (62, 'ciudad5'), (18, 'ciudad6'), (4, 'ciudad4')]
+
+2020-06-08 02:38:07,618 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,653 INFO Se abrio el nodo: (159, 'ciudad4')
+2020-06-08 02:38:07,654 INFO El proximo nodo a abrir será: (160, 'ciudad6')
+2020-06-08 02:38:07,654 INFO La cantidad de nodos abiertos es de: 159
+
+2020-06-08 02:38:07,655 INFO El óptimo recorrido es: [(159, 'ciudad4'), (63, 'ciudad3'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,655 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,703 INFO Se abrio el nodo: (160, 'ciudad6')
+2020-06-08 02:38:07,704 INFO El proximo nodo a abrir será: (161, 'ciudad3')
+2020-06-08 02:38:07,704 INFO La cantidad de nodos abiertos es de: 160
+
+2020-06-08 02:38:07,705 INFO El óptimo recorrido es: [(160, 'ciudad6'), (63, 'ciudad3'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,706 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,759 INFO Se abrio el nodo: (161, 'ciudad3')
+2020-06-08 02:38:07,760 INFO El proximo nodo a abrir será: (162, 'ciudad6')
+2020-06-08 02:38:07,760 INFO La cantidad de nodos abiertos es de: 161
+
+2020-06-08 02:38:07,761 INFO El óptimo recorrido es: [(161, 'ciudad3'), (64, 'ciudad4'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,761 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,864 INFO Se abrio el nodo: (162, 'ciudad6')
+2020-06-08 02:38:07,867 INFO El proximo nodo a abrir será: (163, 'ciudad3')
+2020-06-08 02:38:07,867 INFO La cantidad de nodos abiertos es de: 162
+
+2020-06-08 02:38:07,868 INFO El óptimo recorrido es: [(162, 'ciudad6'), (64, 'ciudad4'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,869 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,938 INFO Se abrio el nodo: (163, 'ciudad3')
+2020-06-08 02:38:07,939 INFO El proximo nodo a abrir será: (164, 'ciudad4')
+2020-06-08 02:38:07,939 INFO La cantidad de nodos abiertos es de: 163
+
+2020-06-08 02:38:07,940 INFO El óptimo recorrido es: [(163, 'ciudad3'), (65, 'ciudad6'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,940 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:07,989 INFO Se abrio el nodo: (164, 'ciudad4')
+2020-06-08 02:38:07,989 INFO El proximo nodo a abrir será: (165, 'ciudad4')
+2020-06-08 02:38:07,989 INFO La cantidad de nodos abiertos es de: 164
+
+2020-06-08 02:38:07,990 INFO El óptimo recorrido es: [(164, 'ciudad4'), (65, 'ciudad6'), (19, 'ciudad2'), (5, 'ciudad5')]
+
+2020-06-08 02:38:07,990 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,055 INFO Se abrio el nodo: (165, 'ciudad4')
+2020-06-08 02:38:08,056 INFO El proximo nodo a abrir será: (166, 'ciudad6')
+2020-06-08 02:38:08,056 INFO La cantidad de nodos abiertos es de: 165
+
+2020-06-08 02:38:08,057 INFO El óptimo recorrido es: [(165, 'ciudad4'), (66, 'ciudad2'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,058 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,101 INFO Se abrio el nodo: (166, 'ciudad6')
+2020-06-08 02:38:08,101 INFO El proximo nodo a abrir será: (167, 'ciudad2')
+2020-06-08 02:38:08,102 INFO La cantidad de nodos abiertos es de: 166
+
+2020-06-08 02:38:08,102 INFO El óptimo recorrido es: [(166, 'ciudad6'), (66, 'ciudad2'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,102 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,145 INFO Se abrio el nodo: (167, 'ciudad2')
+2020-06-08 02:38:08,146 INFO El proximo nodo a abrir será: (168, 'ciudad6')
+2020-06-08 02:38:08,149 INFO La cantidad de nodos abiertos es de: 167
+
+2020-06-08 02:38:08,150 INFO El óptimo recorrido es: [(167, 'ciudad2'), (67, 'ciudad4'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,151 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,208 INFO Se abrio el nodo: (168, 'ciudad6')
+2020-06-08 02:38:08,208 INFO El proximo nodo a abrir será: (169, 'ciudad2')
+2020-06-08 02:38:08,209 INFO La cantidad de nodos abiertos es de: 168
+
+2020-06-08 02:38:08,209 INFO El óptimo recorrido es: [(168, 'ciudad6'), (67, 'ciudad4'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,209 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,250 INFO Se abrio el nodo: (169, 'ciudad2')
+2020-06-08 02:38:08,251 INFO El proximo nodo a abrir será: (170, 'ciudad4')
+2020-06-08 02:38:08,251 INFO La cantidad de nodos abiertos es de: 169
+
+2020-06-08 02:38:08,252 INFO El óptimo recorrido es: [(169, 'ciudad2'), (68, 'ciudad6'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,252 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,295 INFO Se abrio el nodo: (170, 'ciudad4')
+2020-06-08 02:38:08,296 INFO El proximo nodo a abrir será: (171, 'ciudad3')
+2020-06-08 02:38:08,299 INFO La cantidad de nodos abiertos es de: 170
+
+2020-06-08 02:38:08,300 INFO El óptimo recorrido es: [(170, 'ciudad4'), (68, 'ciudad6'), (20, 'ciudad3'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,300 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,340 INFO Se abrio el nodo: (171, 'ciudad3')
+2020-06-08 02:38:08,341 INFO El proximo nodo a abrir será: (172, 'ciudad6')
+2020-06-08 02:38:08,341 INFO La cantidad de nodos abiertos es de: 171
+
+2020-06-08 02:38:08,342 INFO El óptimo recorrido es: [(171, 'ciudad3'), (69, 'ciudad2'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,342 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,382 INFO Se abrio el nodo: (172, 'ciudad6')
+2020-06-08 02:38:08,383 INFO El proximo nodo a abrir será: (173, 'ciudad2')
+2020-06-08 02:38:08,383 INFO La cantidad de nodos abiertos es de: 172
+
+2020-06-08 02:38:08,384 INFO El óptimo recorrido es: [(172, 'ciudad6'), (69, 'ciudad2'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,384 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,428 INFO Se abrio el nodo: (173, 'ciudad2')
+2020-06-08 02:38:08,429 INFO El proximo nodo a abrir será: (174, 'ciudad6')
+2020-06-08 02:38:08,429 INFO La cantidad de nodos abiertos es de: 173
+
+2020-06-08 02:38:08,430 INFO El óptimo recorrido es: [(173, 'ciudad2'), (70, 'ciudad3'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,430 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,467 INFO Se abrio el nodo: (174, 'ciudad6')
+2020-06-08 02:38:08,467 INFO El proximo nodo a abrir será: (175, 'ciudad2')
+2020-06-08 02:38:08,468 INFO La cantidad de nodos abiertos es de: 174
+
+2020-06-08 02:38:08,468 INFO El óptimo recorrido es: [(174, 'ciudad6'), (70, 'ciudad3'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,468 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,511 INFO Se abrio el nodo: (175, 'ciudad2')
+2020-06-08 02:38:08,512 INFO El proximo nodo a abrir será: (176, 'ciudad3')
+2020-06-08 02:38:08,512 INFO La cantidad de nodos abiertos es de: 175
+
+2020-06-08 02:38:08,513 INFO El óptimo recorrido es: [(175, 'ciudad2'), (71, 'ciudad6'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,513 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,555 INFO Se abrio el nodo: (176, 'ciudad3')
+2020-06-08 02:38:08,555 INFO El proximo nodo a abrir será: (177, 'ciudad3')
+2020-06-08 02:38:08,555 INFO La cantidad de nodos abiertos es de: 176
+
+2020-06-08 02:38:08,556 INFO El óptimo recorrido es: [(176, 'ciudad3'), (71, 'ciudad6'), (21, 'ciudad4'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,556 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,588 INFO Se abrio el nodo: (177, 'ciudad3')
+2020-06-08 02:38:08,589 INFO El proximo nodo a abrir será: (178, 'ciudad4')
+2020-06-08 02:38:08,589 INFO La cantidad de nodos abiertos es de: 177
+
+2020-06-08 02:38:08,590 INFO El óptimo recorrido es: [(177, 'ciudad3'), (72, 'ciudad2'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,590 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,626 INFO Se abrio el nodo: (178, 'ciudad4')
+2020-06-08 02:38:08,627 INFO El proximo nodo a abrir será: (179, 'ciudad2')
+2020-06-08 02:38:08,627 INFO La cantidad de nodos abiertos es de: 178
+
+2020-06-08 02:38:08,628 INFO El óptimo recorrido es: [(178, 'ciudad4'), (72, 'ciudad2'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,628 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,666 INFO Se abrio el nodo: (179, 'ciudad2')
+2020-06-08 02:38:08,667 INFO El proximo nodo a abrir será: (180, 'ciudad4')
+2020-06-08 02:38:08,667 INFO La cantidad de nodos abiertos es de: 179
+
+2020-06-08 02:38:08,667 INFO El óptimo recorrido es: [(179, 'ciudad2'), (73, 'ciudad3'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,668 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,709 INFO Se abrio el nodo: (180, 'ciudad4')
+2020-06-08 02:38:08,710 INFO El proximo nodo a abrir será: (181, 'ciudad2')
+2020-06-08 02:38:08,710 INFO La cantidad de nodos abiertos es de: 180
+
+2020-06-08 02:38:08,711 INFO El óptimo recorrido es: [(180, 'ciudad4'), (73, 'ciudad3'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,711 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,750 INFO Se abrio el nodo: (181, 'ciudad2')
+2020-06-08 02:38:08,751 INFO El proximo nodo a abrir será: (182, 'ciudad3')
+2020-06-08 02:38:08,752 INFO La cantidad de nodos abiertos es de: 181
+
+2020-06-08 02:38:08,753 INFO El óptimo recorrido es: [(181, 'ciudad2'), (74, 'ciudad4'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,754 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,794 INFO Se abrio el nodo: (182, 'ciudad3')
+2020-06-08 02:38:08,795 INFO El proximo nodo a abrir será: (183, 'ciudad4')
+2020-06-08 02:38:08,795 INFO La cantidad de nodos abiertos es de: 182
+
+2020-06-08 02:38:08,795 INFO El óptimo recorrido es: [(182, 'ciudad3'), (74, 'ciudad4'), (22, 'ciudad6'), (5, 'ciudad5')]
+
+2020-06-08 02:38:08,797 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,837 INFO Se abrio el nodo: (183, 'ciudad4')
+2020-06-08 02:38:08,838 INFO El proximo nodo a abrir será: (184, 'ciudad5')
+2020-06-08 02:38:08,838 INFO La cantidad de nodos abiertos es de: 183
+
+2020-06-08 02:38:08,839 INFO El óptimo recorrido es: [(183, 'ciudad4'), (75, 'ciudad3'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:08,839 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,871 INFO Se abrio el nodo: (184, 'ciudad5')
+2020-06-08 02:38:08,871 INFO El proximo nodo a abrir será: (185, 'ciudad3')
+2020-06-08 02:38:08,872 INFO La cantidad de nodos abiertos es de: 184
+
+2020-06-08 02:38:08,872 INFO El óptimo recorrido es: [(184, 'ciudad5'), (75, 'ciudad3'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:08,872 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,923 INFO Se abrio el nodo: (185, 'ciudad3')
+2020-06-08 02:38:08,924 INFO El proximo nodo a abrir será: (186, 'ciudad5')
+2020-06-08 02:38:08,924 INFO La cantidad de nodos abiertos es de: 185
+
+2020-06-08 02:38:08,925 INFO El óptimo recorrido es: [(185, 'ciudad3'), (76, 'ciudad4'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:08,925 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:08,969 INFO Se abrio el nodo: (186, 'ciudad5')
+2020-06-08 02:38:08,970 INFO El proximo nodo a abrir será: (187, 'ciudad3')
+2020-06-08 02:38:08,970 INFO La cantidad de nodos abiertos es de: 186
+
+2020-06-08 02:38:08,970 INFO El óptimo recorrido es: [(186, 'ciudad5'), (76, 'ciudad4'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:08,971 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,007 INFO Se abrio el nodo: (187, 'ciudad3')
+2020-06-08 02:38:09,007 INFO El proximo nodo a abrir será: (188, 'ciudad4')
+2020-06-08 02:38:09,008 INFO La cantidad de nodos abiertos es de: 187
+
+2020-06-08 02:38:09,008 INFO El óptimo recorrido es: [(187, 'ciudad3'), (77, 'ciudad5'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,008 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,052 INFO Se abrio el nodo: (188, 'ciudad4')
+2020-06-08 02:38:09,052 INFO El proximo nodo a abrir será: (189, 'ciudad4')
+2020-06-08 02:38:09,052 INFO La cantidad de nodos abiertos es de: 188
+
+2020-06-08 02:38:09,053 INFO El óptimo recorrido es: [(188, 'ciudad4'), (77, 'ciudad5'), (23, 'ciudad2'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,053 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,092 INFO Se abrio el nodo: (189, 'ciudad4')
+2020-06-08 02:38:09,093 INFO El proximo nodo a abrir será: (190, 'ciudad5')
+2020-06-08 02:38:09,094 INFO La cantidad de nodos abiertos es de: 189
+
+2020-06-08 02:38:09,094 INFO El óptimo recorrido es: [(189, 'ciudad4'), (78, 'ciudad2'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,094 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,127 INFO Se abrio el nodo: (190, 'ciudad5')
+2020-06-08 02:38:09,127 INFO El proximo nodo a abrir será: (191, 'ciudad2')
+2020-06-08 02:38:09,128 INFO La cantidad de nodos abiertos es de: 190
+
+2020-06-08 02:38:09,128 INFO El óptimo recorrido es: [(190, 'ciudad5'), (78, 'ciudad2'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,128 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,163 INFO Se abrio el nodo: (191, 'ciudad2')
+2020-06-08 02:38:09,164 INFO El proximo nodo a abrir será: (192, 'ciudad5')
+2020-06-08 02:38:09,165 INFO La cantidad de nodos abiertos es de: 191
+
+2020-06-08 02:38:09,165 INFO El óptimo recorrido es: [(191, 'ciudad2'), (79, 'ciudad4'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,165 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,203 INFO Se abrio el nodo: (192, 'ciudad5')
+2020-06-08 02:38:09,204 INFO El proximo nodo a abrir será: (193, 'ciudad2')
+2020-06-08 02:38:09,204 INFO La cantidad de nodos abiertos es de: 192
+
+2020-06-08 02:38:09,205 INFO El óptimo recorrido es: [(192, 'ciudad5'), (79, 'ciudad4'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,206 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,374 INFO Se abrio el nodo: (193, 'ciudad2')
+2020-06-08 02:38:09,375 INFO El proximo nodo a abrir será: (194, 'ciudad4')
+2020-06-08 02:38:09,376 INFO La cantidad de nodos abiertos es de: 193
+
+2020-06-08 02:38:09,376 INFO El óptimo recorrido es: [(193, 'ciudad2'), (80, 'ciudad5'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,377 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,486 INFO Se abrio el nodo: (194, 'ciudad4')
+2020-06-08 02:38:09,487 INFO El proximo nodo a abrir será: (195, 'ciudad3')
+2020-06-08 02:38:09,488 INFO La cantidad de nodos abiertos es de: 194
+
+2020-06-08 02:38:09,488 INFO El óptimo recorrido es: [(194, 'ciudad4'), (80, 'ciudad5'), (24, 'ciudad3'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,489 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,552 INFO Se abrio el nodo: (195, 'ciudad3')
+2020-06-08 02:38:09,553 INFO El proximo nodo a abrir será: (196, 'ciudad5')
+2020-06-08 02:38:09,553 INFO La cantidad de nodos abiertos es de: 195
+
+2020-06-08 02:38:09,554 INFO El óptimo recorrido es: [(195, 'ciudad3'), (81, 'ciudad2'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,554 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,617 INFO Se abrio el nodo: (196, 'ciudad5')
+2020-06-08 02:38:09,617 INFO El proximo nodo a abrir será: (197, 'ciudad2')
+2020-06-08 02:38:09,618 INFO La cantidad de nodos abiertos es de: 196
+
+2020-06-08 02:38:09,618 INFO El óptimo recorrido es: [(196, 'ciudad5'), (81, 'ciudad2'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,619 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,686 INFO Se abrio el nodo: (197, 'ciudad2')
+2020-06-08 02:38:09,687 INFO El proximo nodo a abrir será: (198, 'ciudad5')
+2020-06-08 02:38:09,688 INFO La cantidad de nodos abiertos es de: 197
+
+2020-06-08 02:38:09,688 INFO El óptimo recorrido es: [(197, 'ciudad2'), (82, 'ciudad3'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,689 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,746 INFO Se abrio el nodo: (198, 'ciudad5')
+2020-06-08 02:38:09,747 INFO El proximo nodo a abrir será: (199, 'ciudad2')
+2020-06-08 02:38:09,747 INFO La cantidad de nodos abiertos es de: 198
+
+2020-06-08 02:38:09,748 INFO El óptimo recorrido es: [(198, 'ciudad5'), (82, 'ciudad3'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,748 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,803 INFO Se abrio el nodo: (199, 'ciudad2')
+2020-06-08 02:38:09,803 INFO El proximo nodo a abrir será: (200, 'ciudad3')
+2020-06-08 02:38:09,804 INFO La cantidad de nodos abiertos es de: 199
+
+2020-06-08 02:38:09,805 INFO El óptimo recorrido es: [(199, 'ciudad2'), (83, 'ciudad5'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,806 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,858 INFO Se abrio el nodo: (200, 'ciudad3')
+2020-06-08 02:38:09,859 INFO El proximo nodo a abrir será: (201, 'ciudad3')
+2020-06-08 02:38:09,860 INFO La cantidad de nodos abiertos es de: 200
+
+2020-06-08 02:38:09,860 INFO El óptimo recorrido es: [(200, 'ciudad3'), (83, 'ciudad5'), (25, 'ciudad4'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,861 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,931 INFO Se abrio el nodo: (201, 'ciudad3')
+2020-06-08 02:38:09,931 INFO El proximo nodo a abrir será: (202, 'ciudad4')
+2020-06-08 02:38:09,932 INFO La cantidad de nodos abiertos es de: 201
+
+2020-06-08 02:38:09,932 INFO El óptimo recorrido es: [(201, 'ciudad3'), (84, 'ciudad2'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,933 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:09,992 INFO Se abrio el nodo: (202, 'ciudad4')
+2020-06-08 02:38:09,993 INFO El proximo nodo a abrir será: (203, 'ciudad2')
+2020-06-08 02:38:09,994 INFO La cantidad de nodos abiertos es de: 202
+
+2020-06-08 02:38:09,995 INFO El óptimo recorrido es: [(202, 'ciudad4'), (84, 'ciudad2'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:09,995 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:10,052 INFO Se abrio el nodo: (203, 'ciudad2')
+2020-06-08 02:38:10,052 INFO El proximo nodo a abrir será: (204, 'ciudad4')
+2020-06-08 02:38:10,053 INFO La cantidad de nodos abiertos es de: 203
+
+2020-06-08 02:38:10,053 INFO El óptimo recorrido es: [(203, 'ciudad2'), (85, 'ciudad3'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:10,054 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:10,110 INFO Se abrio el nodo: (204, 'ciudad4')
+2020-06-08 02:38:10,111 INFO El proximo nodo a abrir será: (205, 'ciudad2')
+2020-06-08 02:38:10,114 INFO La cantidad de nodos abiertos es de: 204
+
+2020-06-08 02:38:10,114 INFO El óptimo recorrido es: [(204, 'ciudad4'), (85, 'ciudad3'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:10,115 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:10,181 INFO Se abrio el nodo: (205, 'ciudad2')
+2020-06-08 02:38:10,189 INFO El proximo nodo a abrir será: (206, 'ciudad3')
+2020-06-08 02:38:10,189 INFO La cantidad de nodos abiertos es de: 205
+
+2020-06-08 02:38:10,190 INFO El óptimo recorrido es: [(205, 'ciudad2'), (86, 'ciudad4'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:10,190 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:10,255 INFO Se abrio el nodo: (206, 'ciudad3')
+2020-06-08 02:38:10,281 INFO El proximo nodo a abrir será: (207, 'ciudad6')
+2020-06-08 02:38:10,282 INFO La cantidad de nodos abiertos es de: 206
+
+2020-06-08 02:38:10,283 INFO El óptimo recorrido es: [(206, 'ciudad3'), (86, 'ciudad4'), (26, 'ciudad5'), (6, 'ciudad6')]
+
+2020-06-08 02:38:10,284 INFO El ultmo costo óptimo calculado es: 20
+
+2020-06-08 02:38:10,305 INFO La cantidad de nodos abiertos fue de: 207
+2020-06-08 02:38:10,306 INFO El óptimo recorrido es: [(1, 'ciudad1'), (2, 'ciudad2'), (7, 'ciudad3'), (27, 'ciudad4'), (87, 'ciudad5'), (207, 'ciudad6')]
+2020-06-08 02:38:10,306 INFO O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad2', 'ciudad3', 'ciudad4', 'ciudad5', 'ciudad6']
+2020-06-08 02:38:10,307 INFO El costo total del óptimo recorrido es de: 30
+2020-06-08 02:38:10,307 INFO El tiempo de procesamiento total fue de: 8.493053 segundos
+2020-06-08 02:38:10,308 INFO Fin del proceso

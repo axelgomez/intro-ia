@@ -1,0 +1,28 @@
+2020-06-08 13:30:17,030 INFO Inicio del proceso
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (1, 'ciudad1')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (2, 'ciudad2')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 1
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (2, 'ciudad2')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (5, 'ciudad5')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 2
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (5, 'ciudad5')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (6, 'ciudad3')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 3
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (6, 'ciudad3')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (11, 'ciudad4')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 4
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (11, 'ciudad4')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (12, 'ciudad4')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 5
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (12, 'ciudad4')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (15, 'ciudad3')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 6
+2020-06-08 13:30:17,030 INFO Se abrio el nodo: (15, 'ciudad3')
+2020-06-08 13:30:17,030 INFO El proximo nodo a abrir será: (16, 'ciudad5')
+2020-06-08 13:30:17,030 INFO La cantidad de nodos abiertos es de: 7
+2020-06-08 13:30:17,046 INFO La cantidad de nodos abiertos fue de: 8
+2020-06-08 13:30:17,046 INFO El óptimo recorrido es: [(1, 'ciudad1'), (2, 'ciudad2'), (6, 'ciudad3'), (12, 'ciudad4'), (16, 'ciudad5')]
+2020-06-08 13:30:17,046 INFO O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad2', 'ciudad3', 'ciudad4', 'ciudad5']
+2020-06-08 13:30:17,046 INFO El costo total del óptimo recorrido es de: 30
+2020-06-08 13:30:17,046 INFO El tiempo de procesamiento total fue de: 0.0 segundos
+2020-06-08 13:30:17,046 INFO Fin del proceso

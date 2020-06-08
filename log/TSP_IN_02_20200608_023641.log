@@ -1,0 +1,7 @@
+2020-06-08 02:36:41,931 INFO Inicio del proceso
+2020-06-08 02:36:41,976 INFO La cantidad de nodos abiertos fue de: 12
+2020-06-08 02:36:41,976 INFO El óptimo recorrido es: [(1, 'ciudad1'), (3, 'ciudad3'), (8, 'ciudad2'), (18, 'ciudad4'), (26, 'ciudad5'), (32, 'ciudad6'), (36, 'ciudad7')]
+2020-06-08 02:36:41,977 INFO O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad3', 'ciudad2', 'ciudad4', 'ciudad5', 'ciudad6', 'ciudad7']
+2020-06-08 02:36:41,977 INFO El costo total del óptimo recorrido es de: 35
+2020-06-08 02:36:41,977 INFO El tiempo de procesamiento total fue de: 0.068955 segundos
+2020-06-08 02:36:41,977 INFO Fin del proceso
