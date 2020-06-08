@@ -1,0 +1,1234 @@
+2020-06-08 14:57:34,293 INFO Inicio del proceso
+2020-06-08 14:57:34,293 INFO Se abrio el nodo: (1, 'ciudad1')
+2020-06-08 14:57:34,293 INFO El proximo nodo a abrir será: (9, 'ciudad9')
+2020-06-08 14:57:34,293 INFO La cantidad de nodos abiertos es de: 1
+2020-06-08 14:57:34,293 INFO Se abrio el nodo: (9, 'ciudad9')
+2020-06-08 14:57:34,293 INFO El proximo nodo a abrir será: (6, 'ciudad6')
+2020-06-08 14:57:34,293 INFO La cantidad de nodos abiertos es de: 2
+2020-06-08 14:57:34,293 INFO Se abrio el nodo: (6, 'ciudad6')
+2020-06-08 14:57:34,293 INFO El proximo nodo a abrir será: (2, 'ciudad2')
+2020-06-08 14:57:34,293 INFO La cantidad de nodos abiertos es de: 3
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (2, 'ciudad2')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (3, 'ciudad3')
+2020-06-08 14:57:34,308 INFO La cantidad de nodos abiertos es de: 4
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (3, 'ciudad3')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (28, 'ciudad7')
+2020-06-08 14:57:34,308 INFO La cantidad de nodos abiertos es de: 5
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (28, 'ciudad7')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (11, 'ciudad3')
+2020-06-08 14:57:34,308 INFO La cantidad de nodos abiertos es de: 6
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (11, 'ciudad3')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (36, 'ciudad8')
+2020-06-08 14:57:34,308 INFO La cantidad de nodos abiertos es de: 7
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (36, 'ciudad8')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (18, 'ciudad3')
+2020-06-08 14:57:34,308 INFO La cantidad de nodos abiertos es de: 8
+2020-06-08 14:57:34,308 INFO Se abrio el nodo: (18, 'ciudad3')
+2020-06-08 14:57:34,308 INFO El proximo nodo a abrir será: (34, 'ciudad6')
+2020-06-08 14:57:34,324 INFO La cantidad de nodos abiertos es de: 9
+2020-06-08 14:57:34,324 INFO Se abrio el nodo: (34, 'ciudad6')
+2020-06-08 14:57:34,324 INFO El proximo nodo a abrir será: (37, 'ciudad9')
+2020-06-08 14:57:34,324 INFO La cantidad de nodos abiertos es de: 10
+2020-06-08 14:57:34,324 INFO Se abrio el nodo: (37, 'ciudad9')
+2020-06-08 14:57:34,324 INFO El proximo nodo a abrir será: (49, 'ciudad8')
+2020-06-08 14:57:34,324 INFO La cantidad de nodos abiertos es de: 11
+2020-06-08 14:57:34,324 INFO Se abrio el nodo: (49, 'ciudad8')
+2020-06-08 14:57:34,324 INFO El proximo nodo a abrir será: (60, 'ciudad8')
+2020-06-08 14:57:34,324 INFO La cantidad de nodos abiertos es de: 12
+2020-06-08 14:57:34,324 INFO Se abrio el nodo: (60, 'ciudad8')
+2020-06-08 14:57:34,340 INFO El proximo nodo a abrir será: (47, 'ciudad6')
+2020-06-08 14:57:34,340 INFO La cantidad de nodos abiertos es de: 13
+2020-06-08 14:57:34,340 INFO Se abrio el nodo: (47, 'ciudad6')
+2020-06-08 14:57:34,340 INFO El proximo nodo a abrir será: (61, 'ciudad9')
+2020-06-08 14:57:34,340 INFO La cantidad de nodos abiertos es de: 14
+2020-06-08 14:57:34,340 INFO Se abrio el nodo: (61, 'ciudad9')
+2020-06-08 14:57:34,340 INFO El proximo nodo a abrir será: (29, 'ciudad8')
+2020-06-08 14:57:34,340 INFO La cantidad de nodos abiertos es de: 15
+2020-06-08 14:57:34,340 INFO Se abrio el nodo: (29, 'ciudad8')
+2020-06-08 14:57:34,340 INFO El proximo nodo a abrir será: (50, 'ciudad2')
+2020-06-08 14:57:34,340 INFO La cantidad de nodos abiertos es de: 16
+2020-06-08 14:57:34,355 INFO Se abrio el nodo: (50, 'ciudad2')
+2020-06-08 14:57:34,355 INFO El proximo nodo a abrir será: (94, 'ciudad3')
+2020-06-08 14:57:34,362 INFO La cantidad de nodos abiertos es de: 17
+2020-06-08 14:57:34,362 INFO Se abrio el nodo: (94, 'ciudad3')
+2020-06-08 14:57:34,362 INFO El proximo nodo a abrir será: (103, 'ciudad7')
+2020-06-08 14:57:34,362 INFO La cantidad de nodos abiertos es de: 18
+2020-06-08 14:57:34,362 INFO Se abrio el nodo: (103, 'ciudad7')
+2020-06-08 14:57:34,362 INFO El proximo nodo a abrir será: (74, 'ciudad2')
+2020-06-08 14:57:34,362 INFO La cantidad de nodos abiertos es de: 19
+2020-06-08 14:57:34,377 INFO Se abrio el nodo: (74, 'ciudad2')
+2020-06-08 14:57:34,377 INFO El proximo nodo a abrir será: (79, 'ciudad2')
+2020-06-08 14:57:34,377 INFO La cantidad de nodos abiertos es de: 20
+2020-06-08 14:57:34,377 INFO Se abrio el nodo: (79, 'ciudad2')
+2020-06-08 14:57:34,377 INFO El proximo nodo a abrir será: (107, 'ciudad6')
+2020-06-08 14:57:34,377 INFO La cantidad de nodos abiertos es de: 21
+2020-06-08 14:57:34,393 INFO Se abrio el nodo: (107, 'ciudad6')
+2020-06-08 14:57:34,393 INFO El proximo nodo a abrir será: (109, 'ciudad9')
+2020-06-08 14:57:34,393 INFO La cantidad de nodos abiertos es de: 22
+2020-06-08 14:57:34,393 INFO Se abrio el nodo: (109, 'ciudad9')
+2020-06-08 14:57:34,393 INFO El proximo nodo a abrir será: (117, 'ciudad7')
+2020-06-08 14:57:34,393 INFO La cantidad de nodos abiertos es de: 23
+2020-06-08 14:57:34,409 INFO Se abrio el nodo: (117, 'ciudad7')
+2020-06-08 14:57:34,409 INFO El proximo nodo a abrir será: (120, 'ciudad7')
+2020-06-08 14:57:34,409 INFO La cantidad de nodos abiertos es de: 24
+2020-06-08 14:57:34,409 INFO Se abrio el nodo: (120, 'ciudad7')
+2020-06-08 14:57:34,409 INFO El proximo nodo a abrir será: (4, 'ciudad4')
+2020-06-08 14:57:34,409 INFO La cantidad de nodos abiertos es de: 25
+2020-06-08 14:57:34,424 INFO Se abrio el nodo: (4, 'ciudad4')
+2020-06-08 14:57:34,424 INFO El proximo nodo a abrir será: (5, 'ciudad5')
+2020-06-08 14:57:34,424 INFO La cantidad de nodos abiertos es de: 26
+2020-06-08 14:57:34,424 INFO Se abrio el nodo: (5, 'ciudad5')
+2020-06-08 14:57:34,424 INFO El proximo nodo a abrir será: (7, 'ciudad7')
+2020-06-08 14:57:34,424 INFO La cantidad de nodos abiertos es de: 27
+2020-06-08 14:57:34,440 INFO Se abrio el nodo: (7, 'ciudad7')
+2020-06-08 14:57:34,440 INFO El proximo nodo a abrir será: (138, 'ciudad5')
+2020-06-08 14:57:34,440 INFO La cantidad de nodos abiertos es de: 28
+2020-06-08 14:57:34,455 INFO Se abrio el nodo: (138, 'ciudad5')
+2020-06-08 14:57:34,455 INFO El proximo nodo a abrir será: (145, 'ciudad4')
+2020-06-08 14:57:34,455 INFO La cantidad de nodos abiertos es de: 29
+2020-06-08 14:57:34,462 INFO Se abrio el nodo: (145, 'ciudad4')
+2020-06-08 14:57:34,462 INFO El proximo nodo a abrir será: (150, 'ciudad2')
+2020-06-08 14:57:34,462 INFO La cantidad de nodos abiertos es de: 30
+2020-06-08 14:57:34,462 INFO Se abrio el nodo: (150, 'ciudad2')
+2020-06-08 14:57:34,462 INFO El proximo nodo a abrir será: (17, 'ciudad2')
+2020-06-08 14:57:34,462 INFO La cantidad de nodos abiertos es de: 31
+2020-06-08 14:57:34,478 INFO Se abrio el nodo: (17, 'ciudad2')
+2020-06-08 14:57:34,478 INFO El proximo nodo a abrir será: (19, 'ciudad4')
+2020-06-08 14:57:34,478 INFO La cantidad de nodos abiertos es de: 32
+2020-06-08 14:57:34,493 INFO Se abrio el nodo: (19, 'ciudad4')
+2020-06-08 14:57:34,493 INFO El proximo nodo a abrir será: (27, 'ciudad6')
+2020-06-08 14:57:34,493 INFO La cantidad de nodos abiertos es de: 33
+2020-06-08 14:57:34,509 INFO Se abrio el nodo: (27, 'ciudad6')
+2020-06-08 14:57:34,509 INFO El proximo nodo a abrir será: (32, 'ciudad4')
+2020-06-08 14:57:34,509 INFO La cantidad de nodos abiertos es de: 34
+2020-06-08 14:57:34,509 INFO Se abrio el nodo: (32, 'ciudad4')
+2020-06-08 14:57:34,524 INFO El proximo nodo a abrir será: (183, 'ciudad5')
+2020-06-08 14:57:34,524 INFO La cantidad de nodos abiertos es de: 35
+2020-06-08 14:57:34,524 INFO Se abrio el nodo: (183, 'ciudad5')
+2020-06-08 14:57:34,524 INFO El proximo nodo a abrir será: (178, 'ciudad7')
+2020-06-08 14:57:34,524 INFO La cantidad de nodos abiertos es de: 36
+2020-06-08 14:57:34,540 INFO Se abrio el nodo: (178, 'ciudad7')
+2020-06-08 14:57:34,540 INFO El proximo nodo a abrir será: (194, 'ciudad5')
+2020-06-08 14:57:34,540 INFO La cantidad de nodos abiertos es de: 37
+2020-06-08 14:57:34,556 INFO Se abrio el nodo: (194, 'ciudad5')
+2020-06-08 14:57:34,556 INFO El proximo nodo a abrir será: (45, 'ciudad4')
+2020-06-08 14:57:34,556 INFO La cantidad de nodos abiertos es de: 38
+2020-06-08 14:57:34,562 INFO Se abrio el nodo: (45, 'ciudad4')
+2020-06-08 14:57:34,562 INFO El proximo nodo a abrir será: (57, 'ciudad4')
+2020-06-08 14:57:34,562 INFO La cantidad de nodos abiertos es de: 39
+2020-06-08 14:57:34,578 INFO Se abrio el nodo: (57, 'ciudad4')
+2020-06-08 14:57:34,578 INFO El proximo nodo a abrir será: (62, 'ciudad2')
+2020-06-08 14:57:34,578 INFO La cantidad de nodos abiertos es de: 40
+2020-06-08 14:57:34,593 INFO Se abrio el nodo: (62, 'ciudad2')
+2020-06-08 14:57:34,593 INFO El proximo nodo a abrir será: (63, 'ciudad4')
+2020-06-08 14:57:34,593 INFO La cantidad de nodos abiertos es de: 41
+2020-06-08 14:57:34,609 INFO Se abrio el nodo: (63, 'ciudad4')
+2020-06-08 14:57:34,609 INFO El proximo nodo a abrir será: (187, 'ciudad3')
+2020-06-08 14:57:34,609 INFO La cantidad de nodos abiertos es de: 42
+2020-06-08 14:57:34,609 INFO Se abrio el nodo: (187, 'ciudad3')
+2020-06-08 14:57:34,609 INFO El proximo nodo a abrir será: (215, 'ciudad5')
+2020-06-08 14:57:34,609 INFO La cantidad de nodos abiertos es de: 43
+2020-06-08 14:57:34,625 INFO Se abrio el nodo: (215, 'ciudad5')
+2020-06-08 14:57:34,625 INFO El proximo nodo a abrir será: (220, 'ciudad5')
+2020-06-08 14:57:34,625 INFO La cantidad de nodos abiertos es de: 44
+2020-06-08 14:57:34,640 INFO Se abrio el nodo: (220, 'ciudad5')
+2020-06-08 14:57:34,640 INFO El proximo nodo a abrir será: (230, 'ciudad5')
+2020-06-08 14:57:34,640 INFO La cantidad de nodos abiertos es de: 45
+2020-06-08 14:57:34,662 INFO Se abrio el nodo: (230, 'ciudad5')
+2020-06-08 14:57:34,662 INFO El proximo nodo a abrir será: (226, 'ciudad7')
+2020-06-08 14:57:34,662 INFO La cantidad de nodos abiertos es de: 46
+2020-06-08 14:57:34,678 INFO Se abrio el nodo: (226, 'ciudad7')
+2020-06-08 14:57:34,678 INFO El proximo nodo a abrir será: (237, 'ciudad8')
+2020-06-08 14:57:34,678 INFO La cantidad de nodos abiertos es de: 47
+2020-06-08 14:57:34,694 INFO Se abrio el nodo: (237, 'ciudad8')
+2020-06-08 14:57:34,694 INFO El proximo nodo a abrir será: (173, 'ciudad8')
+2020-06-08 14:57:34,694 INFO La cantidad de nodos abiertos es de: 48
+2020-06-08 14:57:34,709 INFO Se abrio el nodo: (173, 'ciudad8')
+2020-06-08 14:57:34,709 INFO El proximo nodo a abrir será: (179, 'ciudad8')
+2020-06-08 14:57:34,709 INFO La cantidad de nodos abiertos es de: 49
+2020-06-08 14:57:34,725 INFO Se abrio el nodo: (179, 'ciudad8')
+2020-06-08 14:57:34,725 INFO El proximo nodo a abrir será: (259, 'ciudad3')
+2020-06-08 14:57:34,725 INFO La cantidad de nodos abiertos es de: 50
+2020-06-08 14:57:34,741 INFO Se abrio el nodo: (259, 'ciudad3')
+2020-06-08 14:57:34,741 INFO El proximo nodo a abrir será: (84, 'ciudad2')
+2020-06-08 14:57:34,741 INFO La cantidad de nodos abiertos es de: 51
+2020-06-08 14:57:34,763 INFO Se abrio el nodo: (84, 'ciudad2')
+2020-06-08 14:57:34,763 INFO El proximo nodo a abrir será: (85, 'ciudad4')
+2020-06-08 14:57:34,763 INFO La cantidad de nodos abiertos es de: 52
+2020-06-08 14:57:34,775 INFO Se abrio el nodo: (85, 'ciudad4')
+2020-06-08 14:57:34,775 INFO El proximo nodo a abrir será: (264, 'ciudad3')
+2020-06-08 14:57:34,775 INFO La cantidad de nodos abiertos es de: 53
+2020-06-08 14:57:34,805 INFO Se abrio el nodo: (264, 'ciudad3')
+2020-06-08 14:57:34,805 INFO El proximo nodo a abrir será: (102, 'ciudad6')
+2020-06-08 14:57:34,805 INFO La cantidad de nodos abiertos es de: 54
+2020-06-08 14:57:34,825 INFO Se abrio el nodo: (102, 'ciudad6')
+2020-06-08 14:57:34,825 INFO El proximo nodo a abrir será: (105, 'ciudad4')
+2020-06-08 14:57:34,825 INFO La cantidad de nodos abiertos es de: 55
+2020-06-08 14:57:34,846 INFO Se abrio el nodo: (105, 'ciudad4')
+2020-06-08 14:57:34,846 INFO El proximo nodo a abrir será: (238, 'ciudad9')
+2020-06-08 14:57:34,846 INFO La cantidad de nodos abiertos es de: 56
+2020-06-08 14:57:34,866 INFO Se abrio el nodo: (238, 'ciudad9')
+2020-06-08 14:57:34,866 INFO El proximo nodo a abrir será: (278, 'ciudad5')
+2020-06-08 14:57:34,866 INFO La cantidad de nodos abiertos es de: 57
+2020-06-08 14:57:34,888 INFO Se abrio el nodo: (278, 'ciudad5')
+2020-06-08 14:57:34,888 INFO El proximo nodo a abrir será: (275, 'ciudad7')
+2020-06-08 14:57:34,888 INFO La cantidad de nodos abiertos es de: 58
+2020-06-08 14:57:34,912 INFO Se abrio el nodo: (275, 'ciudad7')
+2020-06-08 14:57:34,912 INFO El proximo nodo a abrir será: (289, 'ciudad5')
+2020-06-08 14:57:34,912 INFO La cantidad de nodos abiertos es de: 59
+2020-06-08 14:57:34,932 INFO Se abrio el nodo: (289, 'ciudad5')
+2020-06-08 14:57:34,932 INFO El proximo nodo a abrir será: (137, 'ciudad3')
+2020-06-08 14:57:34,932 INFO La cantidad de nodos abiertos es de: 60
+2020-06-08 14:57:34,951 INFO Se abrio el nodo: (137, 'ciudad3')
+2020-06-08 14:57:34,951 INFO El proximo nodo a abrir será: (139, 'ciudad6')
+2020-06-08 14:57:34,951 INFO La cantidad de nodos abiertos es de: 61
+2020-06-08 14:57:34,973 INFO Se abrio el nodo: (139, 'ciudad6')
+2020-06-08 14:57:34,974 INFO El proximo nodo a abrir será: (164, 'ciudad3')
+2020-06-08 14:57:34,974 INFO La cantidad de nodos abiertos es de: 62
+2020-06-08 14:57:34,997 INFO Se abrio el nodo: (164, 'ciudad3')
+2020-06-08 14:57:34,997 INFO El proximo nodo a abrir será: (165, 'ciudad6')
+2020-06-08 14:57:34,998 INFO La cantidad de nodos abiertos es de: 63
+2020-06-08 14:57:35,020 INFO Se abrio el nodo: (165, 'ciudad6')
+2020-06-08 14:57:35,020 INFO El proximo nodo a abrir será: (172, 'ciudad6')
+2020-06-08 14:57:35,021 INFO La cantidad de nodos abiertos es de: 64
+2020-06-08 14:57:35,045 INFO Se abrio el nodo: (172, 'ciudad6')
+2020-06-08 14:57:35,045 INFO El proximo nodo a abrir será: (182, 'ciudad3')
+2020-06-08 14:57:35,045 INFO La cantidad de nodos abiertos es de: 65
+2020-06-08 14:57:35,066 INFO Se abrio el nodo: (182, 'ciudad3')
+2020-06-08 14:57:35,066 INFO El proximo nodo a abrir será: (310, 'ciudad8')
+2020-06-08 14:57:35,066 INFO La cantidad de nodos abiertos es de: 66
+2020-06-08 14:57:35,094 INFO Se abrio el nodo: (310, 'ciudad8')
+2020-06-08 14:57:35,095 INFO El proximo nodo a abrir será: (188, 'ciudad4')
+2020-06-08 14:57:35,095 INFO La cantidad de nodos abiertos es de: 67
+2020-06-08 14:57:35,127 INFO Se abrio el nodo: (188, 'ciudad4')
+2020-06-08 14:57:35,127 INFO El proximo nodo a abrir será: (195, 'ciudad6')
+2020-06-08 14:57:35,127 INFO La cantidad de nodos abiertos es de: 68
+2020-06-08 14:57:35,149 INFO Se abrio el nodo: (195, 'ciudad6')
+2020-06-08 14:57:35,149 INFO El proximo nodo a abrir será: (321, 'ciudad8')
+2020-06-08 14:57:35,149 INFO La cantidad de nodos abiertos es de: 69
+2020-06-08 14:57:35,174 INFO Se abrio el nodo: (321, 'ciudad8')
+2020-06-08 14:57:35,174 INFO El proximo nodo a abrir será: (344, 'ciudad5')
+2020-06-08 14:57:35,174 INFO La cantidad de nodos abiertos es de: 70
+2020-06-08 14:57:35,184 INFO Se abrio el nodo: (344, 'ciudad5')
+2020-06-08 14:57:35,200 INFO El proximo nodo a abrir será: (336, 'ciudad8')
+2020-06-08 14:57:35,200 INFO La cantidad de nodos abiertos es de: 71
+2020-06-08 14:57:35,231 INFO Se abrio el nodo: (336, 'ciudad8')
+2020-06-08 14:57:35,231 INFO El proximo nodo a abrir será: (227, 'ciudad8')
+2020-06-08 14:57:35,231 INFO La cantidad de nodos abiertos es de: 72
+2020-06-08 14:57:35,263 INFO Se abrio el nodo: (227, 'ciudad8')
+2020-06-08 14:57:35,263 INFO El proximo nodo a abrir será: (116, 'ciudad6')
+2020-06-08 14:57:35,263 INFO La cantidad de nodos abiertos es de: 73
+2020-06-08 14:57:35,285 INFO Se abrio el nodo: (116, 'ciudad6')
+2020-06-08 14:57:35,285 INFO El proximo nodo a abrir será: (271, 'ciudad6')
+2020-06-08 14:57:35,285 INFO La cantidad de nodos abiertos es de: 74
+2020-06-08 14:57:35,332 INFO Se abrio el nodo: (271, 'ciudad6')
+2020-06-08 14:57:35,332 INFO El proximo nodo a abrir será: (272, 'ciudad9')
+2020-06-08 14:57:35,332 INFO La cantidad de nodos abiertos es de: 75
+2020-06-08 14:57:35,363 INFO Se abrio el nodo: (272, 'ciudad9')
+2020-06-08 14:57:35,363 INFO El proximo nodo a abrir será: (284, 'ciudad9')
+2020-06-08 14:57:35,378 INFO La cantidad de nodos abiertos es de: 76
+2020-06-08 14:57:35,401 INFO Se abrio el nodo: (284, 'ciudad9')
+2020-06-08 14:57:35,401 INFO El proximo nodo a abrir será: (122, 'ciudad4')
+2020-06-08 14:57:35,401 INFO La cantidad de nodos abiertos es de: 77
+2020-06-08 14:57:35,447 INFO Se abrio el nodo: (122, 'ciudad4')
+2020-06-08 14:57:35,447 INFO El proximo nodo a abrir será: (381, 'ciudad5')
+2020-06-08 14:57:35,447 INFO La cantidad de nodos abiertos es de: 78
+2020-06-08 14:57:35,503 INFO Se abrio el nodo: (381, 'ciudad5')
+2020-06-08 14:57:35,503 INFO El proximo nodo a abrir será: (20, 'ciudad5')
+2020-06-08 14:57:35,503 INFO La cantidad de nodos abiertos es de: 79
+2020-06-08 14:57:35,552 INFO Se abrio el nodo: (20, 'ciudad5')
+2020-06-08 14:57:35,552 INFO El proximo nodo a abrir será: (388, 'ciudad4')
+2020-06-08 14:57:35,552 INFO La cantidad de nodos abiertos es de: 80
+2020-06-08 14:57:35,595 INFO Se abrio el nodo: (388, 'ciudad4')
+2020-06-08 14:57:35,595 INFO El proximo nodo a abrir será: (64, 'ciudad5')
+2020-06-08 14:57:35,595 INFO La cantidad de nodos abiertos es de: 81
+2020-06-08 14:57:35,624 INFO Se abrio el nodo: (64, 'ciudad5')
+2020-06-08 14:57:35,625 INFO El proximo nodo a abrir será: (308, 'ciudad6')
+2020-06-08 14:57:35,625 INFO La cantidad de nodos abiertos es de: 82
+2020-06-08 14:57:35,653 INFO Se abrio el nodo: (308, 'ciudad6')
+2020-06-08 14:57:35,653 INFO El proximo nodo a abrir será: (311, 'ciudad9')
+2020-06-08 14:57:35,653 INFO La cantidad de nodos abiertos es de: 83
+2020-06-08 14:57:35,683 INFO Se abrio el nodo: (311, 'ciudad9')
+2020-06-08 14:57:35,683 INFO El proximo nodo a abrir será: (313, 'ciudad3')
+2020-06-08 14:57:35,683 INFO La cantidad de nodos abiertos es de: 84
+2020-06-08 14:57:35,713 INFO Se abrio el nodo: (313, 'ciudad3')
+2020-06-08 14:57:35,713 INFO El proximo nodo a abrir será: (319, 'ciudad6')
+2020-06-08 14:57:35,713 INFO La cantidad de nodos abiertos es de: 85
+2020-06-08 14:57:35,766 INFO Se abrio el nodo: (319, 'ciudad6')
+2020-06-08 14:57:35,766 INFO El proximo nodo a abrir será: (322, 'ciudad9')
+2020-06-08 14:57:35,767 INFO La cantidad de nodos abiertos es de: 86
+2020-06-08 14:57:35,813 INFO Se abrio el nodo: (322, 'ciudad9')
+2020-06-08 14:57:35,814 INFO El proximo nodo a abrir será: (324, 'ciudad3')
+2020-06-08 14:57:35,814 INFO La cantidad de nodos abiertos es de: 87
+2020-06-08 14:57:35,863 INFO Se abrio el nodo: (324, 'ciudad3')
+2020-06-08 14:57:35,864 INFO El proximo nodo a abrir será: (398, 'ciudad4')
+2020-06-08 14:57:35,864 INFO La cantidad de nodos abiertos es de: 88
+2020-06-08 14:57:35,901 INFO Se abrio el nodo: (398, 'ciudad4')
+2020-06-08 14:57:35,901 INFO El proximo nodo a abrir será: (216, 'ciudad6')
+2020-06-08 14:57:35,901 INFO La cantidad de nodos abiertos es de: 89
+2020-06-08 14:57:35,948 INFO Se abrio el nodo: (216, 'ciudad6')
+2020-06-08 14:57:35,948 INFO El proximo nodo a abrir será: (328, 'ciudad3')
+2020-06-08 14:57:35,948 INFO La cantidad de nodos abiertos es de: 90
+2020-06-08 14:57:35,998 INFO Se abrio el nodo: (328, 'ciudad3')
+2020-06-08 14:57:35,998 INFO El proximo nodo a abrir será: (337, 'ciudad9')
+2020-06-08 14:57:35,999 INFO La cantidad de nodos abiertos es de: 91
+2020-06-08 14:57:36,040 INFO Se abrio el nodo: (337, 'ciudad9')
+2020-06-08 14:57:36,041 INFO El proximo nodo a abrir será: (415, 'ciudad8')
+2020-06-08 14:57:36,041 INFO La cantidad de nodos abiertos es de: 92
+2020-06-08 14:57:36,094 INFO Se abrio el nodo: (415, 'ciudad8')
+2020-06-08 14:57:36,095 INFO El proximo nodo a abrir será: (234, 'ciudad4')
+2020-06-08 14:57:36,095 INFO La cantidad de nodos abiertos es de: 93
+2020-06-08 14:57:36,153 INFO Se abrio el nodo: (234, 'ciudad4')
+2020-06-08 14:57:36,153 INFO El proximo nodo a abrir será: (427, 'ciudad8')
+2020-06-08 14:57:36,154 INFO La cantidad de nodos abiertos es de: 94
+2020-06-08 14:57:36,205 INFO Se abrio el nodo: (427, 'ciudad8')
+2020-06-08 14:57:36,205 INFO El proximo nodo a abrir será: (439, 'ciudad8')
+2020-06-08 14:57:36,206 INFO La cantidad de nodos abiertos es de: 95
+2020-06-08 14:57:36,251 INFO Se abrio el nodo: (439, 'ciudad8')
+2020-06-08 14:57:36,251 INFO El proximo nodo a abrir será: (449, 'ciudad5')
+2020-06-08 14:57:36,251 INFO La cantidad de nodos abiertos es de: 96
+2020-06-08 14:57:36,291 INFO Se abrio el nodo: (449, 'ciudad5')
+2020-06-08 14:57:36,292 INFO El proximo nodo a abrir será: (276, 'ciudad8')
+2020-06-08 14:57:36,292 INFO La cantidad de nodos abiertos es de: 97
+2020-06-08 14:57:36,324 INFO Se abrio el nodo: (276, 'ciudad8')
+2020-06-08 14:57:36,324 INFO El proximo nodo a abrir será: (86, 'ciudad5')
+2020-06-08 14:57:36,324 INFO La cantidad de nodos abiertos es de: 98
+2020-06-08 14:57:36,356 INFO Se abrio el nodo: (86, 'ciudad5')
+2020-06-08 14:57:36,356 INFO El proximo nodo a abrir será: (338, 'ciudad2')
+2020-06-08 14:57:36,356 INFO La cantidad de nodos abiertos es de: 99
+2020-06-08 14:57:36,385 INFO Se abrio el nodo: (338, 'ciudad2')
+2020-06-08 14:57:36,385 INFO El proximo nodo a abrir será: (416, 'ciudad9')
+2020-06-08 14:57:36,385 INFO La cantidad de nodos abiertos es de: 100
+2020-06-08 14:57:36,425 INFO Se abrio el nodo: (416, 'ciudad9')
+2020-06-08 14:57:36,425 INFO El proximo nodo a abrir será: (466, 'ciudad4')
+2020-06-08 14:57:36,425 INFO La cantidad de nodos abiertos es de: 101
+2020-06-08 14:57:36,457 INFO Se abrio el nodo: (466, 'ciudad4')
+2020-06-08 14:57:36,457 INFO El proximo nodo a abrir será: (353, 'ciudad2')
+2020-06-08 14:57:36,457 INFO La cantidad de nodos abiertos es de: 102
+2020-06-08 14:57:36,495 INFO Se abrio el nodo: (353, 'ciudad2')
+2020-06-08 14:57:36,497 INFO El proximo nodo a abrir será: (269, 'ciudad4')
+2020-06-08 14:57:36,497 INFO La cantidad de nodos abiertos es de: 103
+2020-06-08 14:57:36,536 INFO Se abrio el nodo: (269, 'ciudad4')
+2020-06-08 14:57:36,536 INFO El proximo nodo a abrir será: (428, 'ciudad9')
+2020-06-08 14:57:36,536 INFO La cantidad de nodos abiertos es de: 104
+2020-06-08 14:57:36,598 INFO Se abrio el nodo: (428, 'ciudad9')
+2020-06-08 14:57:36,598 INFO El proximo nodo a abrir será: (471, 'ciudad7')
+2020-06-08 14:57:36,598 INFO La cantidad de nodos abiertos es de: 105
+2020-06-08 14:57:36,646 INFO Se abrio el nodo: (471, 'ciudad7')
+2020-06-08 14:57:36,648 INFO El proximo nodo a abrir será: (281, 'ciudad4')
+2020-06-08 14:57:36,648 INFO La cantidad de nodos abiertos es de: 106
+2020-06-08 14:57:36,678 INFO Se abrio el nodo: (281, 'ciudad4')
+2020-06-08 14:57:36,678 INFO El proximo nodo a abrir será: (361, 'ciudad2')
+2020-06-08 14:57:36,678 INFO La cantidad de nodos abiertos es de: 107
+2020-06-08 14:57:36,728 INFO Se abrio el nodo: (361, 'ciudad2')
+2020-06-08 14:57:36,728 INFO El proximo nodo a abrir será: (440, 'ciudad9')
+2020-06-08 14:57:36,728 INFO La cantidad de nodos abiertos es de: 108
+2020-06-08 14:57:36,799 INFO Se abrio el nodo: (440, 'ciudad9')
+2020-06-08 14:57:36,799 INFO El proximo nodo a abrir será: (285, 'ciudad4')
+2020-06-08 14:57:36,799 INFO La cantidad de nodos abiertos es de: 109
+2020-06-08 14:57:36,864 INFO Se abrio el nodo: (285, 'ciudad4')
+2020-06-08 14:57:36,865 INFO El proximo nodo a abrir será: (290, 'ciudad6')
+2020-06-08 14:57:36,865 INFO La cantidad de nodos abiertos es de: 110
+2020-06-08 14:57:36,918 INFO Se abrio el nodo: (290, 'ciudad6')
+2020-06-08 14:57:36,920 INFO El proximo nodo a abrir será: (481, 'ciudad7')
+2020-06-08 14:57:36,920 INFO La cantidad de nodos abiertos es de: 111
+2020-06-08 14:57:36,970 INFO Se abrio el nodo: (481, 'ciudad7')
+2020-06-08 14:57:36,970 INFO El proximo nodo a abrir será: (483, 'ciudad5')
+2020-06-08 14:57:36,970 INFO La cantidad de nodos abiertos es de: 112
+2020-06-08 14:57:37,023 INFO Se abrio el nodo: (483, 'ciudad5')
+2020-06-08 14:57:37,023 INFO El proximo nodo a abrir será: (492, 'ciudad5')
+2020-06-08 14:57:37,023 INFO La cantidad de nodos abiertos es de: 113
+2020-06-08 14:57:37,071 INFO Se abrio el nodo: (492, 'ciudad5')
+2020-06-08 14:57:37,079 INFO El proximo nodo a abrir será: (496, 'ciudad7')
+2020-06-08 14:57:37,079 INFO La cantidad de nodos abiertos es de: 114
+2020-06-08 14:57:37,141 INFO Se abrio el nodo: (496, 'ciudad7')
+2020-06-08 14:57:37,141 INFO El proximo nodo a abrir será: (501, 'ciudad5')
+2020-06-08 14:57:37,141 INFO La cantidad de nodos abiertos es de: 115
+2020-06-08 14:57:37,191 INFO Se abrio el nodo: (501, 'ciudad5')
+2020-06-08 14:57:37,191 INFO El proximo nodo a abrir será: (16, 'ciudad8')
+2020-06-08 14:57:37,191 INFO La cantidad de nodos abiertos es de: 116
+2020-06-08 14:57:37,242 INFO Se abrio el nodo: (16, 'ciudad8')
+2020-06-08 14:57:37,242 INFO El proximo nodo a abrir será: (146, 'ciudad6')
+2020-06-08 14:57:37,242 INFO La cantidad de nodos abiertos es de: 117
+2020-06-08 14:57:37,300 INFO Se abrio el nodo: (146, 'ciudad6')
+2020-06-08 14:57:37,302 INFO El proximo nodo a abrir será: (518, 'ciudad3')
+2020-06-08 14:57:37,302 INFO La cantidad de nodos abiertos es de: 118
+2020-06-08 14:57:37,352 INFO Se abrio el nodo: (518, 'ciudad3')
+2020-06-08 14:57:37,352 INFO El proximo nodo a abrir será: (159, 'ciudad6')
+2020-06-08 14:57:37,352 INFO La cantidad de nodos abiertos es de: 119
+2020-06-08 14:57:37,413 INFO Se abrio el nodo: (159, 'ciudad6')
+2020-06-08 14:57:37,413 INFO El proximo nodo a abrir será: (55, 'ciudad9')
+2020-06-08 14:57:37,413 INFO La cantidad de nodos abiertos es de: 120
+2020-06-08 14:57:37,491 INFO Se abrio el nodo: (55, 'ciudad9')
+2020-06-08 14:57:37,493 INFO El proximo nodo a abrir será: (73, 'ciudad8')
+2020-06-08 14:57:37,493 INFO La cantidad de nodos abiertos es de: 121
+2020-06-08 14:57:37,554 INFO Se abrio el nodo: (73, 'ciudad8')
+2020-06-08 14:57:37,554 INFO El proximo nodo a abrir será: (189, 'ciudad5')
+2020-06-08 14:57:37,554 INFO La cantidad de nodos abiertos es de: 122
+2020-06-08 14:57:37,594 INFO Se abrio el nodo: (189, 'ciudad5')
+2020-06-08 14:57:37,594 INFO El proximo nodo a abrir será: (312, 'ciudad2')
+2020-06-08 14:57:37,594 INFO La cantidad de nodos abiertos es de: 123
+2020-06-08 14:57:37,654 INFO Se abrio el nodo: (312, 'ciudad2')
+2020-06-08 14:57:37,654 INFO El proximo nodo a abrir será: (393, 'ciudad3')
+2020-06-08 14:57:37,654 INFO La cantidad de nodos abiertos es de: 124
+2020-06-08 14:57:37,704 INFO Se abrio el nodo: (393, 'ciudad3')
+2020-06-08 14:57:37,704 INFO El proximo nodo a abrir será: (210, 'ciudad6')
+2020-06-08 14:57:37,704 INFO La cantidad de nodos abiertos es de: 125
+2020-06-08 14:57:37,745 INFO Se abrio el nodo: (210, 'ciudad6')
+2020-06-08 14:57:37,745 INFO El proximo nodo a abrir será: (323, 'ciudad2')
+2020-06-08 14:57:37,745 INFO La cantidad de nodos abiertos es de: 126
+2020-06-08 14:57:37,805 INFO Se abrio el nodo: (323, 'ciudad2')
+2020-06-08 14:57:37,805 INFO El proximo nodo a abrir será: (532, 'ciudad6')
+2020-06-08 14:57:37,805 INFO La cantidad de nodos abiertos es de: 127
+2020-06-08 14:57:37,863 INFO Se abrio el nodo: (532, 'ciudad6')
+2020-06-08 14:57:37,863 INFO El proximo nodo a abrir será: (550, 'ciudad4')
+2020-06-08 14:57:37,865 INFO La cantidad de nodos abiertos es de: 128
+2020-06-08 14:57:37,906 INFO Se abrio el nodo: (550, 'ciudad4')
+2020-06-08 14:57:37,914 INFO El proximo nodo a abrir será: (83, 'ciudad9')
+2020-06-08 14:57:37,914 INFO La cantidad de nodos abiertos es de: 129
+2020-06-08 14:57:37,966 INFO Se abrio el nodo: (83, 'ciudad9')
+2020-06-08 14:57:37,966 INFO El proximo nodo a abrir será: (329, 'ciudad4')
+2020-06-08 14:57:37,966 INFO La cantidad de nodos abiertos es de: 130
+2020-06-08 14:57:38,016 INFO Se abrio el nodo: (329, 'ciudad4')
+2020-06-08 14:57:38,016 INFO El proximo nodo a abrir será: (556, 'ciudad7')
+2020-06-08 14:57:38,016 INFO La cantidad de nodos abiertos es de: 131
+2020-06-08 14:57:38,077 INFO Se abrio el nodo: (556, 'ciudad7')
+2020-06-08 14:57:38,077 INFO El proximo nodo a abrir será: (343, 'ciudad3')
+2020-06-08 14:57:38,077 INFO La cantidad de nodos abiertos es de: 132
+2020-06-08 14:57:38,135 INFO Se abrio el nodo: (343, 'ciudad3')
+2020-06-08 14:57:38,135 INFO El proximo nodo a abrir será: (348, 'ciudad2')
+2020-06-08 14:57:38,135 INFO La cantidad de nodos abiertos es de: 133
+2020-06-08 14:57:38,177 INFO Se abrio el nodo: (348, 'ciudad2')
+2020-06-08 14:57:38,177 INFO El proximo nodo a abrir será: (561, 'ciudad8')
+2020-06-08 14:57:38,177 INFO La cantidad de nodos abiertos es de: 134
+2020-06-08 14:57:38,217 INFO Se abrio el nodo: (561, 'ciudad8')
+2020-06-08 14:57:38,217 INFO El proximo nodo a abrir será: (568, 'ciudad7')
+2020-06-08 14:57:38,217 INFO La cantidad de nodos abiertos es de: 135
+2020-06-08 14:57:38,288 INFO Se abrio el nodo: (568, 'ciudad7')
+2020-06-08 14:57:38,288 INFO El proximo nodo a abrir será: (584, 'ciudad5')
+2020-06-08 14:57:38,288 INFO La cantidad de nodos abiertos es de: 136
+2020-06-08 14:57:38,356 INFO Se abrio el nodo: (584, 'ciudad5')
+2020-06-08 14:57:38,356 INFO El proximo nodo a abrir será: (596, 'ciudad7')
+2020-06-08 14:57:38,356 INFO La cantidad de nodos abiertos es de: 137
+2020-06-08 14:57:38,399 INFO Se abrio el nodo: (596, 'ciudad7')
+2020-06-08 14:57:38,399 INFO El proximo nodo a abrir será: (123, 'ciudad5')
+2020-06-08 14:57:38,399 INFO La cantidad de nodos abiertos es de: 138
+2020-06-08 14:57:38,459 INFO Se abrio el nodo: (123, 'ciudad5')
+2020-06-08 14:57:38,459 INFO El proximo nodo a abrir será: (445, 'ciudad2')
+2020-06-08 14:57:38,459 INFO La cantidad de nodos abiertos es de: 139
+2020-06-08 14:57:38,499 INFO Se abrio el nodo: (445, 'ciudad2')
+2020-06-08 14:57:38,499 INFO El proximo nodo a abrir será: (593, 'ciudad8')
+2020-06-08 14:57:38,499 INFO La cantidad de nodos abiertos es de: 140
+2020-06-08 14:57:38,548 INFO Se abrio el nodo: (593, 'ciudad8')
+2020-06-08 14:57:38,548 INFO El proximo nodo a abrir será: (453, 'ciudad2')
+2020-06-08 14:57:38,548 INFO La cantidad de nodos abiertos es de: 141
+2020-06-08 14:57:38,590 INFO Se abrio el nodo: (453, 'ciudad2')
+2020-06-08 14:57:38,590 INFO El proximo nodo a abrir será: (611, 'ciudad4')
+2020-06-08 14:57:38,590 INFO La cantidad de nodos abiertos es de: 142
+2020-06-08 14:57:38,638 INFO Se abrio el nodo: (611, 'ciudad4')
+2020-06-08 14:57:38,638 INFO El proximo nodo a abrir será: (369, 'ciudad4')
+2020-06-08 14:57:38,638 INFO La cantidad de nodos abiertos es de: 143
+2020-06-08 14:57:38,681 INFO Se abrio el nodo: (369, 'ciudad4')
+2020-06-08 14:57:38,681 INFO El proximo nodo a abrir será: (372, 'ciudad4')
+2020-06-08 14:57:38,681 INFO La cantidad de nodos abiertos es de: 144
+2020-06-08 14:57:38,721 INFO Se abrio el nodo: (372, 'ciudad4')
+2020-06-08 14:57:38,721 INFO El proximo nodo a abrir será: (615, 'ciudad7')
+2020-06-08 14:57:38,721 INFO La cantidad de nodos abiertos es de: 145
+2020-06-08 14:57:38,771 INFO Se abrio el nodo: (615, 'ciudad7')
+2020-06-08 14:57:38,771 INFO El proximo nodo a abrir será: (620, 'ciudad7')
+2020-06-08 14:57:38,771 INFO La cantidad de nodos abiertos es de: 146
+2020-06-08 14:57:38,817 INFO Se abrio el nodo: (620, 'ciudad7')
+2020-06-08 14:57:38,818 INFO El proximo nodo a abrir será: (624, 'ciudad5')
+2020-06-08 14:57:38,818 INFO La cantidad de nodos abiertos es de: 147
+2020-06-08 14:57:38,861 INFO Se abrio el nodo: (624, 'ciudad5')
+2020-06-08 14:57:38,869 INFO El proximo nodo a abrir será: (626, 'ciudad5')
+2020-06-08 14:57:38,869 INFO La cantidad de nodos abiertos es de: 148
+2020-06-08 14:57:38,912 INFO Se abrio el nodo: (626, 'ciudad5')
+2020-06-08 14:57:38,912 INFO El proximo nodo a abrir será: (517, 'ciudad2')
+2020-06-08 14:57:38,912 INFO La cantidad de nodos abiertos es de: 149
+2020-06-08 14:57:38,960 INFO Se abrio el nodo: (517, 'ciudad2')
+2020-06-08 14:57:38,960 INFO El proximo nodo a abrir será: (99, 'ciudad9')
+2020-06-08 14:57:38,960 INFO La cantidad de nodos abiertos es de: 150
+2020-06-08 14:57:39,003 INFO Se abrio el nodo: (99, 'ciudad9')
+2020-06-08 14:57:39,003 INFO El proximo nodo a abrir será: (524, 'ciudad3')
+2020-06-08 14:57:39,003 INFO La cantidad de nodos abiertos es de: 151
+2020-06-08 14:57:39,053 INFO Se abrio el nodo: (524, 'ciudad3')
+2020-06-08 14:57:39,053 INFO El proximo nodo a abrir será: (637, 'ciudad7')
+2020-06-08 14:57:39,053 INFO La cantidad de nodos abiertos es de: 152
+2020-06-08 14:57:39,101 INFO Se abrio el nodo: (637, 'ciudad7')
+2020-06-08 14:57:39,101 INFO El proximo nodo a abrir será: (535, 'ciudad3')
+2020-06-08 14:57:39,101 INFO La cantidad de nodos abiertos es de: 153
+2020-06-08 14:57:39,151 INFO Se abrio el nodo: (535, 'ciudad3')
+2020-06-08 14:57:39,151 INFO El proximo nodo a abrir será: (93, 'ciudad8')
+2020-06-08 14:57:39,151 INFO La cantidad de nodos abiertos es de: 154
+2020-06-08 14:57:39,194 INFO Se abrio el nodo: (93, 'ciudad8')
+2020-06-08 14:57:39,194 INFO El proximo nodo a abrir será: (646, 'ciudad8')
+2020-06-08 14:57:39,194 INFO La cantidad de nodos abiertos es de: 155
+2020-06-08 14:57:39,244 INFO Se abrio el nodo: (646, 'ciudad8')
+2020-06-08 14:57:39,244 INFO El proximo nodo a abrir será: (402, 'ciudad2')
+2020-06-08 14:57:39,244 INFO La cantidad de nodos abiertos es de: 156
+2020-06-08 14:57:39,294 INFO Se abrio el nodo: (402, 'ciudad2')
+2020-06-08 14:57:39,294 INFO El proximo nodo a abrir será: (240, 'ciudad6')
+2020-06-08 14:57:39,294 INFO La cantidad de nodos abiertos es de: 157
+2020-06-08 14:57:39,345 INFO Se abrio el nodo: (240, 'ciudad6')
+2020-06-08 14:57:39,345 INFO El proximo nodo a abrir será: (562, 'ciudad9')
+2020-06-08 14:57:39,345 INFO La cantidad de nodos abiertos es de: 158
+2020-06-08 14:57:39,385 INFO Se abrio el nodo: (562, 'ciudad9')
+2020-06-08 14:57:39,385 INFO El proximo nodo a abrir será: (654, 'ciudad8')
+2020-06-08 14:57:39,385 INFO La cantidad de nodos abiertos es de: 159
+2020-06-08 14:57:39,436 INFO Se abrio el nodo: (654, 'ciudad8')
+2020-06-08 14:57:39,436 INFO El proximo nodo a abrir será: (417, 'ciudad2')
+2020-06-08 14:57:39,436 INFO La cantidad de nodos abiertos es de: 160
+2020-06-08 14:57:39,484 INFO Se abrio el nodo: (417, 'ciudad2')
+2020-06-08 14:57:39,484 INFO El proximo nodo a abrir será: (433, 'ciudad2')
+2020-06-08 14:57:39,484 INFO La cantidad de nodos abiertos es de: 161
+2020-06-08 14:57:39,526 INFO Se abrio el nodo: (433, 'ciudad2')
+2020-06-08 14:57:39,526 INFO El proximo nodo a abrir será: (437, 'ciudad4')
+2020-06-08 14:57:39,526 INFO La cantidad de nodos abiertos es de: 162
+2020-06-08 14:57:39,577 INFO Se abrio el nodo: (437, 'ciudad4')
+2020-06-08 14:57:39,577 INFO El proximo nodo a abrir será: (665, 'ciudad7')
+2020-06-08 14:57:39,577 INFO La cantidad de nodos abiertos es de: 163
+2020-06-08 14:57:39,627 INFO Se abrio el nodo: (665, 'ciudad7')
+2020-06-08 14:57:39,627 INFO El proximo nodo a abrir será: (677, 'ciudad7')
+2020-06-08 14:57:39,627 INFO La cantidad de nodos abiertos es de: 164
+2020-06-08 14:57:39,677 INFO Se abrio el nodo: (677, 'ciudad7')
+2020-06-08 14:57:39,677 INFO El proximo nodo a abrir será: (683, 'ciudad5')
+2020-06-08 14:57:39,677 INFO La cantidad de nodos abiertos es de: 165
+2020-06-08 14:57:39,736 INFO Se abrio el nodo: (683, 'ciudad5')
+2020-06-08 14:57:39,736 INFO El proximo nodo a abrir será: (681, 'ciudad7')
+2020-06-08 14:57:39,736 INFO La cantidad de nodos abiertos es de: 166
+2020-06-08 14:57:39,788 INFO Se abrio el nodo: (681, 'ciudad7')
+2020-06-08 14:57:39,788 INFO El proximo nodo a abrir será: (530, 'ciudad4')
+2020-06-08 14:57:39,788 INFO La cantidad de nodos abiertos es de: 167
+2020-06-08 14:57:39,836 INFO Se abrio el nodo: (530, 'ciudad4')
+2020-06-08 14:57:39,836 INFO El proximo nodo a abrir será: (544, 'ciudad2')
+2020-06-08 14:57:39,836 INFO La cantidad de nodos abiertos es de: 168
+2020-06-08 14:57:39,897 INFO Se abrio el nodo: (544, 'ciudad2')
+2020-06-08 14:57:39,897 INFO El proximo nodo a abrir será: (557, 'ciudad8')
+2020-06-08 14:57:39,897 INFO La cantidad de nodos abiertos es de: 169
+2020-06-08 14:57:39,949 INFO Se abrio el nodo: (557, 'ciudad8')
+2020-06-08 14:57:39,949 INFO El proximo nodo a abrir será: (638, 'ciudad3')
+2020-06-08 14:57:39,949 INFO La cantidad de nodos abiertos es de: 170
+2020-06-08 14:57:39,998 INFO Se abrio el nodo: (638, 'ciudad3')
+2020-06-08 14:57:39,998 INFO El proximo nodo a abrir será: (647, 'ciudad9')
+2020-06-08 14:57:39,998 INFO La cantidad de nodos abiertos es de: 171
+2020-06-08 14:57:40,041 INFO Se abrio el nodo: (647, 'ciudad9')
+2020-06-08 14:57:40,041 INFO El proximo nodo a abrir será: (696, 'ciudad5')
+2020-06-08 14:57:40,041 INFO La cantidad de nodos abiertos es de: 172
+2020-06-08 14:57:40,103 INFO Se abrio el nodo: (696, 'ciudad5')
+2020-06-08 14:57:40,103 INFO El proximo nodo a abrir será: (569, 'ciudad8')
+2020-06-08 14:57:40,103 INFO La cantidad de nodos abiertos es de: 173
+2020-06-08 14:57:40,159 INFO Se abrio el nodo: (569, 'ciudad8')
+2020-06-08 14:57:40,159 INFO El proximo nodo a abrir será: (655, 'ciudad9')
+2020-06-08 14:57:40,159 INFO La cantidad de nodos abiertos es de: 174
+2020-06-08 14:57:40,222 INFO Se abrio el nodo: (655, 'ciudad9')
+2020-06-08 14:57:40,222 INFO El proximo nodo a abrir será: (702, 'ciudad7')
+2020-06-08 14:57:40,222 INFO La cantidad de nodos abiertos es de: 175
+2020-06-08 14:57:40,275 INFO Se abrio el nodo: (702, 'ciudad7')
+2020-06-08 14:57:40,275 INFO El proximo nodo a abrir será: (286, 'ciudad5')
+2020-06-08 14:57:40,275 INFO La cantidad de nodos abiertos es de: 176
+2020-06-08 14:57:40,322 INFO Se abrio el nodo: (286, 'ciudad5')
+2020-06-08 14:57:40,322 INFO El proximo nodo a abrir será: (470, 'ciudad6')
+2020-06-08 14:57:40,322 INFO La cantidad de nodos abiertos es de: 177
+2020-06-08 14:57:40,381 INFO Se abrio el nodo: (470, 'ciudad6')
+2020-06-08 14:57:40,381 INFO El proximo nodo a abrir será: (594, 'ciudad9')
+2020-06-08 14:57:40,381 INFO La cantidad de nodos abiertos es de: 178
+2020-06-08 14:57:40,431 INFO Se abrio el nodo: (594, 'ciudad9')
+2020-06-08 14:57:40,431 INFO El proximo nodo a abrir será: (703, 'ciudad3')
+2020-06-08 14:57:40,431 INFO La cantidad de nodos abiertos es de: 179
+2020-06-08 14:57:40,482 INFO Se abrio el nodo: (703, 'ciudad3')
+2020-06-08 14:57:40,482 INFO El proximo nodo a abrir será: (599, 'ciudad2')
+2020-06-08 14:57:40,482 INFO La cantidad de nodos abiertos es de: 180
+2020-06-08 14:57:40,532 INFO Se abrio el nodo: (599, 'ciudad2')
+2020-06-08 14:57:40,532 INFO El proximo nodo a abrir será: (303, 'ciudad6')
+2020-06-08 14:57:40,532 INFO La cantidad de nodos abiertos es de: 181
+2020-06-08 14:57:40,582 INFO Se abrio el nodo: (303, 'ciudad6')
+2020-06-08 14:57:40,582 INFO El proximo nodo a abrir será: (480, 'ciudad6')
+2020-06-08 14:57:40,582 INFO La cantidad de nodos abiertos es de: 182
+2020-06-08 14:57:40,633 INFO Se abrio el nodo: (480, 'ciudad6')
+2020-06-08 14:57:40,641 INFO El proximo nodo a abrir será: (718, 'ciudad3')
+2020-06-08 14:57:40,641 INFO La cantidad de nodos abiertos es de: 183
+2020-06-08 14:57:40,693 INFO Se abrio el nodo: (718, 'ciudad3')
+2020-06-08 14:57:40,693 INFO El proximo nodo a abrir será: (727, 'ciudad4')
+2020-06-08 14:57:40,693 INFO La cantidad de nodos abiertos es de: 184
+2020-06-08 14:57:40,743 INFO Se abrio el nodo: (727, 'ciudad4')
+2020-06-08 14:57:40,743 INFO El proximo nodo a abrir será: (484, 'ciudad6')
+2020-06-08 14:57:40,743 INFO La cantidad de nodos abiertos es de: 185
+2020-06-08 14:57:40,804 INFO Se abrio el nodo: (484, 'ciudad6')
+2020-06-08 14:57:40,804 INFO El proximo nodo a abrir será: (739, 'ciudad7')
+2020-06-08 14:57:40,804 INFO La cantidad de nodos abiertos es de: 186
+2020-06-08 14:57:40,864 INFO Se abrio el nodo: (739, 'ciudad7')
+2020-06-08 14:57:40,864 INFO El proximo nodo a abrir será: (314, 'ciudad5')
+2020-06-08 14:57:40,864 INFO La cantidad de nodos abiertos es de: 187
+2020-06-08 14:57:40,934 INFO Se abrio el nodo: (314, 'ciudad5')
+2020-06-08 14:57:40,934 INFO El proximo nodo a abrir será: (523, 'ciudad2')
+2020-06-08 14:57:40,934 INFO La cantidad de nodos abiertos es de: 188
+2020-06-08 14:57:40,985 INFO Se abrio el nodo: (523, 'ciudad2')
+2020-06-08 14:57:40,985 INFO El proximo nodo a abrir será: (525, 'ciudad4')
+2020-06-08 14:57:40,985 INFO La cantidad de nodos abiertos es de: 189
+2020-06-08 14:57:41,045 INFO Se abrio el nodo: (525, 'ciudad4')
+2020-06-08 14:57:41,045 INFO El proximo nodo a abrir será: (534, 'ciudad2')
+2020-06-08 14:57:41,045 INFO La cantidad de nodos abiertos es de: 190
+2020-06-08 14:57:41,106 INFO Se abrio el nodo: (534, 'ciudad2')
+2020-06-08 14:57:41,106 INFO El proximo nodo a abrir será: (330, 'ciudad5')
+2020-06-08 14:57:41,106 INFO La cantidad de nodos abiertos es de: 191
+2020-06-08 14:57:41,176 INFO Se abrio el nodo: (330, 'ciudad5')
+2020-06-08 14:57:41,176 INFO El proximo nodo a abrir será: (759, 'ciudad7')
+2020-06-08 14:57:41,176 INFO La cantidad de nodos abiertos es de: 192
+2020-06-08 14:57:41,247 INFO Se abrio el nodo: (759, 'ciudad7')
+2020-06-08 14:57:41,247 INFO El proximo nodo a abrir será: (349, 'ciudad5')
+2020-06-08 14:57:41,247 INFO La cantidad de nodos abiertos es de: 193
+2020-06-08 14:57:41,307 INFO Se abrio el nodo: (349, 'ciudad5')
+2020-06-08 14:57:41,307 INFO El proximo nodo a abrir será: (768, 'ciudad7')
+2020-06-08 14:57:41,307 INFO La cantidad de nodos abiertos es de: 194
+2020-06-08 14:57:41,368 INFO Se abrio el nodo: (768, 'ciudad7')
+2020-06-08 14:57:41,368 INFO El proximo nodo a abrir será: (772, 'ciudad4')
+2020-06-08 14:57:41,368 INFO La cantidad de nodos abiertos es de: 195
+2020-06-08 14:57:41,426 INFO Se abrio el nodo: (772, 'ciudad4')
+2020-06-08 14:57:41,426 INFO El proximo nodo a abrir será: (563, 'ciudad2')
+2020-06-08 14:57:41,426 INFO La cantidad de nodos abiertos es de: 196
+2020-06-08 14:57:41,479 INFO Se abrio el nodo: (563, 'ciudad2')
+2020-06-08 14:57:41,479 INFO El proximo nodo a abrir será: (571, 'ciudad2')
+2020-06-08 14:57:41,487 INFO La cantidad de nodos abiertos es de: 197
+2020-06-08 14:57:41,547 INFO Se abrio el nodo: (571, 'ciudad2')
+2020-06-08 14:57:41,549 INFO El proximo nodo a abrir será: (572, 'ciudad4')
+2020-06-08 14:57:41,549 INFO La cantidad de nodos abiertos es de: 198
+2020-06-08 14:57:41,609 INFO Se abrio el nodo: (572, 'ciudad4')
+2020-06-08 14:57:41,609 INFO El proximo nodo a abrir será: (575, 'ciudad3')
+2020-06-08 14:57:41,609 INFO La cantidad de nodos abiertos es de: 199
+2020-06-08 14:57:41,668 INFO Se abrio el nodo: (575, 'ciudad3')
+2020-06-08 14:57:41,668 INFO El proximo nodo a abrir será: (583, 'ciudad3')
+2020-06-08 14:57:41,668 INFO La cantidad de nodos abiertos es de: 200
+2020-06-08 14:57:41,730 INFO Se abrio el nodo: (583, 'ciudad3')
+2020-06-08 14:57:41,730 INFO El proximo nodo a abrir será: (258, 'ciudad9')
+2020-06-08 14:57:41,730 INFO La cantidad de nodos abiertos es de: 201
+2020-06-08 14:57:41,791 INFO Se abrio el nodo: (258, 'ciudad9')
+2020-06-08 14:57:41,791 INFO El proximo nodo a abrir será: (597, 'ciudad8')
+2020-06-08 14:57:41,791 INFO La cantidad de nodos abiertos es de: 202
+2020-06-08 14:57:41,851 INFO Se abrio el nodo: (597, 'ciudad8')
+2020-06-08 14:57:41,851 INFO El proximo nodo a abrir será: (656, 'ciudad2')
+2020-06-08 14:57:41,851 INFO La cantidad de nodos abiertos es de: 203
+2020-06-08 14:57:41,911 INFO Se abrio el nodo: (656, 'ciudad2')
+2020-06-08 14:57:41,911 INFO El proximo nodo a abrir será: (660, 'ciudad2')
+2020-06-08 14:57:41,911 INFO La cantidad de nodos abiertos es de: 204
+2020-06-08 14:57:41,972 INFO Se abrio el nodo: (660, 'ciudad2')
+2020-06-08 14:57:41,972 INFO El proximo nodo a abrir será: (796, 'ciudad5')
+2020-06-08 14:57:41,972 INFO La cantidad de nodos abiertos es de: 205
+2020-06-08 14:57:42,032 INFO Se abrio el nodo: (796, 'ciudad5')
+2020-06-08 14:57:42,032 INFO El proximo nodo a abrir será: (789, 'ciudad7')
+2020-06-08 14:57:42,032 INFO La cantidad de nodos abiertos es de: 206
+2020-06-08 14:57:42,092 INFO Se abrio el nodo: (789, 'ciudad7')
+2020-06-08 14:57:42,092 INFO El proximo nodo a abrir será: (794, 'ciudad7')
+2020-06-08 14:57:42,092 INFO La cantidad de nodos abiertos es de: 207
+2020-06-08 14:57:42,160 INFO Se abrio el nodo: (794, 'ciudad7')
+2020-06-08 14:57:42,160 INFO El proximo nodo a abrir será: (674, 'ciudad2')
+2020-06-08 14:57:42,160 INFO La cantidad de nodos abiertos es de: 208
+2020-06-08 14:57:42,213 INFO Se abrio el nodo: (674, 'ciudad2')
+2020-06-08 14:57:42,213 INFO El proximo nodo a abrir será: (799, 'ciudad8')
+2020-06-08 14:57:42,221 INFO La cantidad de nodos abiertos es de: 209
+2020-06-08 14:57:42,283 INFO Se abrio el nodo: (799, 'ciudad8')
+2020-06-08 14:57:42,283 INFO El proximo nodo a abrir será: (370, 'ciudad5')
+2020-06-08 14:57:42,283 INFO La cantidad de nodos abiertos es de: 210
+2020-06-08 14:57:42,342 INFO Se abrio el nodo: (370, 'ciudad5')
+2020-06-08 14:57:42,342 INFO El proximo nodo a abrir será: (373, 'ciudad5')
+2020-06-08 14:57:42,342 INFO La cantidad de nodos abiertos es de: 211
+2020-06-08 14:57:42,392 INFO Se abrio el nodo: (373, 'ciudad5')
+2020-06-08 14:57:42,402 INFO El proximo nodo a abrir será: (802, 'ciudad8')
+2020-06-08 14:57:42,402 INFO La cantidad de nodos abiertos es de: 212
+2020-06-08 14:57:42,454 INFO Se abrio el nodo: (802, 'ciudad8')
+2020-06-08 14:57:42,454 INFO El proximo nodo a abrir será: (812, 'ciudad7')
+2020-06-08 14:57:42,454 INFO La cantidad de nodos abiertos es de: 213
+2020-06-08 14:57:42,514 INFO Se abrio el nodo: (812, 'ciudad7')
+2020-06-08 14:57:42,514 INFO El proximo nodo a abrir será: (814, 'ciudad7')
+2020-06-08 14:57:42,514 INFO La cantidad de nodos abiertos es de: 214
+2020-06-08 14:57:42,583 INFO Se abrio el nodo: (814, 'ciudad7')
+2020-06-08 14:57:42,583 INFO El proximo nodo a abrir será: (822, 'ciudad7')
+2020-06-08 14:57:42,583 INFO La cantidad de nodos abiertos es de: 215
+2020-06-08 14:57:42,645 INFO Se abrio el nodo: (822, 'ciudad7')
+2020-06-08 14:57:42,645 INFO El proximo nodo a abrir será: (826, 'ciudad4')
+2020-06-08 14:57:42,645 INFO La cantidad de nodos abiertos es de: 216
+2020-06-08 14:57:42,705 INFO Se abrio el nodo: (826, 'ciudad4')
+2020-06-08 14:57:42,705 INFO El proximo nodo a abrir será: (828, 'ciudad4')
+2020-06-08 14:57:42,705 INFO La cantidad de nodos abiertos es de: 217
+2020-06-08 14:57:42,766 INFO Se abrio el nodo: (828, 'ciudad4')
+2020-06-08 14:57:42,766 INFO El proximo nodo a abrir será: (263, 'ciudad9')
+2020-06-08 14:57:42,766 INFO La cantidad de nodos abiertos es de: 218
+2020-06-08 14:57:42,826 INFO Se abrio el nodo: (263, 'ciudad9')
+2020-06-08 14:57:42,826 INFO El proximo nodo a abrir será: (636, 'ciudad6')
+2020-06-08 14:57:42,826 INFO La cantidad de nodos abiertos es de: 219
+2020-06-08 14:57:42,895 INFO Se abrio el nodo: (636, 'ciudad6')
+2020-06-08 14:57:42,895 INFO El proximo nodo a abrir será: (268, 'ciudad9')
+2020-06-08 14:57:42,895 INFO La cantidad de nodos abiertos es de: 220
+2020-06-08 14:57:42,955 INFO Se abrio el nodo: (268, 'ciudad9')
+2020-06-08 14:57:42,955 INFO El proximo nodo a abrir será: (403, 'ciudad5')
+2020-06-08 14:57:42,955 INFO La cantidad de nodos abiertos es de: 221
+2020-06-08 14:57:43,008 INFO Se abrio el nodo: (403, 'ciudad5')
+2020-06-08 14:57:43,008 INFO El proximo nodo a abrir será: (644, 'ciudad4')
+2020-06-08 14:57:43,008 INFO La cantidad de nodos abiertos es de: 222
+2020-06-08 14:57:43,078 INFO Se abrio el nodo: (644, 'ciudad4')
+2020-06-08 14:57:43,078 INFO El proximo nodo a abrir será: (434, 'ciudad5')
+2020-06-08 14:57:43,078 INFO La cantidad de nodos abiertos es de: 223
+2020-06-08 14:57:43,149 INFO Se abrio el nodo: (434, 'ciudad5')
+2020-06-08 14:57:43,149 INFO El proximo nodo a abrir será: (666, 'ciudad8')
+2020-06-08 14:57:43,149 INFO La cantidad de nodos abiertos es de: 224
+2020-06-08 14:57:43,222 INFO Se abrio el nodo: (666, 'ciudad8')
+2020-06-08 14:57:43,223 INFO El proximo nodo a abrir será: (709, 'ciudad6')
+2020-06-08 14:57:43,223 INFO La cantidad de nodos abiertos es de: 225
+2020-06-08 14:57:43,290 INFO Se abrio el nodo: (709, 'ciudad6')
+2020-06-08 14:57:43,290 INFO El proximo nodo a abrir será: (668, 'ciudad2')
+2020-06-08 14:57:43,290 INFO La cantidad de nodos abiertos es de: 226
+2020-06-08 14:57:43,363 INFO Se abrio el nodo: (668, 'ciudad2')
+2020-06-08 14:57:43,363 INFO El proximo nodo a abrir será: (678, 'ciudad8')
+2020-06-08 14:57:43,364 INFO La cantidad de nodos abiertos es de: 227
+2020-06-08 14:57:43,431 INFO Se abrio el nodo: (678, 'ciudad8')
+2020-06-08 14:57:43,431 INFO El proximo nodo a abrir será: (682, 'ciudad8')
+2020-06-08 14:57:43,431 INFO La cantidad de nodos abiertos es de: 228
+2020-06-08 14:57:43,516 INFO Se abrio el nodo: (682, 'ciudad8')
+2020-06-08 14:57:43,517 INFO El proximo nodo a abrir será: (738, 'ciudad9')
+2020-06-08 14:57:43,517 INFO La cantidad de nodos abiertos es de: 229
+2020-06-08 14:57:43,572 INFO Se abrio el nodo: (738, 'ciudad9')
+2020-06-08 14:57:43,572 INFO El proximo nodo a abrir será: (868, 'ciudad7')
+2020-06-08 14:57:43,572 INFO La cantidad de nodos abiertos es de: 230
+2020-06-08 14:57:43,645 INFO Se abrio el nodo: (868, 'ciudad7')
+2020-06-08 14:57:43,645 INFO El proximo nodo a abrir será: (746, 'ciudad9')
+2020-06-08 14:57:43,645 INFO La cantidad de nodos abiertos es de: 231
+2020-06-08 14:57:43,708 INFO Se abrio el nodo: (746, 'ciudad9')
+2020-06-08 14:57:43,708 INFO El proximo nodo a abrir será: (39, 'ciudad4')
+2020-06-08 14:57:43,708 INFO La cantidad de nodos abiertos es de: 232
+2020-06-08 14:57:43,777 INFO Se abrio el nodo: (39, 'ciudad4')
+2020-06-08 14:57:43,777 INFO El proximo nodo a abrir será: (879, 'ciudad5')
+2020-06-08 14:57:43,777 INFO La cantidad de nodos abiertos es de: 233
+2020-06-08 14:57:43,842 INFO Se abrio el nodo: (879, 'ciudad5')
+2020-06-08 14:57:43,842 INFO El proximo nodo a abrir será: (342, 'ciudad9')
+2020-06-08 14:57:43,842 INFO La cantidad de nodos abiertos es de: 234
+2020-06-08 14:57:43,913 INFO Se abrio el nodo: (342, 'ciudad9')
+2020-06-08 14:57:43,913 INFO El proximo nodo a abrir será: (760, 'ciudad8')
+2020-06-08 14:57:43,913 INFO La cantidad de nodos abiertos es de: 235
+2020-06-08 14:57:43,984 INFO Se abrio el nodo: (760, 'ciudad8')
+2020-06-08 14:57:43,984 INFO El proximo nodo a abrir será: (356, 'ciudad9')
+2020-06-08 14:57:43,984 INFO La cantidad de nodos abiertos es de: 236
+2020-06-08 14:57:44,052 INFO Se abrio el nodo: (356, 'ciudad9')
+2020-06-08 14:57:44,052 INFO El proximo nodo a abrir será: (697, 'ciudad6')
+2020-06-08 14:57:44,052 INFO La cantidad de nodos abiertos es de: 237
+2020-06-08 14:57:44,115 INFO Se abrio el nodo: (697, 'ciudad6')
+2020-06-08 14:57:44,123 INFO El proximo nodo a abrir será: (769, 'ciudad8')
+2020-06-08 14:57:44,123 INFO La cantidad de nodos abiertos es de: 238
+2020-06-08 14:57:44,185 INFO Se abrio el nodo: (769, 'ciudad8')
+2020-06-08 14:57:44,185 INFO El proximo nodo a abrir será: (364, 'ciudad9')
+2020-06-08 14:57:44,185 INFO La cantidad de nodos abiertos es de: 239
+2020-06-08 14:57:44,266 INFO Se abrio el nodo: (364, 'ciudad9')
+2020-06-08 14:57:44,266 INFO El proximo nodo a abrir será: (839, 'ciudad3')
+2020-06-08 14:57:44,266 INFO La cantidad de nodos abiertos es de: 240
+2020-06-08 14:57:44,344 INFO Se abrio el nodo: (839, 'ciudad3')
+2020-06-08 14:57:44,344 INFO El proximo nodo a abrir será: (843, 'ciudad3')
+2020-06-08 14:57:44,344 INFO La cantidad de nodos abiertos es de: 241
+2020-06-08 14:57:44,415 INFO Se abrio el nodo: (843, 'ciudad3')
+2020-06-08 14:57:44,415 INFO El proximo nodo a abrir será: (296, 'ciudad8')
+2020-06-08 14:57:44,415 INFO La cantidad de nodos abiertos es de: 242
+2020-06-08 14:57:44,477 INFO Se abrio el nodo: (296, 'ciudad8')
+2020-06-08 14:57:44,477 INFO El proximo nodo a abrir será: (847, 'ciudad3')
+2020-06-08 14:57:44,477 INFO La cantidad de nodos abiertos es de: 243
+2020-06-08 14:57:44,548 INFO Se abrio el nodo: (847, 'ciudad3')
+2020-06-08 14:57:44,548 INFO El proximo nodo a abrir será: (891, 'ciudad3')
+2020-06-08 14:57:44,548 INFO La cantidad de nodos abiertos es de: 244
+2020-06-08 14:57:44,616 INFO Se abrio el nodo: (891, 'ciudad3')
+2020-06-08 14:57:44,618 INFO El proximo nodo a abrir será: (800, 'ciudad9')
+2020-06-08 14:57:44,618 INFO La cantidad de nodos abiertos es de: 245
+2020-06-08 14:57:44,679 INFO Se abrio el nodo: (800, 'ciudad9')
+2020-06-08 14:57:44,679 INFO El proximo nodo a abrir será: (901, 'ciudad3')
+2020-06-08 14:57:44,679 INFO La cantidad de nodos abiertos es de: 246
+2020-06-08 14:57:44,750 INFO Se abrio el nodo: (901, 'ciudad3')
+2020-06-08 14:57:44,750 INFO El proximo nodo a abrir será: (803, 'ciudad9')
+2020-06-08 14:57:44,750 INFO La cantidad de nodos abiertos es de: 247
+2020-06-08 14:57:44,820 INFO Se abrio el nodo: (803, 'ciudad9')
+2020-06-08 14:57:44,820 INFO El proximo nodo a abrir será: (509, 'ciudad6')
+2020-06-08 14:57:44,820 INFO La cantidad de nodos abiertos es de: 248
+2020-06-08 14:57:44,900 INFO Se abrio el nodo: (509, 'ciudad6')
+2020-06-08 14:57:44,900 INFO El proximo nodo a abrir será: (411, 'ciudad8')
+2020-06-08 14:57:44,900 INFO La cantidad de nodos abiertos es de: 249
+2020-06-08 14:57:44,971 INFO Se abrio el nodo: (411, 'ciudad8')
+2020-06-08 14:57:44,971 INFO El proximo nodo a abrir será: (763, 'ciudad3')
+2020-06-08 14:57:44,971 INFO La cantidad de nodos abiertos es de: 250
+2020-06-08 14:57:45,042 INFO Se abrio el nodo: (763, 'ciudad3')
+2020-06-08 14:57:45,042 INFO El proximo nodo a abrir será: (110, 'ciudad4')
+2020-06-08 14:57:45,042 INFO La cantidad de nodos abiertos es de: 251
+2020-06-08 14:57:45,122 INFO Se abrio el nodo: (110, 'ciudad4')
+2020-06-08 14:57:45,122 INFO El proximo nodo a abrir será: (424, 'ciudad8')
+2020-06-08 14:57:45,122 INFO La cantidad de nodos abiertos es de: 252
+2020-06-08 14:57:45,192 INFO Se abrio el nodo: (424, 'ciudad8')
+2020-06-08 14:57:45,192 INFO El proximo nodo a abrir será: (573, 'ciudad5')
+2020-06-08 14:57:45,192 INFO La cantidad de nodos abiertos es de: 253
+2020-06-08 14:57:45,321 INFO Se abrio el nodo: (573, 'ciudad5')
+2020-06-08 14:57:45,321 INFO El proximo nodo a abrir será: (368, 'ciudad9')
+2020-06-08 14:57:45,321 INFO La cantidad de nodos abiertos es de: 254
+2020-06-08 14:57:45,392 INFO Se abrio el nodo: (368, 'ciudad9')
+2020-06-08 14:57:45,392 INFO El proximo nodo a abrir será: (444, 'ciudad8')
+2020-06-08 14:57:45,392 INFO La cantidad de nodos abiertos es de: 255
+2020-06-08 14:57:45,474 INFO Se abrio el nodo: (444, 'ciudad8')
+2020-06-08 14:57:45,474 INFO El proximo nodo a abrir será: (448, 'ciudad9')
+2020-06-08 14:57:45,474 INFO La cantidad de nodos abiertos es de: 256
+2020-06-08 14:57:45,575 INFO Se abrio el nodo: (448, 'ciudad9')
+2020-06-08 14:57:45,575 INFO El proximo nodo a abrir será: (701, 'ciudad6')
+2020-06-08 14:57:45,575 INFO La cantidad de nodos abiertos es de: 257
+2020-06-08 14:57:45,645 INFO Se abrio el nodo: (701, 'ciudad6')
+2020-06-08 14:57:45,645 INFO El proximo nodo a abrir será: (707, 'ciudad4')
+2020-06-08 14:57:45,645 INFO La cantidad de nodos abiertos es de: 258
+2020-06-08 14:57:45,714 INFO Se abrio el nodo: (707, 'ciudad4')
+2020-06-08 14:57:45,714 INFO El proximo nodo a abrir será: (935, 'ciudad8')
+2020-06-08 14:57:45,714 INFO La cantidad de nodos abiertos es de: 259
+2020-06-08 14:57:45,786 INFO Se abrio el nodo: (935, 'ciudad8')
+2020-06-08 14:57:45,786 INFO El proximo nodo a abrir será: (937, 'ciudad5')
+2020-06-08 14:57:45,786 INFO La cantidad de nodos abiertos es de: 260
+2020-06-08 14:57:45,877 INFO Se abrio el nodo: (937, 'ciudad5')
+2020-06-08 14:57:45,877 INFO El proximo nodo a abrir será: (944, 'ciudad4')
+2020-06-08 14:57:45,877 INFO La cantidad de nodos abiertos es de: 261
+2020-06-08 14:57:45,946 INFO Se abrio el nodo: (944, 'ciudad4')
+2020-06-08 14:57:45,946 INFO El proximo nodo a abrir será: (786, 'ciudad3')
+2020-06-08 14:57:45,946 INFO La cantidad de nodos abiertos es de: 262
+2020-06-08 14:57:46,031 INFO Se abrio el nodo: (786, 'ciudad3')
+2020-06-08 14:57:46,031 INFO El proximo nodo a abrir será: (455, 'ciudad9')
+2020-06-08 14:57:46,031 INFO La cantidad de nodos abiertos es de: 263
+2020-06-08 14:57:46,109 INFO Se abrio el nodo: (455, 'ciudad9')
+2020-06-08 14:57:46,109 INFO El proximo nodo a abrir será: (790, 'ciudad8')
+2020-06-08 14:57:46,109 INFO La cantidad de nodos abiertos es de: 264
+2020-06-08 14:57:46,178 INFO Se abrio el nodo: (790, 'ciudad8')
+2020-06-08 14:57:46,178 INFO El proximo nodo a abrir será: (958, 'ciudad5')
+2020-06-08 14:57:46,178 INFO La cantidad de nodos abiertos es de: 265
+2020-06-08 14:57:46,247 INFO Se abrio el nodo: (958, 'ciudad5')
+2020-06-08 14:57:46,247 INFO El proximo nodo a abrir será: (458, 'ciudad9')
+2020-06-08 14:57:46,247 INFO La cantidad de nodos abiertos es de: 266
+2020-06-08 14:57:46,328 INFO Se abrio el nodo: (458, 'ciudad9')
+2020-06-08 14:57:46,328 INFO El proximo nodo a abrir será: (504, 'ciudad5')
+2020-06-08 14:57:46,328 INFO La cantidad de nodos abiertos es de: 267
+2020-06-08 14:57:46,396 INFO Se abrio el nodo: (504, 'ciudad5')
+2020-06-08 14:57:46,396 INFO El proximo nodo a abrir será: (968, 'ciudad8')
+2020-06-08 14:57:46,396 INFO La cantidad de nodos abiertos es de: 268
+2020-06-08 14:57:46,469 INFO Se abrio el nodo: (968, 'ciudad8')
+2020-06-08 14:57:46,469 INFO El proximo nodo a abrir será: (140, 'ciudad7')
+2020-06-08 14:57:46,469 INFO La cantidad de nodos abiertos es de: 269
+2020-06-08 14:57:46,547 INFO Se abrio el nodo: (140, 'ciudad7')
+2020-06-08 14:57:46,547 INFO El proximo nodo a abrir será: (152, 'ciudad4')
+2020-06-08 14:57:46,547 INFO La cantidad de nodos abiertos es de: 270
+2020-06-08 14:57:46,620 INFO Se abrio el nodo: (152, 'ciudad4')
+2020-06-08 14:57:46,620 INFO El proximo nodo a abrir será: (166, 'ciudad7')
+2020-06-08 14:57:46,620 INFO La cantidad de nodos abiertos es de: 271
+2020-06-08 14:57:46,690 INFO Se abrio el nodo: (166, 'ciudad7')
+2020-06-08 14:57:46,690 INFO El proximo nodo a abrir será: (989, 'ciudad5')
+2020-06-08 14:57:46,690 INFO La cantidad de nodos abiertos es de: 272
+2020-06-08 14:57:46,760 INFO Se abrio el nodo: (989, 'ciudad5')
+2020-06-08 14:57:46,760 INFO El proximo nodo a abrir será: (981, 'ciudad2')
+2020-06-08 14:57:46,760 INFO La cantidad de nodos abiertos es de: 273
+2020-06-08 14:57:46,841 INFO Se abrio el nodo: (981, 'ciudad2')
+2020-06-08 14:57:46,849 INFO El proximo nodo a abrir será: (184, 'ciudad7')
+2020-06-08 14:57:46,849 INFO La cantidad de nodos abiertos es de: 274
+2020-06-08 14:57:46,962 INFO Se abrio el nodo: (184, 'ciudad7')
+2020-06-08 14:57:46,962 INFO El proximo nodo a abrir será: (196, 'ciudad7')
+2020-06-08 14:57:46,962 INFO La cantidad de nodos abiertos es de: 275
+2020-06-08 14:57:47,095 INFO Se abrio el nodo: (196, 'ciudad7')
+2020-06-08 14:57:47,095 INFO El proximo nodo a abrir será: (993, 'ciudad2')
+2020-06-08 14:57:47,095 INFO La cantidad de nodos abiertos es de: 276
+2020-06-08 14:57:47,227 INFO Se abrio el nodo: (993, 'ciudad2')
+2020-06-08 14:57:47,227 INFO El proximo nodo a abrir será: (205, 'ciudad4')
+2020-06-08 14:57:47,227 INFO La cantidad de nodos abiertos es de: 277
+2020-06-08 14:57:47,333 INFO Se abrio el nodo: (205, 'ciudad4')
+2020-06-08 14:57:47,333 INFO El proximo nodo a abrir será: (1008, 'ciudad2')
+2020-06-08 14:57:47,333 INFO La cantidad de nodos abiertos es de: 278
+2020-06-08 14:57:47,413 INFO Se abrio el nodo: (1008, 'ciudad2')
+2020-06-08 14:57:47,413 INFO El proximo nodo a abrir será: (878, 'ciudad3')
+2020-06-08 14:57:47,413 INFO La cantidad de nodos abiertos es de: 279
+2020-06-08 14:57:47,503 INFO Se abrio el nodo: (878, 'ciudad3')
+2020-06-08 14:57:47,503 INFO El proximo nodo a abrir será: (880, 'ciudad6')
+2020-06-08 14:57:47,503 INFO La cantidad de nodos abiertos es de: 280
+2020-06-08 14:57:47,584 INFO Se abrio el nodo: (880, 'ciudad6')
+2020-06-08 14:57:47,584 INFO El proximo nodo a abrir será: (1013, 'ciudad2')
+2020-06-08 14:57:47,584 INFO La cantidad de nodos abiertos es de: 281
+2020-06-08 14:57:47,739 INFO Se abrio el nodo: (1013, 'ciudad2')
+2020-06-08 14:57:47,739 INFO El proximo nodo a abrir será: (1023, 'ciudad5')
+2020-06-08 14:57:47,739 INFO La cantidad de nodos abiertos es de: 282
+2020-06-08 14:57:47,823 INFO Se abrio el nodo: (1023, 'ciudad5')
+2020-06-08 14:57:47,823 INFO El proximo nodo a abrir será: (1032, 'ciudad8')
+2020-06-08 14:57:47,823 INFO La cantidad de nodos abiertos es de: 283
+2020-06-08 14:57:47,917 INFO Se abrio el nodo: (1032, 'ciudad8')
+2020-06-08 14:57:47,917 INFO El proximo nodo a abrir será: (844, 'ciudad4')
+2020-06-08 14:57:47,917 INFO La cantidad de nodos abiertos es de: 284
+2020-06-08 14:57:48,002 INFO Se abrio el nodo: (844, 'ciudad4')
+2020-06-08 14:57:48,002 INFO El proximo nodo a abrir será: (130, 'ciudad4')
+2020-06-08 14:57:48,002 INFO La cantidad de nodos abiertos es de: 285
+2020-06-08 14:57:48,071 INFO Se abrio el nodo: (130, 'ciudad4')
+2020-06-08 14:57:48,086 INFO El proximo nodo a abrir será: (1049, 'ciudad5')
+2020-06-08 14:57:48,086 INFO La cantidad de nodos abiertos es de: 286
+2020-06-08 14:57:48,171 INFO Se abrio el nodo: (1049, 'ciudad5')
+2020-06-08 14:57:48,171 INFO El proximo nodo a abrir será: (133, 'ciudad4')
+2020-06-08 14:57:48,171 INFO La cantidad de nodos abiertos es de: 287
+2020-06-08 14:57:48,255 INFO Se abrio el nodo: (133, 'ciudad4')
+2020-06-08 14:57:48,255 INFO El proximo nodo a abrir será: (909, 'ciudad6')
+2020-06-08 14:57:48,255 INFO La cantidad de nodos abiertos es de: 288
+2020-06-08 14:57:48,324 INFO Se abrio el nodo: (909, 'ciudad6')
+2020-06-08 14:57:48,324 INFO El proximo nodo a abrir será: (921, 'ciudad9')
+2020-06-08 14:57:48,324 INFO La cantidad de nodos abiertos es de: 289
+2020-06-08 14:57:48,403 INFO Se abrio el nodo: (921, 'ciudad9')
+2020-06-08 14:57:48,418 INFO El proximo nodo a abrir será: (1051, 'ciudad5')
+2020-06-08 14:57:48,418 INFO La cantidad de nodos abiertos es de: 290
+2020-06-08 14:57:48,507 INFO Se abrio el nodo: (1051, 'ciudad5')
+2020-06-08 14:57:48,507 INFO El proximo nodo a abrir será: (1055, 'ciudad5')
+2020-06-08 14:57:48,507 INFO La cantidad de nodos abiertos es de: 291
+2020-06-08 14:57:48,657 INFO Se abrio el nodo: (1055, 'ciudad5')
+2020-06-08 14:57:48,657 INFO El proximo nodo a abrir será: (869, 'ciudad8')
+2020-06-08 14:57:48,657 INFO La cantidad de nodos abiertos es de: 292
+2020-06-08 14:57:48,773 INFO Se abrio el nodo: (869, 'ciudad8')
+2020-06-08 14:57:48,773 INFO El proximo nodo a abrir será: (925, 'ciudad9')
+2020-06-08 14:57:48,773 INFO La cantidad de nodos abiertos es de: 293
+2020-06-08 14:57:48,857 INFO Se abrio el nodo: (925, 'ciudad9')
+2020-06-08 14:57:48,857 INFO El proximo nodo a abrir será: (217, 'ciudad7')
+2020-06-08 14:57:48,857 INFO La cantidad de nodos abiertos es de: 294
+2020-06-08 14:57:48,926 INFO Se abrio el nodo: (217, 'ciudad7')
+2020-06-08 14:57:48,926 INFO El proximo nodo a abrir será: (221, 'ciudad7')
+2020-06-08 14:57:48,926 INFO La cantidad de nodos abiertos es de: 295
+2020-06-08 14:57:49,026 INFO Se abrio el nodo: (221, 'ciudad7')
+2020-06-08 14:57:49,026 INFO El proximo nodo a abrir será: (231, 'ciudad7')
+2020-06-08 14:57:49,026 INFO La cantidad de nodos abiertos es de: 296
+2020-06-08 14:57:49,120 INFO Se abrio el nodo: (231, 'ciudad7')
+2020-06-08 14:57:49,120 INFO El proximo nodo a abrir será: (1065, 'ciudad2')
+2020-06-08 14:57:49,120 INFO La cantidad de nodos abiertos es de: 297
+2020-06-08 14:57:49,205 INFO Se abrio el nodo: (1065, 'ciudad2')
+2020-06-08 14:57:49,205 INFO El proximo nodo a abrir será: (1069, 'ciudad2')
+2020-06-08 14:57:49,205 INFO La cantidad de nodos abiertos es de: 298
+2020-06-08 14:57:49,305 INFO Se abrio el nodo: (1069, 'ciudad2')
+2020-06-08 14:57:49,305 INFO El proximo nodo a abrir será: (251, 'ciudad4')
+2020-06-08 14:57:49,305 INFO La cantidad de nodos abiertos es de: 299
+2020-06-08 14:57:49,390 INFO Se abrio el nodo: (251, 'ciudad4')
+2020-06-08 14:57:49,390 INFO El proximo nodo a abrir será: (1031, 'ciudad6')
+2020-06-08 14:57:49,390 INFO La cantidad de nodos abiertos es de: 300
+2020-06-08 14:57:49,474 INFO Se abrio el nodo: (1031, 'ciudad6')
+2020-06-08 14:57:49,474 INFO El proximo nodo a abrir será: (1033, 'ciudad9')
+2020-06-08 14:57:49,474 INFO La cantidad de nodos abiertos es de: 301
+2020-06-08 14:57:49,559 INFO Se abrio el nodo: (1033, 'ciudad9')
+2020-06-08 14:57:49,559 INFO El proximo nodo a abrir será: (1034, 'ciudad3')
+2020-06-08 14:57:49,559 INFO La cantidad de nodos abiertos es de: 302
+2020-06-08 14:57:49,644 INFO Se abrio el nodo: (1034, 'ciudad3')
+2020-06-08 14:57:49,659 INFO El proximo nodo a abrir será: (1073, 'ciudad2')
+2020-06-08 14:57:49,659 INFO La cantidad de nodos abiertos es de: 303
+2020-06-08 14:57:49,744 INFO Se abrio el nodo: (1073, 'ciudad2')
+2020-06-08 14:57:49,744 INFO El proximo nodo a abrir será: (476, 'ciudad8')
+2020-06-08 14:57:49,744 INFO La cantidad de nodos abiertos es de: 304
+2020-06-08 14:57:49,829 INFO Se abrio el nodo: (476, 'ciudad8')
+2020-06-08 14:57:49,829 INFO El proximo nodo a abrir será: (936, 'ciudad9')
+2020-06-08 14:57:49,829 INFO La cantidad de nodos abiertos es de: 305
+2020-06-08 14:57:49,922 INFO Se abrio el nodo: (936, 'ciudad9')
+2020-06-08 14:57:49,922 INFO El proximo nodo a abrir será: (716, 'ciudad6')
+2020-06-08 14:57:49,922 INFO La cantidad de nodos abiertos es de: 306
+2020-06-08 14:57:50,029 INFO Se abrio el nodo: (716, 'ciudad6')
+2020-06-08 14:57:50,029 INFO El proximo nodo a abrir será: (601, 'ciudad9')
+2020-06-08 14:57:50,029 INFO La cantidad de nodos abiertos es de: 307
+2020-06-08 14:57:50,145 INFO Se abrio el nodo: (601, 'ciudad9')
+2020-06-08 14:57:50,145 INFO El proximo nodo a abrir será: (1083, 'ciudad5')
+2020-06-08 14:57:50,145 INFO La cantidad de nodos abiertos es de: 308
+2020-06-08 14:57:50,276 INFO Se abrio el nodo: (1083, 'ciudad5')
+2020-06-08 14:57:50,276 INFO El proximo nodo a abrir será: (488, 'ciudad8')
+2020-06-08 14:57:50,276 INFO La cantidad de nodos abiertos es de: 309
+2020-06-08 14:57:50,377 INFO Se abrio el nodo: (488, 'ciudad8')
+2020-06-08 14:57:50,377 INFO El proximo nodo a abrir será: (500, 'ciudad8')
+2020-06-08 14:57:50,377 INFO La cantidad de nodos abiertos es de: 310
+2020-06-08 14:57:50,493 INFO Se abrio el nodo: (500, 'ciudad8')
+2020-06-08 14:57:50,493 INFO El proximo nodo a abrir será: (898, 'ciudad2')
+2020-06-08 14:57:50,493 INFO La cantidad de nodos abiertos es de: 311
+2020-06-08 14:57:50,609 INFO Se abrio el nodo: (898, 'ciudad2')
+2020-06-08 14:57:50,609 INFO El proximo nodo a abrir será: (1093, 'ciudad8')
+2020-06-08 14:57:50,609 INFO La cantidad de nodos abiertos es de: 312
+2020-06-08 14:57:50,693 INFO Se abrio el nodo: (1093, 'ciudad8')
+2020-06-08 14:57:50,693 INFO El proximo nodo a abrir será: (865, 'ciudad4')
+2020-06-08 14:57:50,693 INFO La cantidad de nodos abiertos es de: 313
+2020-06-08 14:57:50,793 INFO Se abrio el nodo: (865, 'ciudad4')
+2020-06-08 14:57:50,793 INFO El proximo nodo a abrir será: (969, 'ciudad9')
+2020-06-08 14:57:50,793 INFO La cantidad de nodos abiertos es de: 314
+2020-06-08 14:57:50,894 INFO Se abrio el nodo: (969, 'ciudad9')
+2020-06-08 14:57:50,894 INFO El proximo nodo a abrir será: (1115, 'ciudad7')
+2020-06-08 14:57:50,894 INFO La cantidad de nodos abiertos es de: 315
+2020-06-08 14:57:50,994 INFO Se abrio el nodo: (1115, 'ciudad7')
+2020-06-08 14:57:50,994 INFO El proximo nodo a abrir será: (1118, 'ciudad5')
+2020-06-08 14:57:50,994 INFO La cantidad de nodos abiertos es de: 316
+2020-06-08 14:57:51,079 INFO Se abrio el nodo: (1118, 'ciudad5')
+2020-06-08 14:57:51,079 INFO El proximo nodo a abrir será: (1006, 'ciudad8')
+2020-06-08 14:57:51,079 INFO La cantidad de nodos abiertos es de: 317
+2020-06-08 14:57:51,179 INFO Se abrio el nodo: (1006, 'ciudad8')
+2020-06-08 14:57:51,179 INFO El proximo nodo a abrir será: (1020, 'ciudad8')
+2020-06-08 14:57:51,179 INFO La cantidad de nodos abiertos es de: 318
+2020-06-08 14:57:51,263 INFO Se abrio el nodo: (1020, 'ciudad8')
+2020-06-08 14:57:51,263 INFO El proximo nodo a abrir será: (1028, 'ciudad8')
+2020-06-08 14:57:51,263 INFO La cantidad de nodos abiertos es de: 319
+2020-06-08 14:57:51,348 INFO Se abrio el nodo: (1028, 'ciudad8')
+2020-06-08 14:57:51,348 INFO El proximo nodo a abrir será: (1123, 'ciudad3')
+2020-06-08 14:57:51,348 INFO La cantidad de nodos abiertos es de: 320
+2020-06-08 14:57:51,433 INFO Se abrio el nodo: (1123, 'ciudad3')
+2020-06-08 14:57:51,433 INFO El proximo nodo a abrir será: (279, 'ciudad7')
+2020-06-08 14:57:51,433 INFO La cantidad de nodos abiertos es de: 321
+2020-06-08 14:57:51,533 INFO Se abrio el nodo: (279, 'ciudad7')
+2020-06-08 14:57:51,533 INFO El proximo nodo a abrir será: (1040, 'ciudad8')
+2020-06-08 14:57:51,533 INFO La cantidad de nodos abiertos es de: 322
+2020-06-08 14:57:51,611 INFO Se abrio el nodo: (1040, 'ciudad8')
+2020-06-08 14:57:51,611 INFO El proximo nodo a abrir será: (291, 'ciudad7')
+2020-06-08 14:57:51,611 INFO La cantidad de nodos abiertos es de: 323
+2020-06-08 14:57:51,696 INFO Se abrio el nodo: (291, 'ciudad7')
+2020-06-08 14:57:51,696 INFO El proximo nodo a abrir será: (663, 'ciudad9')
+2020-06-08 14:57:51,711 INFO La cantidad de nodos abiertos es de: 324
+2020-06-08 14:57:51,796 INFO Se abrio el nodo: (663, 'ciudad9')
+2020-06-08 14:57:51,796 INFO El proximo nodo a abrir será: (929, 'ciudad2')
+2020-06-08 14:57:51,796 INFO La cantidad de nodos abiertos es de: 325
+2020-06-08 14:57:51,895 INFO Se abrio el nodo: (929, 'ciudad2')
+2020-06-08 14:57:51,895 INFO El proximo nodo a abrir será: (1127, 'ciudad3')
+2020-06-08 14:57:51,895 INFO La cantidad de nodos abiertos es de: 326
+2020-06-08 14:57:51,977 INFO Se abrio el nodo: (1127, 'ciudad3')
+2020-06-08 14:57:51,977 INFO El proximo nodo a abrir será: (300, 'ciudad4')
+2020-06-08 14:57:51,977 INFO La cantidad de nodos abiertos es de: 327
+2020-06-08 14:57:52,078 INFO Se abrio el nodo: (300, 'ciudad4')
+2020-06-08 14:57:52,078 INFO El proximo nodo a abrir será: (673, 'ciudad8')
+2020-06-08 14:57:52,078 INFO La cantidad de nodos abiertos es de: 328
+2020-06-08 14:57:52,168 INFO Se abrio el nodo: (673, 'ciudad8')
+2020-06-08 14:57:52,168 INFO El proximo nodo a abrir será: (676, 'ciudad9')
+2020-06-08 14:57:52,168 INFO La cantidad de nodos abiertos es de: 329
+2020-06-08 14:57:52,259 INFO Se abrio el nodo: (676, 'ciudad9')
+2020-06-08 14:57:52,259 INFO El proximo nodo a abrir será: (940, 'ciudad2')
+2020-06-08 14:57:52,259 INFO La cantidad de nodos abiertos es de: 330
+2020-06-08 14:57:52,368 INFO Se abrio el nodo: (940, 'ciudad2')
+2020-06-08 14:57:52,368 INFO El proximo nodo a abrir será: (1130, 'ciudad3')
+2020-06-08 14:57:52,368 INFO La cantidad de nodos abiertos es de: 331
+2020-06-08 14:57:52,460 INFO Se abrio el nodo: (1130, 'ciudad3')
+2020-06-08 14:57:52,461 INFO El proximo nodo a abrir será: (1136, 'ciudad2')
+2020-06-08 14:57:52,461 INFO La cantidad de nodos abiertos es de: 332
+2020-06-08 14:57:52,551 INFO Se abrio el nodo: (1136, 'ciudad2')
+2020-06-08 14:57:52,551 INFO El proximo nodo a abrir será: (907, 'ciudad4')
+2020-06-08 14:57:52,551 INFO La cantidad de nodos abiertos es de: 333
+2020-06-08 14:57:52,642 INFO Se abrio el nodo: (907, 'ciudad4')
+2020-06-08 14:57:52,642 INFO El proximo nodo a abrir será: (910, 'ciudad4')
+2020-06-08 14:57:52,642 INFO La cantidad de nodos abiertos es de: 334
+2020-06-08 14:57:52,741 INFO Se abrio el nodo: (910, 'ciudad4')
+2020-06-08 14:57:52,741 INFO El proximo nodo a abrir será: (938, 'ciudad6')
+2020-06-08 14:57:52,741 INFO La cantidad de nodos abiertos es de: 335
+2020-06-08 14:57:52,832 INFO Se abrio el nodo: (938, 'ciudad6')
+2020-06-08 14:57:52,832 INFO El proximo nodo a abrir será: (1150, 'ciudad7')
+2020-06-08 14:57:52,832 INFO La cantidad de nodos abiertos es de: 336
+2020-06-08 14:57:52,933 INFO Se abrio el nodo: (1150, 'ciudad7')
+2020-06-08 14:57:52,933 INFO El proximo nodo a abrir será: (619, 'ciudad9')
+2020-06-08 14:57:52,933 INFO La cantidad de nodos abiertos es de: 337
+2020-06-08 14:57:53,013 INFO Se abrio el nodo: (619, 'ciudad9')
+2020-06-08 14:57:53,013 INFO El proximo nodo a abrir será: (730, 'ciudad5')
+2020-06-08 14:57:53,021 INFO La cantidad de nodos abiertos es de: 338
+2020-06-08 14:57:53,124 INFO Se abrio el nodo: (730, 'ciudad5')
+2020-06-08 14:57:53,124 INFO El proximo nodo a abrir será: (916, 'ciudad4')
+2020-06-08 14:57:53,124 INFO La cantidad de nodos abiertos es de: 339
+2020-06-08 14:57:53,214 INFO Se abrio el nodo: (916, 'ciudad4')
+2020-06-08 14:57:53,214 INFO El proximo nodo a abrir será: (919, 'ciudad4')
+2020-06-08 14:57:53,214 INFO La cantidad de nodos abiertos es de: 340
+2020-06-08 14:57:53,304 INFO Se abrio el nodo: (919, 'ciudad4')
+2020-06-08 14:57:53,304 INFO El proximo nodo a abrir será: (949, 'ciudad2')
+2020-06-08 14:57:53,304 INFO La cantidad de nodos abiertos es de: 341
+2020-06-08 14:57:53,395 INFO Se abrio el nodo: (949, 'ciudad2')
+2020-06-08 14:57:53,395 INFO El proximo nodo a abrir será: (961, 'ciudad2')
+2020-06-08 14:57:53,395 INFO La cantidad de nodos abiertos es de: 342
+2020-06-08 14:57:53,485 INFO Se abrio el nodo: (961, 'ciudad2')
+2020-06-08 14:57:53,485 INFO El proximo nodo a abrir será: (1153, 'ciudad5')
+2020-06-08 14:57:53,485 INFO La cantidad de nodos abiertos es de: 343
+2020-06-08 14:57:53,586 INFO Se abrio el nodo: (1153, 'ciudad5')
+2020-06-08 14:57:53,586 INFO El proximo nodo a abrir será: (1160, 'ciudad7')
+2020-06-08 14:57:53,586 INFO La cantidad de nodos abiertos es de: 344
+2020-06-08 14:57:53,680 INFO Se abrio el nodo: (1160, 'ciudad7')
+2020-06-08 14:57:53,680 INFO El proximo nodo a abrir será: (1165, 'ciudad5')
+2020-06-08 14:57:53,680 INFO La cantidad de nodos abiertos es de: 345
+2020-06-08 14:57:53,780 INFO Se abrio el nodo: (1165, 'ciudad5')
+2020-06-08 14:57:53,780 INFO El proximo nodo a abrir será: (1167, 'ciudad5')
+2020-06-08 14:57:53,780 INFO La cantidad de nodos abiertos es de: 346
+2020-06-08 14:57:53,880 INFO Se abrio el nodo: (1167, 'ciudad5')
+2020-06-08 14:57:53,880 INFO El proximo nodo a abrir será: (1177, 'ciudad5')
+2020-06-08 14:57:53,880 INFO La cantidad de nodos abiertos es de: 347
+2020-06-08 14:57:53,980 INFO Se abrio el nodo: (1177, 'ciudad5')
+2020-06-08 14:57:53,980 INFO El proximo nodo a abrir será: (749, 'ciudad5')
+2020-06-08 14:57:53,980 INFO La cantidad de nodos abiertos es de: 348
+2020-06-08 14:57:54,077 INFO Se abrio el nodo: (749, 'ciudad5')
+2020-06-08 14:57:54,077 INFO El proximo nodo a abrir será: (1182, 'ciudad7')
+2020-06-08 14:57:54,077 INFO La cantidad de nodos abiertos es de: 349
+2020-06-08 14:57:54,178 INFO Se abrio el nodo: (1182, 'ciudad7')
+2020-06-08 14:57:54,178 INFO El proximo nodo a abrir será: (1183, 'ciudad7')
+2020-06-08 14:57:54,178 INFO La cantidad de nodos abiertos es de: 350
+2020-06-08 14:57:54,278 INFO Se abrio el nodo: (1183, 'ciudad7')
+2020-06-08 14:57:54,278 INFO El proximo nodo a abrir será: (988, 'ciudad3')
+2020-06-08 14:57:54,278 INFO La cantidad de nodos abiertos es de: 351
+2020-06-08 14:57:54,369 INFO Se abrio el nodo: (988, 'ciudad3')
+2020-06-08 14:57:54,369 INFO El proximo nodo a abrir será: (990, 'ciudad6')
+2020-06-08 14:57:54,369 INFO La cantidad de nodos abiertos es de: 352
+2020-06-08 14:57:54,464 INFO Se abrio el nodo: (990, 'ciudad6')
+2020-06-08 14:57:54,464 INFO El proximo nodo a abrir será: (394, 'ciudad7')
+2020-06-08 14:57:54,465 INFO La cantidad de nodos abiertos es de: 353
+2020-06-08 14:57:54,550 INFO Se abrio el nodo: (394, 'ciudad7')
+2020-06-08 14:57:54,550 INFO El proximo nodo a abrir será: (1005, 'ciudad6')
+2020-06-08 14:57:54,550 INFO La cantidad de nodos abiertos es de: 354
+2020-06-08 14:57:54,648 INFO Se abrio el nodo: (1005, 'ciudad6')
+2020-06-08 14:57:54,648 INFO El proximo nodo a abrir será: (1196, 'ciudad8')
+2020-06-08 14:57:54,648 INFO La cantidad de nodos abiertos es de: 355
+2020-06-08 14:57:54,741 INFO Se abrio el nodo: (1196, 'ciudad8')
+2020-06-08 14:57:54,741 INFO El proximo nodo a abrir será: (345, 'ciudad7')
+2020-06-08 14:57:54,741 INFO La cantidad de nodos abiertos es de: 356
+2020-06-08 14:57:54,839 INFO Se abrio el nodo: (345, 'ciudad7')
+2020-06-08 14:57:54,839 INFO El proximo nodo a abrir será: (1203, 'ciudad2')
+2020-06-08 14:57:54,839 INFO La cantidad de nodos abiertos es de: 357
+2020-06-08 14:57:54,932 INFO Se abrio el nodo: (1203, 'ciudad2')
+2020-06-08 14:57:54,932 INFO El proximo nodo a abrir será: (884, 'ciudad6')
+2020-06-08 14:57:54,932 INFO La cantidad de nodos abiertos es de: 358
+2020-06-08 14:57:55,022 INFO Se abrio el nodo: (884, 'ciudad6')
+2020-06-08 14:57:55,022 INFO El proximo nodo a abrir será: (1019, 'ciudad6')
+2020-06-08 14:57:55,022 INFO La cantidad de nodos abiertos es de: 359
+2020-06-08 14:57:55,122 INFO Se abrio el nodo: (1019, 'ciudad6')
+2020-06-08 14:57:55,122 INFO El proximo nodo a abrir será: (1022, 'ciudad3')
+2020-06-08 14:57:55,122 INFO La cantidad de nodos abiertos es de: 360
+2020-06-08 14:57:55,213 INFO Se abrio el nodo: (1022, 'ciudad3')
+2020-06-08 14:57:55,213 INFO El proximo nodo a abrir será: (845, 'ciudad5')
+2020-06-08 14:57:55,213 INFO La cantidad de nodos abiertos es de: 361
+2020-06-08 14:57:55,315 INFO Se abrio el nodo: (845, 'ciudad5')
+2020-06-08 14:57:55,315 INFO El proximo nodo a abrir será: (1039, 'ciudad6')
+2020-06-08 14:57:55,315 INFO La cantidad de nodos abiertos es de: 362
+2020-06-08 14:57:55,403 INFO Se abrio el nodo: (1039, 'ciudad6')
+2020-06-08 14:57:55,403 INFO El proximo nodo a abrir será: (1232, 'ciudad4')
+2020-06-08 14:57:55,403 INFO La cantidad de nodos abiertos es de: 363
+2020-06-08 14:57:55,506 INFO Se abrio el nodo: (1232, 'ciudad4')
+2020-06-08 14:57:55,506 INFO El proximo nodo a abrir será: (1079, 'ciudad8')
+2020-06-08 14:57:55,506 INFO La cantidad de nodos abiertos es de: 364
+2020-06-08 14:57:55,604 INFO Se abrio el nodo: (1079, 'ciudad8')
+2020-06-08 14:57:55,604 INFO El proximo nodo a abrir será: (1229, 'ciudad8')
+2020-06-08 14:57:55,604 INFO La cantidad de nodos abiertos es de: 365
+2020-06-08 14:57:55,697 INFO Se abrio el nodo: (1229, 'ciudad8')
+2020-06-08 14:57:55,697 INFO El proximo nodo a abrir será: (1081, 'ciudad8')
+2020-06-08 14:57:55,697 INFO La cantidad de nodos abiertos es de: 366
+2020-06-08 14:57:55,797 INFO Se abrio el nodo: (1081, 'ciudad8')
+2020-06-08 14:57:55,797 INFO El proximo nodo a abrir será: (1094, 'ciudad9')
+2020-06-08 14:57:55,797 INFO La cantidad de nodos abiertos es de: 367
+2020-06-08 14:57:55,896 INFO Se abrio el nodo: (1094, 'ciudad9')
+2020-06-08 14:57:55,896 INFO El proximo nodo a abrir será: (1134, 'ciudad6')
+2020-06-08 14:57:55,896 INFO La cantidad de nodos abiertos es de: 368
+2020-06-08 14:57:55,988 INFO Se abrio el nodo: (1134, 'ciudad6')
+2020-06-08 14:57:55,988 INFO El proximo nodo a abrir será: (1135, 'ciudad9')
+2020-06-08 14:57:55,988 INFO La cantidad de nodos abiertos es de: 369
+2020-06-08 14:57:56,078 INFO Se abrio el nodo: (1135, 'ciudad9')
+2020-06-08 14:57:56,078 INFO El proximo nodo a abrir será: (955, 'ciudad4')
+2020-06-08 14:57:56,078 INFO La cantidad de nodos abiertos es de: 370
+2020-06-08 14:57:56,189 INFO Se abrio el nodo: (955, 'ciudad4')
+2020-06-08 14:57:56,189 INFO El proximo nodo a abrir será: (959, 'ciudad6')
+2020-06-08 14:57:56,189 INFO La cantidad de nodos abiertos es de: 371
+2020-06-08 14:57:56,288 INFO Se abrio el nodo: (959, 'ciudad6')
+2020-06-08 14:57:56,288 INFO El proximo nodo a abrir será: (1151, 'ciudad6')
+2020-06-08 14:57:56,288 INFO La cantidad de nodos abiertos es de: 372
+2020-06-08 14:57:56,380 INFO Se abrio el nodo: (1151, 'ciudad6')
+2020-06-08 14:57:56,380 INFO El proximo nodo a abrir será: (1152, 'ciudad9')
+2020-06-08 14:57:56,380 INFO La cantidad de nodos abiertos es de: 373
+2020-06-08 14:57:56,480 INFO Se abrio el nodo: (1152, 'ciudad9')
+2020-06-08 14:57:56,480 INFO El proximo nodo a abrir será: (1052, 'ciudad6')
+2020-06-08 14:57:56,480 INFO La cantidad de nodos abiertos es de: 374
+2020-06-08 14:57:56,591 INFO Se abrio el nodo: (1052, 'ciudad6')
+2020-06-08 14:57:56,591 INFO El proximo nodo a abrir será: (1251, 'ciudad5')
+2020-06-08 14:57:56,591 INFO La cantidad de nodos abiertos es de: 375
+2020-06-08 14:57:56,702 INFO Se abrio el nodo: (1251, 'ciudad5')
+2020-06-08 14:57:56,702 INFO El proximo nodo a abrir será: (1162, 'ciudad9')
+2020-06-08 14:57:56,702 INFO La cantidad de nodos abiertos es de: 376
+2020-06-08 14:57:56,792 INFO Se abrio el nodo: (1162, 'ciudad9')
+2020-06-08 14:57:56,792 INFO El proximo nodo a abrir será: (26, 'ciudad5')
+2020-06-08 14:57:56,800 INFO La cantidad de nodos abiertos es de: 377
+2020-06-08 14:57:56,901 INFO Se abrio el nodo: (26, 'ciudad5')
+2020-06-08 14:57:56,901 INFO El proximo nodo a abrir será: (1261, 'ciudad4')
+2020-06-08 14:57:56,901 INFO La cantidad de nodos abiertos es de: 378
+2020-06-08 14:57:57,001 INFO Se abrio el nodo: (1261, 'ciudad4')
+2020-06-08 14:57:57,001 INFO El proximo nodo a abrir será: (1195, 'ciudad6')
+2020-06-08 14:57:57,001 INFO La cantidad de nodos abiertos es de: 379
+2020-06-08 14:57:57,094 INFO Se abrio el nodo: (1195, 'ciudad6')
+2020-06-08 14:57:57,094 INFO El proximo nodo a abrir será: (1197, 'ciudad9')
+2020-06-08 14:57:57,094 INFO La cantidad de nodos abiertos es de: 380
+2020-06-08 14:57:57,204 INFO Se abrio el nodo: (1197, 'ciudad9')
+2020-06-08 14:57:57,204 INFO El proximo nodo a abrir será: (1199, 'ciudad3')
+2020-06-08 14:57:57,204 INFO La cantidad de nodos abiertos es de: 381
+2020-06-08 14:57:57,305 INFO Se abrio el nodo: (1199, 'ciudad3')
+2020-06-08 14:57:57,305 INFO El proximo nodo a abrir será: (430, 'ciudad7')
+2020-06-08 14:57:57,305 INFO La cantidad de nodos abiertos es de: 382
+2020-06-08 14:57:57,435 INFO Se abrio el nodo: (430, 'ciudad7')
+2020-06-08 14:57:57,435 INFO El proximo nodo a abrir será: (1207, 'ciudad3')
+2020-06-08 14:57:57,435 INFO La cantidad de nodos abiertos es de: 383
+2020-06-08 14:57:57,526 INFO Se abrio el nodo: (1207, 'ciudad3')
+2020-06-08 14:57:57,534 INFO El proximo nodo a abrir será: (706, 'ciudad9')
+2020-06-08 14:57:57,534 INFO La cantidad de nodos abiertos es de: 384
+2020-06-08 14:57:57,636 INFO Se abrio el nodo: (706, 'ciudad9')
+2020-06-08 14:57:57,636 INFO El proximo nodo a abrir será: (714, 'ciudad8')
+2020-06-08 14:57:57,636 INFO La cantidad de nodos abiertos es de: 385
+2020-06-08 14:57:57,737 INFO Se abrio el nodo: (714, 'ciudad8')
+2020-06-08 14:57:57,737 INFO El proximo nodo a abrir será: (1281, 'ciudad8')
+2020-06-08 14:57:57,737 INFO La cantidad de nodos abiertos es de: 386
+2020-06-08 14:57:57,837 INFO Se abrio el nodo: (1281, 'ciudad8')
+2020-06-08 14:57:57,837 INFO El proximo nodo a abrir será: (1222, 'ciudad3')
+2020-06-08 14:57:57,837 INFO La cantidad de nodos abiertos es de: 387
+2020-06-08 14:57:57,938 INFO Se abrio el nodo: (1222, 'ciudad3')
+2020-06-08 14:57:57,938 INFO El proximo nodo a abrir será: (1225, 'ciudad3')
+2020-06-08 14:57:57,938 INFO La cantidad de nodos abiertos es de: 388
+2020-06-08 14:57:58,038 INFO Se abrio el nodo: (1225, 'ciudad3')
+2020-06-08 14:57:58,038 INFO El proximo nodo a abrir será: (1283, 'ciudad2')
+2020-06-08 14:57:58,038 INFO La cantidad de nodos abiertos es de: 389
+2020-06-08 14:57:58,139 INFO Se abrio el nodo: (1283, 'ciudad2')
+2020-06-08 14:57:58,139 INFO El proximo nodo a abrir será: (720, 'ciudad9')
+2020-06-08 14:57:58,139 INFO La cantidad de nodos abiertos es de: 390
+2020-06-08 14:57:58,239 INFO Se abrio el nodo: (720, 'ciudad9')
+2020-06-08 14:57:58,239 INFO El proximo nodo a abrir será: (723, 'ciudad8')
+2020-06-08 14:57:58,239 INFO La cantidad de nodos abiertos es de: 391
+2020-06-08 14:57:58,340 INFO Se abrio el nodo: (723, 'ciudad8')
+2020-06-08 14:57:58,340 INFO El proximo nodo a abrir será: (1078, 'ciudad6')
+2020-06-08 14:57:58,340 INFO La cantidad de nodos abiertos es de: 392
+2020-06-08 14:57:58,440 INFO Se abrio el nodo: (1078, 'ciudad6')
+2020-06-08 14:57:58,440 INFO El proximo nodo a abrir será: (899, 'ciudad5')
+2020-06-08 14:57:58,440 INFO La cantidad de nodos abiertos es de: 393
+2020-06-08 14:57:58,541 INFO Se abrio el nodo: (899, 'ciudad5')
+2020-06-08 14:57:58,541 INFO El proximo nodo a abrir será: (1048, 'ciudad3')
+2020-06-08 14:57:58,541 INFO La cantidad de nodos abiertos es de: 394
+2020-06-08 14:57:58,651 INFO Se abrio el nodo: (1048, 'ciudad3')
+2020-06-08 14:57:58,651 INFO El proximo nodo a abrir será: (1096, 'ciudad8')
+2020-06-08 14:57:58,651 INFO La cantidad de nodos abiertos es de: 395
+2020-06-08 14:57:58,762 INFO Se abrio el nodo: (1096, 'ciudad8')
+2020-06-08 14:57:58,762 INFO El proximo nodo a abrir será: (1230, 'ciudad9')
+2020-06-08 14:57:58,762 INFO La cantidad de nodos abiertos es de: 396
+2020-06-08 14:57:58,873 INFO Se abrio el nodo: (1230, 'ciudad9')
+2020-06-08 14:57:58,873 INFO El proximo nodo a abrir será: (1287, 'ciudad8')
+2020-06-08 14:57:58,873 INFO La cantidad de nodos abiertos es de: 397
+2020-06-08 14:57:58,984 INFO Se abrio el nodo: (1287, 'ciudad8')
+2020-06-08 14:57:58,984 INFO El proximo nodo a abrir será: (382, 'ciudad7')
+2020-06-08 14:57:58,984 INFO La cantidad de nodos abiertos es de: 398
+2020-06-08 14:57:59,084 INFO Se abrio el nodo: (382, 'ciudad7')
+2020-06-08 14:57:59,084 INFO El proximo nodo a abrir será: (735, 'ciudad8')
+2020-06-08 14:57:59,084 INFO La cantidad de nodos abiertos es de: 399
+2020-06-08 14:57:59,215 INFO Se abrio el nodo: (735, 'ciudad8')
+2020-06-08 14:57:59,215 INFO El proximo nodo a abrir será: (866, 'ciudad5')
+2020-06-08 14:57:59,215 INFO La cantidad de nodos abiertos es de: 400
+2020-06-08 14:57:59,325 INFO Se abrio el nodo: (866, 'ciudad5')
+2020-06-08 14:57:59,325 INFO El proximo nodo a abrir será: (1098, 'ciudad2')
+2020-06-08 14:57:59,325 INFO La cantidad de nodos abiertos es de: 401
+2020-06-08 14:57:59,436 INFO Se abrio el nodo: (1098, 'ciudad2')
+2020-06-08 14:57:59,436 INFO El proximo nodo a abrir será: (1104, 'ciudad2')
+2020-06-08 14:57:59,436 INFO La cantidad de nodos abiertos es de: 402
+2020-06-08 14:57:59,534 INFO Se abrio el nodo: (1104, 'ciudad2')
+2020-06-08 14:57:59,536 INFO El proximo nodo a abrir será: (1298, 'ciudad8')
+2020-06-08 14:57:59,536 INFO La cantidad de nodos abiertos es de: 403
+2020-06-08 14:57:59,634 INFO Se abrio el nodo: (1298, 'ciudad8')
+2020-06-08 14:57:59,636 INFO El proximo nodo a abrir será: (1300, 'ciudad8')
+2020-06-08 14:57:59,636 INFO La cantidad de nodos abiertos es de: 404
+2020-06-08 14:57:59,735 INFO Se abrio el nodo: (1300, 'ciudad8')
+2020-06-08 14:57:59,735 INFO El proximo nodo a abrir será: (1110, 'ciudad2')
+2020-06-08 14:57:59,735 INFO La cantidad de nodos abiertos es de: 405
+2020-06-08 14:57:59,847 INFO Se abrio el nodo: (1110, 'ciudad2')
+2020-06-08 14:57:59,847 INFO El proximo nodo a abrir será: (1324, 'ciudad4')
+2020-06-08 14:57:59,847 INFO La cantidad de nodos abiertos es de: 406
+2020-06-08 14:57:59,958 INFO Se abrio el nodo: (1324, 'ciudad4')
+2020-06-08 14:57:59,958 INFO El proximo nodo a abrir será: (1057, 'ciudad4')
+2020-06-08 14:57:59,958 INFO La cantidad de nodos abiertos es de: 407
+2020-06-08 14:58:00,072 INFO Se abrio el nodo: (1057, 'ciudad4')
+2020-06-08 14:58:00,072 INFO El proximo nodo a abrir será: (1327, 'ciudad7')
+2020-06-08 14:58:00,072 INFO La cantidad de nodos abiertos es de: 408
+2020-06-08 14:58:00,172 INFO Se abrio el nodo: (1327, 'ciudad7')
+2020-06-08 14:58:00,172 INFO El proximo nodo a abrir será: (1328, 'ciudad7')
+2020-06-08 14:58:00,172 INFO La cantidad de nodos abiertos es de: 409
+2020-06-08 14:58:00,212 INFO La cantidad de nodos abiertos fue de: 410
+2020-06-08 14:58:00,213 INFO El óptimo recorrido es: [(1, 'ciudad1'), (9, 'ciudad9'), (16, 'ciudad8'), (518, 'ciudad3'), (530, 'ciudad4'), (696, 'ciudad5'), (716, 'ciudad6'), (1104, 'ciudad2'), (1328, 'ciudad7')]
+2020-06-08 14:58:00,213 INFO O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad9', 'ciudad8', 'ciudad3', 'ciudad4', 'ciudad5', 'ciudad6', 'ciudad2', 'ciudad7']
+2020-06-08 14:58:00,214 INFO El costo total del óptimo recorrido es de: 78
+2020-06-08 14:58:00,215 INFO El tiempo de procesamiento total fue de: 25.879354 segundos
+2020-06-08 14:58:00,216 INFO Fin del proceso

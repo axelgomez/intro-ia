@@ -1,0 +1,24 @@
+2020-06-08 14:33:10,025 INFO Inicio del proceso
+2020-06-08 14:33:10,030 INFO Existe un archivo de control para la ejecucion elegida
+2020-06-08 14:33:10,034 DEBUG Padres: [((2, 'ciudad2'), (1, 'ciudad1')), ((2, 'ciudad2'), (6, 'ciudad3')), ((2, 'ciudad2'), (7, 'ciudad4')), ((2, 'ciudad2'), (8, 'ciudad5'))]
+2020-06-08 14:33:10,035 DEBUG Padres: [((5, 'ciudad5'), (1, 'ciudad1')), ((5, 'ciudad5'), (9, 'ciudad2')), ((5, 'ciudad5'), (10, 'ciudad3')), ((5, 'ciudad5'), (11, 'ciudad4'))]
+2020-06-08 14:33:10,035 DEBUG Padres: [((6, 'ciudad3'), (2, 'ciudad2')), ((6, 'ciudad3'), (12, 'ciudad4')), ((6, 'ciudad3'), (13, 'ciudad5'))]
+2020-06-08 14:33:10,037 DEBUG Padres: [((2, 'ciudad2'), (1, 'ciudad1')), ((2, 'ciudad2'), (6, 'ciudad3')), ((2, 'ciudad2'), (7, 'ciudad4')), ((2, 'ciudad2'), (8, 'ciudad5'))]
+2020-06-08 14:33:10,039 DEBUG Padres: [((11, 'ciudad4'), (5, 'ciudad5')), ((11, 'ciudad4'), (14, 'ciudad2')), ((11, 'ciudad4'), (15, 'ciudad3'))]
+2020-06-08 14:33:10,039 DEBUG Padres: [((5, 'ciudad5'), (1, 'ciudad1')), ((5, 'ciudad5'), (9, 'ciudad2')), ((5, 'ciudad5'), (10, 'ciudad3')), ((5, 'ciudad5'), (11, 'ciudad4'))]
+2020-06-08 14:33:10,040 DEBUG Padres: [((12, 'ciudad4'), (6, 'ciudad3')), ((12, 'ciudad4'), (16, 'ciudad5'))]
+2020-06-08 14:33:10,040 DEBUG Padres: [((6, 'ciudad3'), (2, 'ciudad2')), ((6, 'ciudad3'), (12, 'ciudad4')), ((6, 'ciudad3'), (13, 'ciudad5'))]
+2020-06-08 14:33:10,041 DEBUG Padres: [((2, 'ciudad2'), (1, 'ciudad1')), ((2, 'ciudad2'), (6, 'ciudad3')), ((2, 'ciudad2'), (7, 'ciudad4')), ((2, 'ciudad2'), (8, 'ciudad5'))]
+2020-06-08 14:33:10,041 DEBUG Padres: [((15, 'ciudad3'), (11, 'ciudad4')), ((15, 'ciudad3'), (17, 'ciudad2'))]
+2020-06-08 14:33:10,042 DEBUG Padres: [((11, 'ciudad4'), (5, 'ciudad5')), ((11, 'ciudad4'), (14, 'ciudad2')), ((11, 'ciudad4'), (15, 'ciudad3'))]
+2020-06-08 14:33:10,043 DEBUG Padres: [((5, 'ciudad5'), (1, 'ciudad1')), ((5, 'ciudad5'), (9, 'ciudad2')), ((5, 'ciudad5'), (10, 'ciudad3')), ((5, 'ciudad5'), (11, 'ciudad4'))]
+2020-06-08 14:33:10,043 DEBUG Padres: [((16, 'ciudad5'), (12, 'ciudad4'))]
+2020-06-08 14:33:10,044 DEBUG Padres: [((12, 'ciudad4'), (6, 'ciudad3')), ((12, 'ciudad4'), (16, 'ciudad5'))]
+2020-06-08 14:33:10,045 DEBUG Padres: [((6, 'ciudad3'), (2, 'ciudad2')), ((6, 'ciudad3'), (12, 'ciudad4')), ((6, 'ciudad3'), (13, 'ciudad5'))]
+2020-06-08 14:33:10,045 DEBUG Padres: [((2, 'ciudad2'), (1, 'ciudad1')), ((2, 'ciudad2'), (6, 'ciudad3')), ((2, 'ciudad2'), (7, 'ciudad4')), ((2, 'ciudad2'), (8, 'ciudad5'))]
+2020-06-08 14:33:10,054 INFO La cantidad de nodos abiertos fue de: 8
+2020-06-08 14:33:10,055 INFO El óptimo recorrido es: [(1, 'ciudad1'), (2, 'ciudad2'), (6, 'ciudad3'), (12, 'ciudad4'), (16, 'ciudad5')]
+2020-06-08 14:33:10,056 INFO O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad2', 'ciudad3', 'ciudad4', 'ciudad5']
+2020-06-08 14:33:10,056 INFO El costo total del óptimo recorrido es de: 30
+2020-06-08 14:33:10,057 INFO El tiempo de procesamiento total fue de: 0.130916 segundos
+2020-06-08 14:33:10,057 INFO Fin del proceso
