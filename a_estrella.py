@@ -65,19 +65,16 @@ class AEstrella:
         # se calcula el costo desde el inicio S hasta M con M todos los nodos no ABIERTOS
         Gn = 0
         aux = nodo_m
+        calcularPadres = self._calcularPadres
+        costoDeNaM = self._costoDeNaM
         while (aux != nodo_s):
-            vecinos = grafoG.neighbors(aux)
-            #padres = []
-            
-            #TODO: optimizar
-            vecinos = filter(lambda e: e!=None , vecinos)
-            padres = map(lambda e: (aux, e), vecinos)
+            vecinos, padres = calcularPadres(grafoG, aux)
             
             #TODO: filtrar con una funcion lambda el aux dentro de padres[n][0] y realizar el remove
             for a in padres:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
-                    Gn += self._costoDeNaM(mat_costCiu,a[0],a[1])
+                    Gn += costoDeNaM(mat_costCiu,a[0],a[1])
                     # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                     aux = a[1]
                     break
@@ -93,20 +90,17 @@ class AEstrella:
         vec_aux = [a for a in vec_costCiu] # vec_costCiu = [5,15,17,7,6,19,20,7,21,5]
         aux = nodo_m
         nivel = 0 #esta variable se utilizara para conocer el nivel de profundidad (0 es (1,'ciudad1')) en el que se encuentra el nodo_m dentro del grafo
+        calcularPadres = self._calcularPadres
+        costoDeNaM = self._costoDeNaM
         while (aux != nodo_s):
-            vecinos = grafoG.neighbors(aux)
-            #padres = []
-
-            #TODO: optimizar
-            vecinos = filter(lambda e: e!=None , vecinos)
-            padres = map(lambda e: (aux, e), vecinos)
+            vecinos, padres = calcularPadres(grafoG, aux)
 
             #TODO: filtrar con una funcion lambda el aux dentro de padres[n][0] y realizar el remove
             for a in padres:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
                     # se le quita el costo del recorrido desde nodo_m a su padre
-                    vec_aux.remove(self._costoDeNaM(mat_costCiu,a[0],a[1]))
+                    vec_aux.remove(costoDeNaM(mat_costCiu,a[0],a[1]))
                     nivel += 1
                     # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                     aux = a[1]
@@ -140,8 +134,11 @@ class AEstrella:
         vec_costCiu_aux = [a for a in vec_costCiu]
         for a in range(cantCiu):
             #aux = cantCiu + cantCiu*(a-1)
+            
+            #TODO: optimizar
             for c in range(a+1):
                 vecmat_costCiu.append(0)
+            
             for b in range(cantCiu-a-1):
                 vecmat_costCiu.append(vec_costCiu_aux[0])
                 vec_costCiu_aux = vec_costCiu_aux[1:]
@@ -159,6 +156,12 @@ class AEstrella:
             vecmat_costCiu = vecmat_costCiu[cantCiu:]
 
         return cantCiu, vec_costCiu, mat_costCiu
+
+    def _calcularPadres(self, grafoG, nodo):
+        vecinos = grafoG.neighbors(nodo)
+        vecinos = filter(lambda e: e!=None , vecinos)
+        padres = map(lambda e: (nodo, e), vecinos)
+        return vecinos, padres
 
     def Procesar(self, archivo):
         '''
@@ -189,34 +192,29 @@ class AEstrella:
         logger.info("Inicio del proceso")
 
         # Se chequea si existe un archivo de control
-        if (self.sem_control == True):
-            if (os.path.isfile(self.arch_control) or os.path.isfile("{}_viejo".format(self.arch_control))):
+        if (self.sem_control == True and (os.path.isfile(self.arch_control) or os.path.isfile("{}_viejo".format(self.arch_control)))):
 
-                if (not(os.path.isfile(self.arch_control)) and os.path.isfile("{}_viejo".format(self.arch_control))):
-                    logger.info("Existe un archivo de control viejo para la ejecucion elegida, parece que el proceso se corto de manera inesperada")
-                    print("Existe un archivo de control viejo para la ejecucion elegida, parece que el proceso se corto de manera inesperada")
-                    # Se renombra el archivo viejo de control para tomarlo como ultimo control
-                    os.rename("{}_viejo".format(self.arch_control), self.arch_control)
+            if (not(os.path.isfile(self.arch_control)) and os.path.isfile("{}_viejo".format(self.arch_control))):
+                logger.info("Existe un archivo de control viejo para la ejecucion elegida, parece que el proceso se corto de manera inesperada")
+                print("Existe un archivo de control viejo para la ejecucion elegida, parece que el proceso se corto de manera inesperada")
+                # Se renombra el archivo viejo de control para tomarlo como ultimo control
+                os.rename("{}_viejo".format(self.arch_control), self.arch_control)
 
-                if (os.path.isfile(self.arch_control)):
-                    logger.info("Existe un archivo de control para la ejecucion elegida")
-                    print("Existe un archivo de control para la ejecucion elegida")
-                    with open(self.arch_control, 'rb') as f:
-                        self = pickle.load(f)
-                        f.close()
+            if (os.path.isfile(self.arch_control)):
+                logger.info("Existe un archivo de control para la ejecucion elegida")
+                print("Existe un archivo de control para la ejecucion elegida")
+                with open(self.arch_control, 'rb') as f:
+                    self = pickle.load(f)
+                    f.close()
 
-                # Se le miente al algoritmo para que piense que es la primera vez que ejecuta al modificar el tiempo antes y despues de la ejecucion
-                # esto sirve para mantener coherencia con los tiempos de ejecución al cargar un archivo de control
-                X=(self.despues - self.antes).total_seconds()
-                self.antes = datetime.now() - timedelta(seconds=X)
-                self.despues = datetime.now() #solucion al caso en el que ya haya terminado y levantara el archivo de control
-            else:
-                logger.error("No hay un archivo de control. Por favor inicializar con sem_control=False")
-                print("No hay un archivo de control. Por favor inicializar con sem_control=False")
-                logger.info("Fin del proceso")
-                logger.removeHandler(hdlr)
-                exit(1)
-        else:
+            # Se le miente al algoritmo para que piense que es la primera vez que ejecuta al modificar el tiempo antes y despues de la ejecucion
+            # esto sirve para mantener coherencia con los tiempos de ejecución al cargar un archivo de control
+            X=(self.despues - self.antes).total_seconds()
+            self.antes = datetime.now() - timedelta(seconds=X)
+            self.despues = datetime.now() #solucion al caso en el que ya haya terminado y levantara el archivo de control
+
+        elif ((self.sem_control == True or not(os.path.isfile(self.arch_control) or os.path.isfile("{}_viejo".format(self.arch_control)))) or self.sem_control == False):
+
             print("No existe un archivo de control para la ejecucion elegida, se iniciara un proceso nuevo")
 
             self.cantCiu, self.vec_costCiu, self.mat_costCiu = self._leerArchConf(self.archivo)
@@ -250,9 +248,8 @@ class AEstrella:
 
             # se agrega al grafo toda la listAbierta (para agregar a un solo nodo se puede usar grafoG.add_node(listAbierta))
             self.edges = []
-            for a in self.listAbierta:
-                if (a != self.listAbierta[0]):
-                    self.edges.append([self.listAbierta[0],(a[0],a[1])])
+            for a in self.listAbierta[1:]:
+                self.edges.append([self.listAbierta[0],(a[0],a[1])])
 
             self.grafoG.add_edges_from(self.edges)
             # alternativamente: grafoG.add_edge((1,"ciudad1"),(2,"ciudad2"))
@@ -269,8 +266,18 @@ class AEstrella:
 
             self.EXIT = False #variable para exit forzado con fines de debugging
 
+            self.Gn = [0]
+            self.Hn = [0]
+            self.Fn = [0]
+
         # Ya sea por una nueva ejecución nueva o una con archivo de control, se continua con el algoritmo
 
+        costoDeSaM = self._costoDeSaM
+        costoDeNaM = self._costoDeNaM
+        calcularHn = self._calcularHn
+        agregarCiudadesDesdeN = self._agregarCiudadesDesdeN
+        calcularPadres = self._calcularPadres
+        
         while(len(self.listAbierta) != 0 and self.EXIT == False):
             '''
             3) Si ABIERTA está vacía retorne con Falla.
@@ -288,6 +295,9 @@ class AEstrella:
             n_abierto=0
             self.nodo_n=self.listAbierta[n_abierto]
             self.listCerrada.append(self.listAbierta.pop(n_abierto))
+            self.Gn.pop(n_abierto)
+            self.Hn.pop(n_abierto)
+            self.Fn.pop(n_abierto)
 
             '''
             5) Si n = Meta se retorna con Éxito.
@@ -314,29 +324,27 @@ class AEstrella:
                 self.recorrido_optimo = []
                 self.nivel = 1 #esta variable se utilizara para conocer el nivel de profundidad (0 es (1,'ciudad1')) en el que se encuentra el nodo_m dentro del grafo
                 while (self.nodo_evaluacion != self.nodo_s):
-                    vecinos = self.grafoG.neighbors(self.nodo_evaluacion)
-                    vecinos = filter(lambda e: e!=None , vecinos)
-                    padres = map(lambda e: (self.nodo_evaluacion, e), vecinos)
+                    vecinos, padres = calcularPadres(self.grafoG, self.nodo_evaluacion)
                     
                     #TODO: optimizar
                     for a in padres:
                         if a[0] == self.nodo_evaluacion:
                             # el nodo_m(aux) tiene padre
                             # se le quita el costo del recorrido desde nodo_m a su padre
-                            self.costo_optimo += self._costoDeNaM(self.mat_costCiu,a[0],a[1])
+                            self.costo_optimo += costoDeNaM(self.mat_costCiu,a[0],a[1])
                             self.recorrido_optimo.append(self.nodo_evaluacion)
                             self.nivel += 1
                             # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                             self.nodo_evaluacion = a[1]
                             break
-                    logger.debug("Padres: {}".format(padres))
+                    
                 #print("fin: nivel: {}".format(ciudades_distintas))
                 #print("fin: aux: {}".format(aux))
                 #print("fin: nodos_a_evaluar: {}".format(nodos_a_evaluar))
 
                 if (self.nivel >= len(self.ciudades)):
                     self.cond_exito = True
-                    self.costo_optimo += self._costoDeNaM(self.mat_costCiu,self.recorrido_optimo[0],self.nodo_s) # se calcula es costo desde la ultima ciudad hasta la primera
+                    self.costo_optimo += costoDeNaM(self.mat_costCiu,self.recorrido_optimo[0],self.nodo_s) # se calcula es costo desde la ultima ciudad hasta la primera
                     self.recorrido_optimo.append(self.nodo_s) #se appendea el nodo de inicio
                     self.recorrido_optimo.reverse()
                     self.recorrido_optimo_ciudades = [a[1] for a in self.recorrido_optimo]
@@ -363,9 +371,9 @@ class AEstrella:
                 ciudades_a_agregar = [a for a in self.ciudades if a != self.nodo_n[1]]
                 aux = self.nodo_n
                 while (aux != self.nodo_s):
-                    vecinos = self.grafoG.neighbors(aux)
-                    vecinos = filter(lambda e: e!=None , vecinos)
-                    padres = map(lambda e: (aux, e), vecinos)
+                    vecinos, padres = calcularPadres(self.grafoG, aux)
+
+                    #TODO: optimizar y hacer funcion
                     for a in padres:
                         if a[0] == aux:
                             # el nodo_m(aux) tiene padre
@@ -376,7 +384,7 @@ class AEstrella:
                             break
 
                 # 6.2 se agregan los M sucesores del nodo nodo_n al grafo G.
-                self.id_autoinc, self.grafoG, sucesores = self._agregarCiudadesDesdeN(self.id_autoinc, self.grafoG, self.nodo_n, ciudades_a_agregar)
+                self.id_autoinc, self.grafoG, sucesores = agregarCiudadesDesdeN(self.id_autoinc, self.grafoG, self.nodo_n, ciudades_a_agregar)
 
             '''
             7) Establezca punteros a n desde sus descendientes que no estén ni en ABIERTA ni en CERRADA
@@ -388,9 +396,12 @@ class AEstrella:
                 #          (no estoy seguro de este reordenamiento y tampoco sé como implementarlo)
                 
                 # 7.2 se agregan los M sucesores a la lista ABIERTA
-                for a in sucesores:
+                self.listAbiertaDif = list(map(lambda e: e, sucesores))
+                for a in self.listAbiertaDif:
                     self.listAbierta.append(a)
-                
+            else:
+                # parche valido para el inicio de la ejecucion donde hay que calcular por primera vez todos los gn y hn
+                self.listAbiertaDif = [a for a in self.listAbierta]
             '''
             8) Reordene ABIERTA
             '''
@@ -400,15 +411,19 @@ class AEstrella:
             # pero el estimado deberá ser la suma de los menores costos calculado desde el nodo recien abierto
 
             # se calcula h(n) en base a los menores costos de los recorridos posibles desde el nodo recien abierto
-            self.Fn = []
-            self.Gn = []
-            self.Hn = []
             self.nodo_s = self.listCerrada[0]
-            for nodo_m in self.listAbierta:
+
+            for nodo_m in self.listAbiertaDif:
                 #TODO: realizar la cuenta pero tomando los padres del nodo m y realizando el dropdown hasta el nodo m
-                self.Gn.append(self._costoDeSaM(self.grafoG,self.mat_costCiu,self.nodo_s,nodo_m)) #está hardcodeado el nodo inicio (S)
-                self.Hn.append(self._calcularHn(self.grafoG,self.mat_costCiu,self.vec_costCiu,self.nodo_s,nodo_m))
-                self.Fn.append(self.Gn[-1:][0] + self.Hn[-1:][0]) #f(n) = g(n) + h(n)
+                self.Gn.append(costoDeSaM(self.grafoG,self.mat_costCiu,self.nodo_s,nodo_m))
+                self.Hn.append(calcularHn(self.grafoG,self.mat_costCiu,self.vec_costCiu,self.nodo_s,nodo_m))
+                self.Fn.append(self.Gn[-1:][0] + self.Hn[-1:][0])
+                logger.debug("Gn: {}".format(self.Gn))
+                logger.debug("Hn: {}".format(self.Hn))
+                logger.debug("Fn: {}".format(self.Fn))
+
+            logger.debug("listAbierta: {}".format(self.listAbierta))
+            logger.debug("listCerrada: {}".format(self.listCerrada))
 
             # Se procede a ordenar Lista Abierta en base a la función para Algoritmo A*: f(n) = g(n) + h(n)
             # en detalle: se ordena listAbierta, Gn, Hn y Fn en función del ordenamiento de Fn
@@ -419,23 +434,33 @@ class AEstrella:
             # se arreglan las tuplas anteriores para que resulten arrays (listas)
             self.Fn,self.Gn,self.Hn,self.listAbierta = list(self.Fn),list(self.Gn),list(self.Hn),list(self.listAbierta)
 
+            logger.debug("Gn: {}".format(self.Gn))
+            logger.debug("Hn: {}".format(self.Hn))
+            logger.debug("Fn: {}".format(self.Fn))
+            logger.debug("listAbierta: {}".format(self.listAbierta))
+            logger.debug("listCerrada: {}".format(self.listCerrada))
+
             self.despues = datetime.now()
             if (self.sem_control == True):
-                # Se guarda el estado de la clase para un posible futuro uso
-                with open("{}_temp".format(self.arch_control), 'wb') as f:
-                    pickle.dump(self, f)
-                    f.close()
-                hay_archivo = os.path.isfile(self.arch_control)
-                if (hay_archivo):
-                    os.rename(self.arch_control, "{}_viejo".format(self.arch_control))
-                os.rename("{}_temp".format(self.arch_control), self.arch_control)
-                if (hay_archivo):
-                    os.remove("{}_viejo".format(self.arch_control))
+                cant = len(self.listCerrada)
+                if ((cant == 1) or (cant <= 250 and cant % 50 == 0) or (cant > 250 and cant <= 1000 and cant % 100 == 0) or (cant > 1000 and cant <= 4000 and cant % 200 == 0) or (cant > 4000 and cant % 250 == 0)):
+                    # Se guarda el estado de la clase para un posible futuro uso
+                    with open("{}_temp".format(self.arch_control), 'wb') as f:
+                        pickle.dump(self, f)
+                        f.close()
+                    hay_archivo = os.path.isfile(self.arch_control)
+                    if (hay_archivo):
+                        os.rename(self.arch_control, "{}_viejo".format(self.arch_control))
+                    os.rename("{}_temp".format(self.arch_control), self.arch_control)
+                    if (hay_archivo):
+                        os.remove("{}_viejo".format(self.arch_control))
+                    logger.info("Se guardo el archivo de control en la iteracion nro: {}".format(cant))
 
             #Se imprime el estado actual del algoritmo
             logger.info("Se abrio el nodo: {}".format(self.nodo_n))
             logger.info("El proximo nodo a abrir será: {}".format(self.listAbierta[0]))
             logger.info("La cantidad de nodos abiertos es de: {}".format(len(self.listCerrada)))
+            logger.info("La cantidad de nodos a abrir es de: {}". format(len(self.listAbierta)))
 
         self.duracion = (self.despues - self.antes).total_seconds()
 
