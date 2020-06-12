@@ -23,43 +23,13 @@ import logging
 from datetime import datetime, timedelta
 from utils import hierarchy_pos2
 
-
-'''
-    def get(self, need_restart):
-        # Last time the function crashed. Need to restore the state.
-        if need_restart:
-            with open(chkpt_fname, 'rb') as f:
-                self = pickle.load(f)
-
-        for i in range(self.begin, self.n):
-            # Some computations
-            self.prod *= (i + 1)
-            self.begin = i + 1
-
-            # Some part of the computations is completed. Save the state.
-            with open(chkpt_fname, 'wb') as f:
-                pickle.dump(self, f)
-
-            # Artificial failure of the hardware/OS/Ctrl-C/etc.
-            if (not need_restart) and (i == 3):
-                return
-
-        return self.prod
-'''
-'''
-if __name__ == '__main__':
-    f = Factorial(6)
-    print(f.get(need_restart=False))
-    print(f.get(need_restart=True))
-
-'''
-
 class AEstrella:
     def __init__(self, sem_control=True):
         # semaforo para indicar si la ejecución utilizará o no puntos de control
         self.sem_control = sem_control
 
         # Variables necesarias para el algoritmo 
+        # nada
 
     def _costoDeSaM(self, grafoG, mat_costCiu, nodo_s, nodo_m):
         # se calcula el costo desde el inicio S hasta M con M todos los nodos no ABIERTOS
@@ -74,12 +44,32 @@ class AEstrella:
             for a in padres:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
-                    Gn += costoDeNaM(mat_costCiu,a[0],a[1])
+                    Gn += self.obj_costCiu[a[0][1]][a[1][1]]
                     # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                     aux = a[1]
                     break
         return Gn
 
+    #TODO: almacenar la matriz mat_costCiu como un dict para poder entrar directamente con el nodo_n[1] y el nodo_m[1] y no tener que hacer un split y luego un int
+    '''
+    dict_costCiu = {
+        'ciudad1':{
+            'ciudad2': 3,
+            'ciudad3': 10,
+            ...
+        },
+        'ciudad2':{
+            'ciudad1': 3,
+            'ciudad3': 4,
+            ...
+        },
+        'ciudad3':{
+            'ciudad1': 10,
+            'ciudad2': 4,
+            ...
+        },
+    }
+    '''
     def _costoDeNaM(self, mat_costCiu, nodo_n, nodo_m):
         nro_ciudadN = int(nodo_n[1].split('ciudad')[1])
         nro_ciudadM = int(nodo_m[1].split('ciudad')[1])
@@ -100,7 +90,7 @@ class AEstrella:
                 if a[0] == aux:
                     # el nodo_m(aux) tiene padre
                     # se le quita el costo del recorrido desde nodo_m a su padre
-                    vec_aux.remove(costoDeNaM(mat_costCiu,a[0],a[1]))
+                    vec_aux.remove(self.obj_costCiu[a[0][1]][a[1][1]])
                     nivel += 1
                     # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
                     aux = a[1]
@@ -133,16 +123,18 @@ class AEstrella:
 
         vec_costCiu_aux = [a for a in vec_costCiu]
         for a in range(cantCiu):
-            #aux = cantCiu + cantCiu*(a-1)
             
-            #TODO: optimizar
+            #TODO: optimizar -> c no se usa y se puede hacer mejor un append con ceros
+            # Se inicializa en ceros el vector de costos de las ciudades que se utilizara para llenar la matriz de costos
             for c in range(a+1):
                 vecmat_costCiu.append(0)
             
+            # se llena el triangulo superior de la matriz
             for b in range(cantCiu-a-1):
                 vecmat_costCiu.append(vec_costCiu_aux[0])
                 vec_costCiu_aux = vec_costCiu_aux[1:]
 
+        # se traspone el triangulo superior y se almacenan sus valores
         for a in range(cantCiu):
             for b in range(cantCiu):
                 if b < a:
@@ -155,8 +147,19 @@ class AEstrella:
             mat_costCiu.append(vecmat_costCiu[:cantCiu])
             vecmat_costCiu = vecmat_costCiu[cantCiu:]
 
-        return cantCiu, vec_costCiu, mat_costCiu
+        # se compone el objeto (dict) para agilizar el calculo de costos (costo de N a M). Es una mejora hallada desde el analisis del profile del commit fcdd01
+        obj_costCiu = dict()
+        for a in range(1,cantCiu+1):
+            indice_1 = "ciudad{}".format(a)
+            obj_costCiu[indice_1] = dict()
+            for b in range(1,cantCiu+1):
+                if (a is not b):
+                    indice_2 = "ciudad{}".format(b)
+                    obj_costCiu[indice_1][indice_2] = mat_costCiu[a-1][b-1]
 
+        return cantCiu, vec_costCiu, mat_costCiu, obj_costCiu
+
+    #TODO: optimizar -> eliminar el retorno de vecinos porque las funciones que lo llaman no lo utilizan, vecinos es variable local
     def _calcularPadres(self, grafoG, nodo):
         vecinos = grafoG.neighbors(nodo)
         vecinos = filter(lambda e: e!=None , vecinos)
@@ -217,15 +220,7 @@ class AEstrella:
 
             print("No existe un archivo de control para la ejecucion elegida, se iniciara un proceso nuevo")
 
-            self.cantCiu, self.vec_costCiu, self.mat_costCiu = self._leerArchConf(self.archivo)
-            # TODO: hacer una función por arriba de leerArchConf (y por arriba de todo el proceso) para ejecutar el algoritmo para todos los archivos (o los que se sepa den bien, de la carpeta TSP)
-            # estaría bueno que los resultados se saquen a un archivo con los datos de:
-            '''
-            strCamino es un string con el camino encontrado, de la forma "1;2;3;4;5;1;"
-            CT es el costo total del camino encontrado.
-            NA es la cantidad de nodos abiertos durante el proceso.
-            strTiempoEj es un string con el tiempo de ejecución.
-            '''
+            self.cantCiu, self.vec_costCiu, self.mat_costCiu, self.obj_costCiu = self._leerArchConf(self.archivo)
 
             # se calcula la fecha y hora antes de procesar
             self.antes = datetime.now()
@@ -233,9 +228,25 @@ class AEstrella:
             self.nodos = [(a,"ciudad{}".format(a)) for a in range(1,self.cantCiu+1)]
             self.id_autoinc = self.cantCiu + 1 #id_autoinc lo uso como identificador de nodo
 
-            ## Modelo mi algoritmo A* de forma tal que cada nodo del grafo es una ciudad
+            ## Modelo el algoritmo A* de forma tal que cada nodo del grafo es una ciudad
             ## la ciudad de inicio y de fin será la 1 pero terminará habiendo recorrido todas las ciudades
             ## nota: el grafo no admite nodos iguales para lo cual diseño cada nodo (ciudad) de forma unívoca con un ID y el nombre de la ciudad (ej: 'ciudad1')
+            ## El algoritmo procesa el archivo y deja los resultados en <nombre_archivo>.resultados con el sigueinte formato:
+            '''
+            La cantidad de nodos abiertos fue de: 18
+            El optimo recorrido es: [(1, 'ciudad1'), (2, 'ciudad2'), (11, 'ciudad3'), (27, 'ciudad4'), (41, 'ciudad5'), (53, 'ciudad6'), (63, 'ciudad7'), (71, 'ciudad8'), (77, 'ciudad9'), (81, 'ciudad10')]
+            O dicho de otro modo el recorrido es: ['ciudad1', 'ciudad2', 'ciudad3', 'ciudad4', 'ciudad5', 'ciudad6', 'ciudad7', 'ciudad8', 'ciudad9', 'ciudad10']
+            El costo total del optimo recorrido es de: 10
+            El tiempo de procesamiento total fue de: 0.465711 segundos
+            '''
+
+            ## y asi es como lo proponia la catedra:
+            '''
+            strCamino es un string con el camino encontrado, de la forma "1;2;3;4;5;1;"
+            CT es el costo total del camino encontrado.
+            NA es la cantidad de nodos abiertos durante el proceso.
+            strTiempoEj es un string con el tiempo de ejecución.
+            '''
 
             '''
             1) Se crea un grafo de busqueda G y una lista ABIERTA y se coloca a s en cada uno de ellos.
@@ -277,7 +288,7 @@ class AEstrella:
         calcularHn = self._calcularHn
         agregarCiudadesDesdeN = self._agregarCiudadesDesdeN
         calcularPadres = self._calcularPadres
-        
+
         while(len(self.listAbierta) != 0 and self.EXIT == False):
             '''
             3) Si ABIERTA está vacía retorne con Falla.
@@ -331,7 +342,7 @@ class AEstrella:
                         if a[0] == self.nodo_evaluacion:
                             # el nodo_m(aux) tiene padre
                             # se le quita el costo del recorrido desde nodo_m a su padre
-                            self.costo_optimo += costoDeNaM(self.mat_costCiu,a[0],a[1])
+                            self.costo_optimo += self.obj_costCiu[a[0][1]][a[1][1]]
                             self.recorrido_optimo.append(self.nodo_evaluacion)
                             self.nivel += 1
                             # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
@@ -344,7 +355,8 @@ class AEstrella:
 
                 if (self.nivel >= len(self.ciudades)):
                     self.cond_exito = True
-                    self.costo_optimo += costoDeNaM(self.mat_costCiu,self.recorrido_optimo[0],self.nodo_s) # se calcula es costo desde la ultima ciudad hasta la primera
+                    ##self.costo_optimo += costoDeNaM(self.mat_costCiu,self.recorrido_optimo[0],self.nodo_s) # se calcula es costo desde la ultima ciudad hasta la primera
+                    self.costo_optimo += self.obj_costCiu[self.recorrido_optimo[0][1]][self.nodo_s[1]]
                     self.recorrido_optimo.append(self.nodo_s) #se appendea el nodo de inicio
                     self.recorrido_optimo.reverse()
                     self.recorrido_optimo_ciudades = [a[1] for a in self.recorrido_optimo]
