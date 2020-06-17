@@ -103,6 +103,14 @@ class AEstrella:
         for a in (vec_aux[:len(mat_costCiu[0])-nivel]): #len(mat_costCiu[0]) es la cantidad de ciudades ya que representa la cantidad de columnas de la matriz
             Hn += a
         return Hn
+        #probando otra funcion de Hn = cantidad de niveles restantes * menor de todos los costos de todas las ciudades
+        '''
+        vec_aux2=[a for a in vec_costCiu]
+        vec_aux2.sort(reverse=False)
+        aux2 = vec_aux2[0]
+        Hn = (self.cantCiu - nivel)*aux2
+        return Hn
+        '''
 
     def _agregarCiudadesDesdeN(self, id_autoinc, grafoG, nodo_n, ciudades_a_agregar):
         edges = []
@@ -353,11 +361,11 @@ class AEstrella:
                 #print("fin: aux: {}".format(aux))
                 #print("fin: nodos_a_evaluar: {}".format(nodos_a_evaluar))
 
-                if (self.nivel >= len(self.ciudades)):
+                if (self.nivel >= (len(self.ciudades)+1)):
                     self.cond_exito = True
                     ##self.costo_optimo += costoDeNaM(self.mat_costCiu,self.recorrido_optimo[0],self.nodo_s) # se calcula es costo desde la ultima ciudad hasta la primera
-                    self.costo_optimo += self.obj_costCiu[self.recorrido_optimo[0][1]][self.nodo_s[1]]
-                    self.recorrido_optimo.append(self.nodo_s) #se appendea el nodo de inicio
+                    #self.costo_optimo += self.obj_costCiu[self.recorrido_optimo[0][1]][self.nodo_s[1]]
+                    #self.recorrido_optimo.append(self.nodo_s) #se appendea el nodo de inicio
                     self.recorrido_optimo.reverse()
                     self.recorrido_optimo_ciudades = [a[1] for a in self.recorrido_optimo]
                     break
@@ -382,6 +390,7 @@ class AEstrella:
                 self.nodo_s = self.listCerrada[0]
                 ciudades_a_agregar = [a for a in self.ciudades if a != self.nodo_n[1]]
                 aux = self.nodo_n
+                nivel_aux = 1
                 while (aux != self.nodo_s):
                     vecinos, padres = calcularPadres(self.grafoG, aux)
 
@@ -392,8 +401,12 @@ class AEstrella:
                             # se le quita el costo del recorrido desde nodo_m a su padre
                             ciudades_a_agregar.remove(a[1][1])
                             # hay que conocer, ahora, quien es el abuelo de nodo_m(aux)
+                            nivel_aux += 1
                             aux = a[1]
                             break
+                # esto se hace por si se esta en el ultimo nivel que se agregue la ciudad de inicio asi forma parte del calculo del algoritmo
+                if (nivel_aux == len(self.ciudades)):
+                    ciudades_a_agregar.append(self.nodo_s[1])
 
                 # 6.2 se agregan los M sucesores del nodo nodo_n al grafo G.
                 self.id_autoinc, self.grafoG, sucesores = agregarCiudadesDesdeN(self.id_autoinc, self.grafoG, self.nodo_n, ciudades_a_agregar)
