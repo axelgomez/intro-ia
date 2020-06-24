@@ -10198,3 +10198,4 @@ El óptimo recorrido es: [(9, 'ciudad9'), (22, 'ciudad12'), (240, 'ciudad4'), (21
 O dicho de otro modo el recorrido es: ['ciudad9', 'ciudad12', 'ciudad4', 'ciudad3', 'ciudad8', 'ciudad7', 'ciudad6', 'ciudad2', 'ciudad5', 'ciudad11', 'ciudad10', 'ciudad1']
 El costo total del óptimo recorrido es de: 83
 El tiempo de procesamiento total fue de: 2582.107691 segundos
+No existe un archivo de control para la ejecucion elegida, se iniciara un proceso nuevo
