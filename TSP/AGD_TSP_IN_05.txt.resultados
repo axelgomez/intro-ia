@@ -1,6 +1,4 @@
-La cantidad de nodos abiertos fue de: 66
-El óptimo recorrido es: [(2, 'ciudad2'), (6, 'ciudad3'), (18, 'ciudad4'), (42, 'ciudad5'), (66, 'ciudad1')]
-O dicho de otro modo el recorrido es: ['ciudad2', 'ciudad3', 'ciudad4', 'ciudad5', 'ciudad1']
+La cantidad de nodos abiertos fue de: 7
+El óptimo recorrido es: [1, 5, 4, 3, 2, 1]
 El costo total del óptimo recorrido es de: 10
-El tiempo de procesamiento total fue de: 0.295819 segundos
-Los nodos abiertos fueron: [(1, 'ciudad1'), (2, 'ciudad2'), (3, 'ciudad3'), (4, 'ciudad4'), (5, 'ciudad5'), (6, 'ciudad3'), (7, 'ciudad4'), (8, 'ciudad5'), (9, 'ciudad2'), (10, 'ciudad4'), (11, 'ciudad5'), (12, 'ciudad2'), (13, 'ciudad3'), (14, 'ciudad5'), (15, 'ciudad2'), (16, 'ciudad3'), (17, 'ciudad4'), (18, 'ciudad4'), (19, 'ciudad5'), (20, 'ciudad3'), (21, 'ciudad5'), (22, 'ciudad3'), (23, 'ciudad4'), (24, 'ciudad4'), (25, 'ciudad5'), (26, 'ciudad2'), (27, 'ciudad5'), (28, 'ciudad2'), (29, 'ciudad4'), (30, 'ciudad3'), (31, 'ciudad5'), (32, 'ciudad2'), (33, 'ciudad5'), (34, 'ciudad2'), (35, 'ciudad3'), (36, 'ciudad3'), (37, 'ciudad4'), (38, 'ciudad2'), (39, 'ciudad4'), (40, 'ciudad2'), (41, 'ciudad3'), (42, 'ciudad5'), (43, 'ciudad4'), (44, 'ciudad5'), (45, 'ciudad3'), (46, 'ciudad4'), (47, 'ciudad3'), (48, 'ciudad5'), (49, 'ciudad4'), (50, 'ciudad5'), (51, 'ciudad2'), (52, 'ciudad4'), (53, 'ciudad2'), (54, 'ciudad5'), (55, 'ciudad3'), (56, 'ciudad5'), (57, 'ciudad2'), (58, 'ciudad3'), (59, 'ciudad2'), (60, 'ciudad4'), (61, 'ciudad3'), (62, 'ciudad4'), (63, 'ciudad2'), (64, 'ciudad3'), (65, 'ciudad2'), (66, 'ciudad1')]
+El tiempo de procesamiento total fue de: 0.0 segundos
