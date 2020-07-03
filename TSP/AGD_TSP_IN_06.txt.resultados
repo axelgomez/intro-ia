@@ -1,4 +1,4 @@
-La cantidad de nodos abiertos fue de: 11
-El óptimo recorrido es: [1, 6, 4, 2, 5, 3, 1]
+La cantidad de nodos abiertos fue de: 56
+El óptimo recorrido es: [1, 3, 6, 2, 4, 5, 1]
 El costo total del óptimo recorrido es de: 11
-El tiempo de procesamiento total fue de: 0.0 segundos
+El tiempo de procesamiento total fue de: 0.035492 segundos
