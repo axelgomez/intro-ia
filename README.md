@@ -6,3 +6,4 @@ Por cada manera de resolverlo se tiene un [Jupyter Notebook](https://jupyter.org
 - Algoritmo A\* (estrella)
 - Recocido Simulado
 
+Adicionalmente, se agrega una resolución al mismo tipo de problema detallada en el informe: "Metodología de resolución al problema del viajante de comercio" y un generador de problemas de N ciudades equidistantes ó posicionados de forma aleatoria a lo largo de una circunferencia.
